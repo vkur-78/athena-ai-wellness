@@ -1,0 +1,3806 @@
+{
+  "a498e354-3682-43a6-8bba-b7bedc26260c": {
+    "session_id": "a498e354-3682-43a6-8bba-b7bedc26260c",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [],
+    "total_exchanges": 0,
+    "created_at": "2026-09-08T07:44:00.376689",
+    "last_updated": "2026-09-08T07:44:00.376718"
+  },
+  "16ad6824-4d76-44c8-9ab4-e25d4b096f52": {
+    "session_id": "16ad6824-4d76-44c8-9ab4-e25d4b096f52",
+    "user_name": null,
+    "core_stressors": [
+      "exam"
+    ],
+    "thinking_patterns": [
+      "rumination"
+    ],
+    "coping_preferences": [
+      "talking to someone"
+    ],
+    "key_memories": [
+      {
+        "fact": "User is feeling anxious about an exam tomorrow.",
+        "learned_at": "2026-09-08T07:51:28.743113"
+      }
+    ],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T10:16:13.180292",
+        "emotion": "sadness",
+        "stage": "somatic_grounding"
+      },
+      {
+        "timestamp": "2026-09-08T10:17:16.053408",
+        "emotion": "sadness",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-10T08:45:27.662067",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-11T11:58:16.394704",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-11T12:48:40.795395",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-09-11T12:48:55.230363",
+        "emotion": "null",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-11T12:49:20.244635",
+        "emotion": "anger",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-12T05:10:25.240227",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-16T08:43:27.704508",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-17T08:16:32.899310",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-18T06:02:39.213483",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-09-19T05:24:51.704363",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "total_exchanges": 19,
+    "created_at": "2026-09-08T07:48:39.523170",
+    "last_updated": "2026-09-19T05:24:51.704326"
+  },
+  "public-test": {
+    "session_id": "public-test",
+    "user_name": "Unknown",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T08:20:32.738791",
+        "emotion": "calm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-08T08:20:28.239773",
+    "last_updated": "2026-09-08T08:20:32.738785"
+  },
+  "c162d850-ad69-4b58-872d-c257c5a133d3": {
+    "session_id": "c162d850-ad69-4b58-872d-c257c5a133d3",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T09:32:48.590735",
+        "emotion": "curiosity",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-08T09:41:46.429189",
+        "emotion": "calm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-09-08T09:32:43.933327",
+    "last_updated": "2026-09-08T09:41:46.429173"
+  },
+  "bca9bdb2-8b9f-40bc-a680-dc6819ed5041": {
+    "session_id": "bca9bdb2-8b9f-40bc-a680-dc6819ed5041",
+    "user_name": null,
+    "core_stressors": [
+      "pursuing master's abroad",
+      "uncertainty about getting a degree in india",
+      "lack of parental support for mental health"
+    ],
+    "thinking_patterns": [
+      "rumination"
+    ],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T10:11:19.303338",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-08T10:12:24.180315",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-08T10:14:11.027674",
+        "emotion": "confusion",
+        "stage": "deep_exploration"
+      },
+      {
+        "timestamp": "2026-09-08T10:16:09.286670",
+        "emotion": "confusion",
+        "stage": "deep_exploration"
+      },
+      {
+        "timestamp": "2026-09-08T10:34:06.101681",
+        "emotion": "anxiety",
+        "stage": "deep_exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 5,
+    "created_at": "2026-09-08T09:51:28.411429",
+    "last_updated": "2026-09-08T10:34:06.101665"
+  },
+  "debug-session-1": {
+    "session_id": "debug-session-1",
+    "user_name": "Unknown",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T10:08:38.144378",
+        "emotion": "relief",
+        "stage": "closure"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-08T10:08:29.565063",
+    "last_updated": "2026-09-08T10:08:38.144358"
+  },
+  "4dc572e8-0568-4688-8c1a-9063a83ce570": {
+    "session_id": "4dc572e8-0568-4688-8c1a-9063a83ce570",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T13:26:42.393672",
+        "emotion": "relief",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-08T13:26:36.689410",
+    "last_updated": "2026-09-08T13:26:42.393634"
+  },
+  "85f29291-f948-4bb5-8768-51e6a849912a": {
+    "session_id": "85f29291-f948-4bb5-8768-51e6a849912a",
+    "user_name": "traveler",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-08T13:29:30.869581",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-08T13:29:30.865627",
+    "last_updated": "2026-09-08T13:29:30.869556"
+  },
+  "b40889ed-48b5-4116-b7ec-009c3448d6ca": {
+    "session_id": "b40889ed-48b5-4116-b7ec-009c3448d6ca",
+    "user_name": "Friend",
+    "core_stressors": [
+      "mindfulness",
+      "daily balance"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "deep breathing, walking"
+    ],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-10T08:42:39.207494",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calmness and steady habits"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-10T08:42:39.206219",
+    "last_updated": "2026-09-10T08:42:39.207485"
+  },
+  "user-calm-1234": {
+    "session_id": "user-calm-1234",
+    "user_name": "Unknown",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-07T13:15:09.984661",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-07T13:19:35.475691",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T05:14:52.481204",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T05:58:29.703107",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T06:24:15.837481",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T06:57:31.268999",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T08:29:12.859117",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T10:19:16.491632",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-08T10:50:25.285365",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:47.406560",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-10T07:06:09.209624",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:55.561793",
+        "emotion": "overwhelmed",
+        "stage": "grounding_presence"
+      }
+    ],
+    "mood_logs": [
+      {
+        "summary": "high distress",
+        "logged_at": "2026-09-17T07:06:30.575459"
+      }
+    ],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 97,
+    "created_at": "2026-09-11T12:25:15.977756",
+    "last_updated": "2026-10-10T07:16:55.561783"
+  },
+  "demo-user": {
+    "session_id": "demo-user",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-29T11:18:56.333443",
+        "emotion": "overwhelm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-09-29T11:18:49.108455",
+    "last_updated": "2026-09-29T11:18:56.333434"
+  },
+  "test_user_bi_validation": {
+    "session_id": "test_user_bi_validation",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T08:29:19.105833",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T08:29:21.531968",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:19:23.618754",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:19:25.402053",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:50:35.199218",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:50:37.450618",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:49.712941",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:50.653711",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:06:19.639026",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:06:21.177757",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:10.742347",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:12.361569",
+        "emotion": "good",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 94,
+    "created_at": "2026-09-29T12:17:46.928853",
+    "last_updated": "2026-10-10T07:17:12.361546"
+  },
+  "ed63c3e5-703d-4878-9f13-77c5543b26d0": {
+    "session_id": "ed63c3e5-703d-4878-9f13-77c5543b26d0",
+    "user_name": "Aarav Updated",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-30T13:12:54.951652",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-09-30T13:12:55.924540",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-09-30T13:12:54.949392",
+    "last_updated": "2026-09-30T13:12:55.924531"
+  },
+  "86c34525-a60b-42ed-b137-b93740b3ad7d": {
+    "session_id": "86c34525-a60b-42ed-b137-b93740b3ad7d",
+    "user_name": "Private User A",
+    "core_stressors": [
+      "metro environment",
+      "job burnout",
+      "loss of someone close",
+      "work-related stress",
+      "secret project"
+    ],
+    "thinking_patterns": [
+      "rumination"
+    ],
+    "coping_preferences": [
+      "spending time with brother"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [
+      "brother"
+    ],
+    "repeated_situations": [
+      "metro"
+    ],
+    "emotional_improvements": [
+      "feeling safe"
+    ],
+    "unresolved_topics": [
+      "bipolar disorder",
+      "medication management"
+    ],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-09-30T13:19:35.347925",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:19:40.622474",
+        "emotion": "concern",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:19:46.945360",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:19:52.523146",
+        "emotion": "neutral",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:19:57.677189",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:03.737202",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:08.868521",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:16.059188",
+        "emotion": "curiosity",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:23.801971",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:31.223197",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:42.586306",
+        "emotion": "exhaustion",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-09-30T13:20:48.571825",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [
+      {
+        "summary": "feeling nothing",
+        "logged_at": "2026-09-30T13:18:00.507540"
+      },
+      {
+        "summary": "feeling safe",
+        "logged_at": "2026-09-30T13:19:29.674926"
+      },
+      {
+        "summary": "very stressed",
+        "logged_at": "2026-09-30T13:20:31.223208"
+      }
+    ],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 58,
+    "created_at": "2026-09-30T13:14:53.201030",
+    "last_updated": "2026-09-30T13:20:48.571813"
+  },
+  "59c3860f-c82e-4d24-a14b-aeb0a27336e5": {
+    "session_id": "59c3860f-c82e-4d24-a14b-aeb0a27336e5",
+    "user_name": "Avi",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T05:46:50.713466",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T05:49:04.906274",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-01T05:49:12.908966",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-01T05:49:18.215213",
+        "emotion": "calm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-01T05:46:50.709251",
+    "last_updated": "2026-10-01T05:49:18.215207"
+  },
+  "83a7ae5f-d8ec-4acc-a849-5bda439a29fa": {
+    "session_id": "83a7ae5f-d8ec-4acc-a849-5bda439a29fa",
+    "user_name": "Inconsistent User",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T05:46:53.212325",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-01T05:46:53.210077",
+    "last_updated": "2026-10-01T05:46:53.212318"
+  },
+  "ebec7527-a2c7-4a91-802c-b9817f011fde": {
+    "session_id": "ebec7527-a2c7-4a91-802c-b9817f011fde",
+    "user_name": "Changing User",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T05:46:54.873916",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T05:49:34.121645",
+        "emotion": "good",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-01T05:46:54.869198",
+    "last_updated": "2026-10-01T05:49:34.121633"
+  },
+  "8f6bdb2e-af6a-4af3-b711-92e7988ee706": {
+    "session_id": "8f6bdb2e-af6a-4af3-b711-92e7988ee706",
+    "user_name": "Low Activity User",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T05:46:56.649410",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-01T05:46:56.647822",
+    "last_updated": "2026-10-01T05:46:56.649404"
+  },
+  "efb38477-92dd-4e6b-9394-076eadfdb40c": {
+    "session_id": "efb38477-92dd-4e6b-9394-076eadfdb40c",
+    "user_name": "High Activity User",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T05:46:59.022723",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-01T05:46:59.021254",
+    "last_updated": "2026-10-01T05:46:59.022716"
+  },
+  "phase5_test_user_a_123": {
+    "session_id": "phase5_test_user_a_123",
+    "user_name": "Test User A",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T08:34:45.535130",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-01T08:35:06.721080",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T08:36:07.887933",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T08:36:10.042023",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T08:37:14.088737",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-01T08:37:33.970162",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T08:38:33.116184",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T08:38:34.673556",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T09:47:37.216338",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-01T09:47:58.142230",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T09:49:30.836398",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T09:49:32.821813",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 103,
+    "created_at": "2026-10-01T08:22:04.273244",
+    "last_updated": "2026-10-01T09:49:32.821786"
+  },
+  "ccf35446-808c-4bc8-83aa-906e182af82c": {
+    "session_id": "ccf35446-808c-4bc8-83aa-906e182af82c",
+    "user_name": "Aarav Updated",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T10:04:15.462771",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-01T10:04:42.141983",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-01T10:04:15.461191",
+    "last_updated": "2026-10-01T10:04:42.141965"
+  },
+  "11111111-1111-1111-1111-111111111111": {
+    "session_id": "11111111-1111-1111-1111-111111111111",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T11:46:44.139562",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-06T11:26:27.494345",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-07T05:42:14.446334",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T05:14:16.815579",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:28.342134",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:46.802559",
+        "emotion": "okay",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 6,
+    "created_at": "2026-10-01T11:46:44.137318",
+    "last_updated": "2026-10-10T07:05:46.802549"
+  },
+  "test_experienced_user_777": {
+    "session_id": "test_experienced_user_777",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-01T11:49:34.370076",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T11:49:36.199247",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-01T11:49:38.148560",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-01T11:49:34.365584",
+    "last_updated": "2026-10-01T11:49:38.148547"
+  },
+  "b4d54e47-a96c-417e-80cc-d40d2e5b57a8": {
+    "session_id": "b4d54e47-a96c-417e-80cc-d40d2e5b57a8",
+    "user_name": "Seraphina",
+    "core_stressors": [
+      "studies"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:53:54.421737",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:53:54.417636",
+    "last_updated": "2026-10-06T10:53:54.421722"
+  },
+  "864db49b-58e8-45a1-886b-23c2782219c0": {
+    "session_id": "864db49b-58e8-45a1-886b-23c2782219c0",
+    "user_name": "Seraphina",
+    "core_stressors": [
+      "studies"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:54:35.676991",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:54:35.673143",
+    "last_updated": "2026-10-06T10:54:35.676979"
+  },
+  "39cdd392-83f3-4d9c-bc9e-c53f30246288": {
+    "session_id": "39cdd392-83f3-4d9c-bc9e-c53f30246288",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:57:37.778577",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:57:37.766729",
+    "last_updated": "2026-10-06T10:57:37.778546"
+  },
+  "ab9e2ce4-a82e-451a-a459-8229c8063e60": {
+    "session_id": "ab9e2ce4-a82e-451a-a459-8229c8063e60",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:57:51.476424",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:57:51.472904",
+    "last_updated": "2026-10-06T10:57:51.476410"
+  },
+  "c9ceb4f1-f052-42e7-9d27-617eba9f37f2": {
+    "session_id": "c9ceb4f1-f052-42e7-9d27-617eba9f37f2",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:58:04.570701",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:58:04.563928",
+    "last_updated": "2026-10-06T10:58:04.570683"
+  },
+  "f16fc213-cb39-4754-bd8e-8974d8b912af": {
+    "session_id": "f16fc213-cb39-4754-bd8e-8974d8b912af",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:58:17.651338",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:58:17.645502",
+    "last_updated": "2026-10-06T10:58:17.651327"
+  },
+  "ca90a0e9-7bf4-472d-a9c4-0bc862b08460": {
+    "session_id": "ca90a0e9-7bf4-472d-a9c4-0bc862b08460",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:59:44.954382",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:59:44.947734",
+    "last_updated": "2026-10-06T10:59:44.954371"
+  },
+  "490d4f43-fcf2-4c07-8211-aa20fc82bf11": {
+    "session_id": "490d4f43-fcf2-4c07-8211-aa20fc82bf11",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T10:59:59.744526",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T10:59:59.736335",
+    "last_updated": "2026-10-06T10:59:59.744499"
+  },
+  "2e5e3a09-cd59-4388-b87b-a23a0d521839": {
+    "session_id": "2e5e3a09-cd59-4388-b87b-a23a0d521839",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:00:15.195091",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:00:15.187302",
+    "last_updated": "2026-10-06T11:00:15.195068"
+  },
+  "e00d4a4b-30aa-4aa4-be5b-b084f2e601da": {
+    "session_id": "e00d4a4b-30aa-4aa4-be5b-b084f2e601da",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:00:30.592469",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:00:30.580946",
+    "last_updated": "2026-10-06T11:00:30.592441"
+  },
+  "c4e0d92b-6450-4e19-9c0d-58171e06bf8c": {
+    "session_id": "c4e0d92b-6450-4e19-9c0d-58171e06bf8c",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:01:58.991435",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:01:58.982188",
+    "last_updated": "2026-10-06T11:01:58.991404"
+  },
+  "60180456-f5cd-47a9-b1f2-fbe9eb73141c": {
+    "session_id": "60180456-f5cd-47a9-b1f2-fbe9eb73141c",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:02:11.836874",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:02:11.833172",
+    "last_updated": "2026-10-06T11:02:11.836847"
+  },
+  "385b2a7c-5f0c-4e9d-85f0-19a8fd8c3e19": {
+    "session_id": "385b2a7c-5f0c-4e9d-85f0-19a8fd8c3e19",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:02:24.538719",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:02:24.531064",
+    "last_updated": "2026-10-06T11:02:24.538706"
+  },
+  "85deeb29-3416-47fe-bea4-8f87740d6034": {
+    "session_id": "85deeb29-3416-47fe-bea4-8f87740d6034",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:02:37.314027",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:02:37.308954",
+    "last_updated": "2026-10-06T11:02:37.314002"
+  },
+  "32f7a3fd-ba97-4ff0-8363-3c8a0152899f": {
+    "session_id": "32f7a3fd-ba97-4ff0-8363-3c8a0152899f",
+    "user_name": "archer",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:04:34.662457",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:04:34.649095",
+    "last_updated": "2026-10-06T11:04:34.662421"
+  },
+  "58df9250-8bd7-4350-a1d0-9d248c9318fa": {
+    "session_id": "58df9250-8bd7-4350-a1d0-9d248c9318fa",
+    "user_name": "traveler",
+    "core_stressors": [
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "stay alone, talk to someone"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:08:10.728360",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-06T11:08:52.388798",
+        "emotion": "good",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-06T11:08:10.708061",
+    "last_updated": "2026-10-06T11:08:52.388777"
+  },
+  "f9322369-7808-46dc-9b3f-6a48d9fd38c6": {
+    "session_id": "f9322369-7808-46dc-9b3f-6a48d9fd38c6",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:33:27.718511",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:33:27.715807",
+    "last_updated": "2026-10-06T11:33:27.718502"
+  },
+  "2f4b9fa9-7249-4cb2-8291-1d024ac7b9c1": {
+    "session_id": "2f4b9fa9-7249-4cb2-8291-1d024ac7b9c1",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:33:41.383522",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:33:41.376448",
+    "last_updated": "2026-10-06T11:33:41.383501"
+  },
+  "0dddbf2d-84af-411a-bc0b-c8cee486f094": {
+    "session_id": "0dddbf2d-84af-411a-bc0b-c8cee486f094",
+    "user_name": "AthenaSeeker",
+    "core_stressors": [
+      "studies",
+      "work"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "listen to music, sleep"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-06T11:33:53.812191",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Feel calmer."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-06T11:33:53.802554",
+    "last_updated": "2026-10-06T11:33:53.812150"
+  },
+  "59327d2b-6e65-456e-ab5a-148602a4bd75": {
+    "session_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+    "user_name": "Aarav",
+    "core_stressors": [],
+    "thinking_patterns": [
+      "rumination"
+    ],
+    "coping_preferences": [
+      "mindful breathing",
+      "progressive muscle release"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:19:02.072681",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:19:37.175175",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:08.021068",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:09.460207",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:10.243227",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:29.921538",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:31.407774",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:32.124077",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:56.743698",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:58.518880",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:59.169822",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T08:01:15.383813",
+        "emotion": "anxiety",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [
+      {
+        "summary": "not good",
+        "logged_at": "2026-10-08T05:43:50.201316"
+      }
+    ],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 100,
+    "created_at": "2026-10-06T11:50:09.475482",
+    "last_updated": "2026-10-09T08:01:15.383794"
+  },
+  "cacb5850-a6e6-498a-a567-85771cdb64da": {
+    "session_id": "cacb5850-a6e6-498a-a567-85771cdb64da",
+    "user_name": "Tamil Member",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-07T07:00:07.685437",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-07T07:00:07.679826",
+    "last_updated": "2026-10-07T07:00:07.685427"
+  },
+  "0033a996-16ef-42ad-9cc8-2ba4bf060d13": {
+    "session_id": "0033a996-16ef-42ad-9cc8-2ba4bf060d13",
+    "user_name": "Tamil Member",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-07T07:00:40.588715",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-07T07:00:40.579226",
+    "last_updated": "2026-10-07T07:00:40.588702"
+  },
+  "7495484e-f820-4ba3-b8d3-53e0e0770385": {
+    "session_id": "7495484e-f820-4ba3-b8d3-53e0e0770385",
+    "user_name": "Tamil Member",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-07T07:01:08.154723",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-07T07:01:10.747915",
+        "emotion": "stirred",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-07T07:01:08.143714",
+    "last_updated": "2026-10-07T07:01:10.747897"
+  },
+  "aa412814-4c6c-4219-8c0d-0c62d9b14d2d": {
+    "session_id": "aa412814-4c6c-4219-8c0d-0c62d9b14d2d",
+    "user_name": "timepass",
+    "core_stressors": [
+      "something else"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "keep working"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T07:46:13.128777",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-08T07:47:21.035739",
+        "emotion": "okay",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Understand myself."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T07:46:13.116418",
+    "last_updated": "2026-10-08T07:47:21.035715"
+  },
+  "14028fb6-e0f6-4978-8b06-3056463ae348": {
+    "session_id": "14028fb6-e0f6-4978-8b06-3056463ae348",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T08:37:41.497092",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T08:37:49.156420",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T08:37:58.708834",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T08:38:05.249090",
+        "emotion": "calm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-08T08:37:32.232540",
+    "last_updated": "2026-10-08T08:38:05.249072"
+  },
+  "b64e9d01-f08a-4489-9b0f-00f1978aaddb": {
+    "session_id": "b64e9d01-f08a-4489-9b0f-00f1978aaddb",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T08:39:05.235383",
+        "emotion": "calm",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T08:39:05.226254",
+    "last_updated": "2026-10-08T08:39:05.235372"
+  },
+  "513250a6-08bf-4a11-91d3-e8d5e4ce0484": {
+    "session_id": "513250a6-08bf-4a11-91d3-e8d5e4ce0484",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T08:40:50.758748",
+        "emotion": "calm",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T08:40:50.749321",
+    "last_updated": "2026-10-08T08:40:50.758729"
+  },
+  "7ca1e624-3e91-4835-aa07-c2b97ef491ab": {
+    "session_id": "7ca1e624-3e91-4835-aa07-c2b97ef491ab",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T08:41:11.712607",
+        "emotion": "calm",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T08:41:11.701625",
+    "last_updated": "2026-10-08T08:41:11.712592"
+  },
+  "55593d55-cbe0-4bb4-9368-d04d71357f6a": {
+    "session_id": "55593d55-cbe0-4bb4-9368-d04d71357f6a",
+    "user_name": "Real User Alpha",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:27:23.214756",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-08T10:27:36.618616",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:27:43.979855",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:27:50.187643",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:27:57.677156",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:27:59.635001",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 6,
+    "created_at": "2026-10-08T10:27:23.208656",
+    "last_updated": "2026-10-08T10:27:59.634984"
+  },
+  "e3e5a0b2-db15-497e-8751-1649aa977c84": {
+    "session_id": "e3e5a0b2-db15-497e-8751-1649aa977c84",
+    "user_name": "Real User Alpha",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:29:38.285457",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-08T10:29:52.551848",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:29:58.525552",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:30:04.323052",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:30:11.265159",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:30:12.924598",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 6,
+    "created_at": "2026-10-08T10:29:38.275959",
+    "last_updated": "2026-10-08T10:30:12.924591"
+  },
+  "0c488123-44aa-494f-9f8b-bd8e7522a8fc": {
+    "session_id": "0c488123-44aa-494f-9f8b-bd8e7522a8fc",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:43:49.017183",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T10:43:49.004003",
+    "last_updated": "2026-10-08T10:43:49.017162"
+  },
+  "836ee375-39dc-4627-b7e9-baaea34cf4e7": {
+    "session_id": "836ee375-39dc-4627-b7e9-baaea34cf4e7",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:44:10.869827",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T10:44:10.860350",
+    "last_updated": "2026-10-08T10:44:10.869816"
+  },
+  "03fc0375-bdbc-40b1-9862-d9761ee5c407": {
+    "session_id": "03fc0375-bdbc-40b1-9862-d9761ee5c407",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:44:50.681576",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-08T10:44:50.675008",
+    "last_updated": "2026-10-08T10:44:50.681565"
+  },
+  "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2": {
+    "session_id": "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:46:19.232930",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:46:44.707383",
+        "emotion": "null",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T10:46:19.217314",
+    "last_updated": "2026-10-08T10:46:44.707377"
+  },
+  "ef89e630-2949-4d29-a023-aa6c6a1d1981": {
+    "session_id": "ef89e630-2949-4d29-a023-aa6c6a1d1981",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:47:11.310264",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:48:03.914547",
+        "emotion": "null",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T10:47:11.302700",
+    "last_updated": "2026-10-08T10:48:03.914537"
+  },
+  "c630c610-d328-4b0e-93f1-ecbd1a435453": {
+    "session_id": "c630c610-d328-4b0e-93f1-ecbd1a435453",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:48:53.015916",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T10:49:23.241924",
+        "emotion": "null",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T10:48:53.006515",
+    "last_updated": "2026-10-08T10:49:23.241916"
+  },
+  "e440ec96-15ba-4538-9559-24aba93a3b68": {
+    "session_id": "e440ec96-15ba-4538-9559-24aba93a3b68",
+    "user_name": "Real User Alpha",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T10:53:24.115944",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-08T10:53:36.636627",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:53:42.837813",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:53:49.996673",
+        "emotion": "null",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:53:58.027821",
+        "emotion": "calm",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-08T10:53:59.864056",
+        "emotion": "peaceful",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 6,
+    "created_at": "2026-10-08T10:53:24.101477",
+    "last_updated": "2026-10-08T10:53:59.864034"
+  },
+  "1e8ed468-43e1-44e8-820d-aedd7751f9c0": {
+    "session_id": "1e8ed468-43e1-44e8-820d-aedd7751f9c0",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T11:21:33.968556",
+        "emotion": "calm",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-08T11:22:06.606079",
+        "emotion": "calm",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T11:21:33.958771",
+    "last_updated": "2026-10-08T11:22:06.606067"
+  },
+  "cdb52130-badd-483f-ba87-ad1463549741": {
+    "session_id": "cdb52130-badd-483f-ba87-ad1463549741",
+    "user_name": "traveler",
+    "core_stressors": [
+      "confidence"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "keep working"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-08T11:27:57.846338",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-08T11:28:29.521802",
+        "emotion": "okay",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Understand myself."
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-08T11:27:57.822235",
+    "last_updated": "2026-10-08T11:28:29.521774"
+  },
+  "test_brand_new_user_588dcc3c": {
+    "session_id": "test_brand_new_user_588dcc3c",
+    "user_name": "Seraphina",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T05:53:28.854095",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:29.143300",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:29.628223",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:32.364245",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-09T05:53:28.833070",
+    "last_updated": "2026-10-09T05:53:32.364197"
+  },
+  "test_exp_user_e7cc0b20": {
+    "session_id": "test_exp_user_e7cc0b20",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T05:53:32.960201",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:33.508411",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T05:53:34.163147",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-09T05:53:32.928646",
+    "last_updated": "2026-10-09T05:53:34.163108"
+  },
+  "test_brand_new_user_09701a45": {
+    "session_id": "test_brand_new_user_09701a45",
+    "user_name": "Seraphina",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T06:42:34.706519",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T06:42:35.493205",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T06:42:36.407831",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T06:42:37.886289",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-09T06:42:34.700200",
+    "last_updated": "2026-10-09T06:42:37.886266"
+  },
+  "test_exp_user_19f4491b": {
+    "session_id": "test_exp_user_19f4491b",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T06:42:38.638825",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T06:42:39.029845",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-09T06:42:39.275385",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-09T06:42:38.633479",
+    "last_updated": "2026-10-09T06:42:39.275363"
+  },
+  "7cfc34b6-5255-4e36-b7ce-86edcb1b1b64": {
+    "session_id": "7cfc34b6-5255-4e36-b7ce-86edcb1b1b64",
+    "user_name": "Test Traveler",
+    "core_stressors": [
+      "stress reduction"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "breathing"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:01:21.125957",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Improve focus"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-09T07:01:21.119285",
+    "last_updated": "2026-10-09T07:01:21.125946"
+  },
+  "test_sess_p2_1": {
+    "session_id": "test_sess_p2_1",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:02:55.188131",
+        "emotion": "welcoming",
+        "stage": "opening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-09T07:02:55.161621",
+    "last_updated": "2026-10-09T07:02:55.188118"
+  },
+  "test_sess_p2_2": {
+    "session_id": "test_sess_p2_2",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:02:55.239633",
+        "emotion": "anxious",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-09T07:02:55.212437",
+    "last_updated": "2026-10-09T07:02:55.239604"
+  },
+  "test_sess_p2_3": {
+    "session_id": "test_sess_p2_3",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:02:55.284411",
+        "emotion": "overwhelmed",
+        "stage": "emotional_discharge"
+      },
+      {
+        "timestamp": "2026-10-09T07:02:55.318780",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:02:55.267219",
+    "last_updated": "2026-10-09T07:02:55.318762"
+  },
+  "4f9e3087-ddda-4a44-b077-60bc5467cc09": {
+    "session_id": "4f9e3087-ddda-4a44-b077-60bc5467cc09",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:03:20.583111",
+        "emotion": "reflective",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-09T07:03:21.204030",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:03:21.661426",
+        "emotion": "reflective",
+        "stage": "deepening"
+      },
+      {
+        "timestamp": "2026-10-09T07:03:22.265004",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-09T07:03:20.421770",
+    "last_updated": "2026-10-09T07:03:22.264985"
+  },
+  "23d6347f-4685-44da-950b-cfb0b4f70432": {
+    "session_id": "23d6347f-4685-44da-950b-cfb0b4f70432",
+    "user_name": "Sanctuary Seeker",
+    "core_stressors": [
+      "mindfulness"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "journaling"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:05:58.052197",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:01.598288",
+        "emotion": "welcoming",
+        "stage": "opening"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:02.547112",
+        "emotion": "anxious",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:03.488677",
+        "emotion": "overwhelmed",
+        "stage": "emotional_discharge"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:04.425499",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Inner peace"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 5,
+    "created_at": "2026-10-09T07:05:58.045130",
+    "last_updated": "2026-10-09T07:06:04.425491"
+  },
+  "39a23100-a418-46f0-af0c-496bc6ac9639": {
+    "session_id": "39a23100-a418-46f0-af0c-496bc6ac9639",
+    "user_name": "Sanctuary Seeker",
+    "core_stressors": [
+      "mindfulness"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "journaling"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:06:52.980139",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:56.031930",
+        "emotion": "welcoming",
+        "stage": "somatic_grounding"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:56.884072",
+        "emotion": "anxious",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:57.721305",
+        "emotion": "overwhelmed",
+        "stage": "emotional_discharge"
+      },
+      {
+        "timestamp": "2026-10-09T07:06:58.635816",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Inner peace"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 5,
+    "created_at": "2026-10-09T07:06:52.975788",
+    "last_updated": "2026-10-09T07:06:58.635804"
+  },
+  "bad4c26a-89bd-400c-9b46-962bb6bad16c": {
+    "session_id": "bad4c26a-89bd-400c-9b46-962bb6bad16c",
+    "user_name": "TestUser_bdb8ba45",
+    "core_stressors": [
+      "anxiety_stress",
+      "work_burnout"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "mindfulness"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:18:56.528742",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:19:00.915479",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calm focus and daily balance"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:18:56.520640",
+    "last_updated": "2026-10-09T07:19:00.915473"
+  },
+  "8fecb1db-cbde-4212-8430-0b8ba3855d0f": {
+    "session_id": "8fecb1db-cbde-4212-8430-0b8ba3855d0f",
+    "user_name": "TestUser_cf090efe",
+    "core_stressors": [
+      "anxiety_stress",
+      "work_burnout"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "mindfulness"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:19:32.841359",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:19:36.196770",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calm focus and daily balance"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:19:32.831702",
+    "last_updated": "2026-10-09T07:19:36.196746"
+  },
+  "797b6385-eee3-4d9f-a3f2-144411edc047": {
+    "session_id": "797b6385-eee3-4d9f-a3f2-144411edc047",
+    "user_name": "TestUser_edde8f05",
+    "core_stressors": [
+      "anxiety_stress",
+      "work_burnout"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "mindfulness"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:20:00.898223",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:06.274795",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calm focus and daily balance"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:20:00.893190",
+    "last_updated": "2026-10-09T07:20:06.274782"
+  },
+  "34d5aa32-825d-450b-9ea4-dd014f759ab9": {
+    "session_id": "34d5aa32-825d-450b-9ea4-dd014f759ab9",
+    "user_name": "TestUser_b37117aa",
+    "core_stressors": [
+      "anxiety_stress",
+      "work_burnout"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "mindfulness"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:20:25.387403",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:28.854526",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calm focus and daily balance"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:20:25.381661",
+    "last_updated": "2026-10-09T07:20:28.854508"
+  },
+  "a44abe1b-790e-4117-8697-ec4916a9ab4d": {
+    "session_id": "a44abe1b-790e-4117-8697-ec4916a9ab4d",
+    "user_name": "TestUser_656af2fa",
+    "core_stressors": [
+      "anxiety_stress",
+      "work_burnout"
+    ],
+    "thinking_patterns": [],
+    "coping_preferences": [
+      "mindfulness"
+    ],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-09T07:20:51.149636",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-09T07:20:55.150713",
+        "emotion": "reflective",
+        "stage": "deepening"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [
+      "Cultivate calm focus and daily balance"
+    ],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-09T07:20:51.140367",
+    "last_updated": "2026-10-09T07:20:55.150697"
+  },
+  "test-dedup-session": {
+    "session_id": "test-dedup-session",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:05:47.004000",
+        "emotion": "anxious",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:39.909191",
+        "emotion": "anxious",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:47.525659",
+        "emotion": "anxious",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-10T07:05:46.966613",
+    "last_updated": "2026-10-10T07:18:47.525650"
+  },
+  "test_brand_new_user_a7958c5e": {
+    "session_id": "test_brand_new_user_a7958c5e",
+    "user_name": "Seraphina",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:05:48.539861",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:50.033890",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:51.564313",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:54.810761",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-10T07:05:48.532231",
+    "last_updated": "2026-10-10T07:05:54.810746"
+  },
+  "test_exp_user_bc4c0eb2": {
+    "session_id": "test_exp_user_bc4c0eb2",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:05:56.260811",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:57.577333",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:05:59.098415",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-10T07:05:56.251559",
+    "last_updated": "2026-10-10T07:05:59.098394"
+  },
+  "test-user-uuid-1234": {
+    "session_id": "test-user-uuid-1234",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:06:10.806084",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:06:12.314983",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:57.119821",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:59.198651",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:25:20.917371",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:25:22.821547",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:31:45.118376",
+        "emotion": "great",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:31:46.769115",
+        "emotion": "good",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 8,
+    "created_at": "2026-10-10T07:06:10.801792",
+    "last_updated": "2026-10-10T07:31:46.769092"
+  },
+  "test-student-1": {
+    "session_id": "test-student-1",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:06:13.903731",
+        "emotion": "anxious",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:07.242045",
+        "emotion": "anxious",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-10T07:06:12.550922",
+    "last_updated": "2026-10-10T07:17:07.242016"
+  },
+  "user-a": {
+    "session_id": "user-a",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:06:17.607629",
+        "emotion": "reflective",
+        "stage": "exploration"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:09.318878",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 2,
+    "created_at": "2026-10-10T07:06:14.364196",
+    "last_updated": "2026-10-10T07:17:09.318871"
+  },
+  "test-stream-user": {
+    "session_id": "test-stream-user",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 0,
+    "created_at": "2026-10-10T07:06:17.772726",
+    "last_updated": "2026-10-10T07:06:17.772733"
+  },
+  "test_exp_user_6cc442af": {
+    "session_id": "test_exp_user_6cc442af",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:16:41.770898",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:43.863733",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:16:45.444353",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-10T07:16:41.767801",
+    "last_updated": "2026-10-10T07:16:45.444341"
+  },
+  "test_exp_user_74189726": {
+    "session_id": "test_exp_user_74189726",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:17:24.309901",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:26.053785",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:17:27.547136",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-10T07:17:24.302622",
+    "last_updated": "2026-10-10T07:17:27.547128"
+  },
+  "test_brand_new_user_c898c2a5": {
+    "session_id": "test_brand_new_user_c898c2a5",
+    "user_name": "Seraphina",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:18:13.279887",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:14.554894",
+        "emotion": "calm",
+        "stage": "intake"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:16.016825",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:19.006617",
+        "emotion": "reflective",
+        "stage": "exploration"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 4,
+    "created_at": "2026-10-10T07:18:13.275705",
+    "last_updated": "2026-10-10T07:18:19.006588"
+  },
+  "test_exp_user_ec965a1c": {
+    "session_id": "test_exp_user_ec965a1c",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:18:20.563620",
+        "emotion": "okay",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:22.269792",
+        "emotion": "good",
+        "stage": "checkin"
+      },
+      {
+        "timestamp": "2026-10-10T07:18:23.521330",
+        "emotion": "great",
+        "stage": "checkin"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 3,
+    "created_at": "2026-10-10T07:18:20.559878",
+    "last_updated": "2026-10-10T07:18:23.521311"
+  },
+  "test_brand_new_user_7f945292": {
+    "session_id": "test_brand_new_user_7f945292",
+    "user_name": "Seraphina",
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [
+      {
+        "timestamp": "2026-10-10T07:18:48.757154",
+        "emotion": "calm",
+        "stage": "intake"
+      }
+    ],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 1,
+    "created_at": "2026-10-10T07:18:48.751792",
+    "last_updated": "2026-10-10T07:18:48.757132"
+  },
+  "exp_user_e2e_test_id": {
+    "session_id": "exp_user_e2e_test_id",
+    "user_name": null,
+    "core_stressors": [],
+    "thinking_patterns": [],
+    "coping_preferences": [],
+    "recurring_worries": [],
+    "repeated_people": [],
+    "repeated_situations": [],
+    "emotional_improvements": [],
+    "unresolved_topics": [],
+    "key_memories": [],
+    "emotional_trajectory": [],
+    "mood_logs": [],
+    "wellness_goals": [],
+    "milestones": [],
+    "guided_exercises": [],
+    "voice_settings": {
+      "voice": "nova",
+      "speed": 0.96
+    },
+    "total_exchanges": 0,
+    "created_at": "2026-10-10T07:30:19.222617",
+    "last_updated": "2026-10-10T07:30:19.222625"
+  }
+}

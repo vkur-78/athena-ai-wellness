@@ -1,0 +1,136 @@
+{
+  "observations": [
+    {
+      "id": "obs-return-16ad6824",
+      "user_id": "16ad6824-4d76-44c8-9ab4-e25d4b096f52",
+      "category": "growth",
+      "title": "You built a rhythm of returning.",
+      "explanation": "Why I noticed this: Regardless of how stressful the days were, you chose to check in and acknowledge where you stood.",
+      "evidence": {
+        "moments": [
+          "Completed 3 check-ins without pressure or streaks.",
+          "Engaged in dialogue even on lower energy days.",
+          "Gave yourself permission to arrive without having everything figured out."
+        ],
+        "confidence": 0.82,
+        "suggested_next_step": "Notice your own resilience in simply showing up."
+      },
+      "created_at": "2026-09-12T06:27:52.123262+00:00"
+    },
+    {
+      "id": "obs-evening-test_use",
+      "user_id": "test_user_intelligence_456",
+      "category": "sleep",
+      "title": "Evenings became your quieter space.",
+      "explanation": "Why I noticed this: Your entries and Studio sessions gradually clustered after twilight, reflecting a recurring pause before sleep.",
+      "evidence": {
+        "moments": [
+          "You wrote in your Space during 2 quiet evenings.",
+          "You opened the Studio 1 times after twilight.",
+          "Your check-ins mentioned feeling more settled after 8 PM."
+        ],
+        "confidence": 0.8799999999999999,
+        "suggested_next_step": "Keep one quiet pause before bed this week."
+      },
+      "created_at": "2026-10-10T07:17:14.548117+00:00"
+    },
+    {
+      "id": "obs-pause-test_use",
+      "user_id": "test_user_intelligence_456",
+      "category": "rest",
+      "title": "You chose to pause before continuing difficult moments.",
+      "explanation": "Why I noticed this: You frequently completed a Studio practice or brief grounding moment right before opening conversations.",
+      "evidence": {
+        "moments": [
+          "Completed 1 breathing or grounding practice(s).",
+          "Continued conversation afterward rather than rushing past tension.",
+          "Articulated feelings with more gentle pacing."
+        ],
+        "confidence": 0.77,
+        "suggested_next_step": "When conversations feel heavy, take 60 seconds of stillness first."
+      },
+      "created_at": "2026-10-10T07:17:14.548117+00:00"
+    },
+    {
+      "id": "obs-journal-test_use",
+      "user_id": "test_user_intelligence_456",
+      "category": "work",
+      "title": "Putting thoughts on paper created breathing room.",
+      "explanation": "Why I noticed this: Journal entries consistently coincided with more spacious and patient conversation reflections.",
+      "evidence": {
+        "moments": [
+          "Penned 2 journal entries across your journey.",
+          "Explored approximately 2 words of private reflection.",
+          "Check-ins following journal days noted a quieter mind."
+        ],
+        "confidence": 0.8099999999999999,
+        "suggested_next_step": "Reserve one morning or evening for free-form journaling."
+      },
+      "created_at": "2026-10-10T07:17:14.548117+00:00"
+    }
+  ],
+  "weekly_plans": {
+    "test_user_intelligence_456": {
+      "id": "plan-test_use-2026-10-10",
+      "week_start": "2026-10-10",
+      "days": [
+        {
+          "day": "Monday",
+          "practice": "2-minute Desk Relief pause",
+          "reason": "Grounded in your earlier practice that eased shoulder tension.",
+          "action_route": "/studio?tool=relief",
+          "completed": false
+        },
+        {
+          "day": "Wednesday",
+          "practice": "Evening Space journal entry",
+          "reason": "Referencing your writing rhythm that created breathing room.",
+          "action_route": "/journal",
+          "completed": false
+        },
+        {
+          "day": "Friday",
+          "practice": "Desk Relief stretch before weekend transition",
+          "reason": "Based on how physical resetting eased your work-to-rest shift.",
+          "action_route": "/studio?tool=relief",
+          "completed": false
+        }
+      ],
+      "athena_note": "Every suggestion references practices you have already chosen yourself. Treat them as gentle invitations, not assignments.",
+      "is_empty_state": false,
+      "empty_message": null
+    },
+    "16ad6824-4d76-44c8-9ab4-e25d4b096f52": {
+      "id": "plan-16ad6824-2026-09-12",
+      "week_start": "2026-09-12",
+      "days": [
+        {
+          "day": "Monday",
+          "practice": "2-minute breathing before work",
+          "reason": "Grounded in your previous pause that brought calm before conversation.",
+          "action_route": "/studio?tool=breath",
+          "completed": false
+        },
+        {
+          "day": "Wednesday",
+          "practice": "Evening Space journal entry",
+          "reason": "Referencing your writing rhythm that created breathing room.",
+          "action_route": "/journal",
+          "completed": false
+        },
+        {
+          "day": "Friday",
+          "practice": "Quiet conversation with Athena",
+          "reason": "Reflecting softly on what you navigated this week.",
+          "action_route": "/chat",
+          "completed": false
+        }
+      ],
+      "athena_note": "Every suggestion references practices you have already chosen yourself. Treat them as gentle invitations, not assignments.",
+      "is_empty_state": false,
+      "empty_message": null
+    }
+  },
+  "moments": [],
+  "keepsakes": {}
+}

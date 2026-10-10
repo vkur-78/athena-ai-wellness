@@ -1,0 +1,89 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js Build & Cache
+.next/
+out/
+build/
+dist/
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+backend/lib/
+backend/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment and Secret Files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Testing & Coverage
+coverage/
+.pytest_cache/
+.coverage
+htmlcov/
+playwright-report/
+test-results/
+.nyc_output/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+
+# Local binaries and scratch scripts
+cloudflared.exe
+scratch/
+start_public_share.bat
+learning_deliverables.md
+*.pdf
+backend/data/demo_sessions.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE & Editor Configs
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json

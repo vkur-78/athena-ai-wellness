@@ -1,0 +1,71 @@
+{
+  "observations": {},
+  "experiments": {
+    "test_behavior_user_789": [
+      {
+        "id": "exp-desk-relief-test_beh",
+        "title": "Desk Relief Before Leaving Work",
+        "why_this_experiment": "Athena noticed two-minute physical stretches loosened tension before leaving your desk.",
+        "progress": {
+          "Monday": "completed",
+          "Tuesday": "skipped",
+          "Wednesday": "completed",
+          "Thursday": "completed",
+          "Friday": "pending",
+          "Saturday": "pending",
+          "Sunday": "pending"
+        },
+        "feedback": "helped",
+        "feedback_status": "submitted",
+        "completed_at": "2026-10-10T07:16:49.717941+00:00"
+      }
+    ],
+    "guest_sanctuary": [
+      {
+        "id": "exp-desk-relief-guest_sa",
+        "title": "Desk Relief Before Leaving Work",
+        "why_this_experiment": "Athena noticed two-minute physical stretches loosened tension before leaving your desk.",
+        "progress": {
+          "Monday": "completed",
+          "Tuesday": "skipped",
+          "Wednesday": "completed",
+          "Thursday": "completed",
+          "Friday": "pending",
+          "Saturday": "pending",
+          "Sunday": "pending"
+        },
+        "feedback": "helped",
+        "feedback_status": "submitted",
+        "completed_at": "2026-09-12T06:48:25.250456+00:00"
+      }
+    ],
+    "16ad6824-4d76-44c8-9ab4-e25d4b096f52": [
+      {
+        "id": "exp-desk-relief-16ad6824",
+        "title": "Desk Relief Before Leaving Work",
+        "why_this_experiment": "Athena noticed two-minute physical stretches loosened tension before leaving your desk.",
+        "progress": {
+          "Monday": "completed",
+          "Tuesday": "skipped",
+          "Wednesday": "completed",
+          "Thursday": "completed",
+          "Friday": "pending",
+          "Saturday": "pending",
+          "Sunday": "pending"
+        },
+        "feedback": null,
+        "feedback_status": "pending"
+      }
+    ]
+  },
+  "milestones": {},
+  "feedback_history": {
+    "test_behavior_user_789": {
+      "desk_relief": "helped"
+    },
+    "guest_sanctuary": {
+      "desk_relief": "helped"
+    }
+  },
+  "keepsakes": {}
+}

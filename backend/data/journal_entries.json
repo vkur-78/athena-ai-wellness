@@ -1,0 +1,2833 @@
+{
+  "11111111-1111-1111-1111-111111111111": {
+    "8d2dfef5-24c3-4849-b357-6d44a3db0714": {
+      "id": "8d2dfef5-24c3-4849-b357-6d44a3db0714",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.276574+00:00",
+      "updated_at": "2026-10-10T07:31:36.276574+00:00"
+    },
+    "7cc20fc2-494b-47ae-816e-3b1d34e60f9c": {
+      "id": "7cc20fc2-494b-47ae-816e-3b1d34e60f9c",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.402314+00:00",
+      "updated_at": "2026-10-10T07:31:36.402314+00:00"
+    },
+    "a5a7c65e-45b8-4c3a-ada3-b9fcbddc6689": {
+      "id": "a5a7c65e-45b8-4c3a-ada3-b9fcbddc6689",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.484435+00:00",
+      "updated_at": "2026-10-10T07:31:36.484435+00:00"
+    },
+    "e6614591-9805-4c89-a167-8df5967d415b": {
+      "id": "e6614591-9805-4c89-a167-8df5967d415b",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.559316+00:00",
+      "updated_at": "2026-10-10T07:31:36.559316+00:00"
+    },
+    "cbc02151-e9b0-4bae-9cad-41c35f9c2a96": {
+      "id": "cbc02151-e9b0-4bae-9cad-41c35f9c2a96",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.623864+00:00",
+      "updated_at": "2026-10-10T07:31:36.623864+00:00"
+    },
+    "b92ccabf-ffa6-42be-aec1-9613e00bca74": {
+      "id": "b92ccabf-ffa6-42be-aec1-9613e00bca74",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.707079+00:00",
+      "updated_at": "2026-10-10T07:31:36.707079+00:00"
+    },
+    "6b38dae6-4889-4a96-a0d2-0de60dcf76c7": {
+      "id": "6b38dae6-4889-4a96-a0d2-0de60dcf76c7",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.775724+00:00",
+      "updated_at": "2026-10-10T07:31:36.775724+00:00"
+    },
+    "46896936-ca77-458b-aed4-1f6e51db0391": {
+      "id": "46896936-ca77-458b-aed4-1f6e51db0391",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.840328+00:00",
+      "updated_at": "2026-10-10T07:31:36.840328+00:00"
+    },
+    "01e81fe9-a03a-4ce2-95c2-6351ed2bf9a5": {
+      "id": "01e81fe9-a03a-4ce2-95c2-6351ed2bf9a5",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.913829+00:00",
+      "updated_at": "2026-10-10T07:31:36.913829+00:00"
+    },
+    "6e0de1f9-b556-4fe2-b1e1-ae8346e2592c": {
+      "id": "6e0de1f9-b556-4fe2-b1e1-ae8346e2592c",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:36.987332+00:00",
+      "updated_at": "2026-10-10T07:31:36.987332+00:00"
+    },
+    "98232459-d3a1-4fd0-b5b3-3c3686b923cb": {
+      "id": "98232459-d3a1-4fd0-b5b3-3c3686b923cb",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.060335+00:00",
+      "updated_at": "2026-10-10T07:31:37.060335+00:00"
+    },
+    "5ee4c119-b07b-42a3-86c9-d6f1fe17d96c": {
+      "id": "5ee4c119-b07b-42a3-86c9-d6f1fe17d96c",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.146310+00:00",
+      "updated_at": "2026-10-10T07:31:37.146310+00:00"
+    },
+    "4bf00c30-40c6-4833-85f1-137982128a0e": {
+      "id": "4bf00c30-40c6-4833-85f1-137982128a0e",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.252362+00:00",
+      "updated_at": "2026-10-10T07:31:37.252362+00:00"
+    },
+    "874d92f2-2c46-46bc-a2f9-ae092babfd90": {
+      "id": "874d92f2-2c46-46bc-a2f9-ae092babfd90",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.358612+00:00",
+      "updated_at": "2026-10-10T07:31:37.358612+00:00"
+    },
+    "e33c7dc3-2c78-47b5-9d4f-9678ef931af8": {
+      "id": "e33c7dc3-2c78-47b5-9d4f-9678ef931af8",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.453866+00:00",
+      "updated_at": "2026-10-10T07:31:37.453866+00:00"
+    },
+    "e2c0fc49-3b65-4d5d-a314-14132c566f09": {
+      "id": "e2c0fc49-3b65-4d5d-a314-14132c566f09",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.540299+00:00",
+      "updated_at": "2026-10-10T07:31:37.540299+00:00"
+    },
+    "50dc152d-a7a8-41d9-825c-2fd67371222f": {
+      "id": "50dc152d-a7a8-41d9-825c-2fd67371222f",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.614447+00:00",
+      "updated_at": "2026-10-10T07:31:37.614447+00:00"
+    },
+    "fd47d990-170c-45e4-adaf-4792139d01a7": {
+      "id": "fd47d990-170c-45e4-adaf-4792139d01a7",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.721171+00:00",
+      "updated_at": "2026-10-10T07:31:37.721171+00:00"
+    },
+    "17bee5b5-b723-4660-8dba-8c367fac318e": {
+      "id": "17bee5b5-b723-4660-8dba-8c367fac318e",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.795111+00:00",
+      "updated_at": "2026-10-10T07:31:37.795111+00:00"
+    },
+    "4fb1499e-982a-4bb0-bf3e-859792ed9674": {
+      "id": "4fb1499e-982a-4bb0-bf3e-859792ed9674",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.893155+00:00",
+      "updated_at": "2026-10-10T07:31:37.893155+00:00"
+    },
+    "16116c2b-017b-4e74-9e64-5a3cfb6b15f7": {
+      "id": "16116c2b-017b-4e74-9e64-5a3cfb6b15f7",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:37.967395+00:00",
+      "updated_at": "2026-10-10T07:31:37.967395+00:00"
+    },
+    "36ce9c6c-a107-4390-b4be-a9d3258fedab": {
+      "id": "36ce9c6c-a107-4390-b4be-a9d3258fedab",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:38.076111+00:00",
+      "updated_at": "2026-10-10T07:31:38.076111+00:00"
+    },
+    "cdf7184c-0a76-4820-b109-7bc895f82b83": {
+      "id": "cdf7184c-0a76-4820-b109-7bc895f82b83",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Found an extraordinary golden dragonfly by the lake",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:38.141529+00:00",
+      "updated_at": "2026-10-10T07:31:38.141529+00:00"
+    },
+    "d86a0436-2470-4298-930e-dbcadafcb3fb": {
+      "id": "d86a0436-2470-4298-930e-dbcadafcb3fb",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:38.209590+00:00",
+      "updated_at": "2026-10-10T07:31:38.209590+00:00"
+    },
+    "e1dd2d9f-589e-42e7-9b7d-ac24a45340ba": {
+      "id": "e1dd2d9f-589e-42e7-9b7d-ac24a45340ba",
+      "user_id": "11111111-1111-1111-1111-111111111111",
+      "content": "Standard daily quiet reflection",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:31:38.343373+00:00",
+      "updated_at": "2026-10-10T07:31:38.343373+00:00"
+    }
+  },
+  "test_user_bi_validation": {
+    "9263acd3-e0ad-4b94-86e6-2ff5f0226dea": {
+      "id": "9263acd3-e0ad-4b94-86e6-2ff5f0226dea",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T06:57:47.500522+00:00",
+      "updated_at": "2026-10-08T06:57:47.500522+00:00"
+    },
+    "ebc3c1e3-2b26-4e9f-84aa-86429de8cde8": {
+      "id": "ebc3c1e3-2b26-4e9f-84aa-86429de8cde8",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T08:29:21.583162+00:00",
+      "updated_at": "2026-10-08T08:29:21.583162+00:00"
+    },
+    "d64920d4-e06d-4f41-821a-3161d4ebe377": {
+      "id": "d64920d4-e06d-4f41-821a-3161d4ebe377",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:19:25.468274+00:00",
+      "updated_at": "2026-10-08T10:19:25.468274+00:00"
+    },
+    "40b6f776-4219-479b-9d9f-4825e1c234d2": {
+      "id": "40b6f776-4219-479b-9d9f-4825e1c234d2",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:50:37.508160+00:00",
+      "updated_at": "2026-10-08T10:50:37.508160+00:00"
+    },
+    "c5f95576-ea32-4027-9948-a81ba79cab69": {
+      "id": "c5f95576-ea32-4027-9948-a81ba79cab69",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:50.917881+00:00",
+      "updated_at": "2026-10-09T05:53:50.917881+00:00"
+    },
+    "41019301-0077-495c-80db-b56945d49a7a": {
+      "id": "41019301-0077-495c-80db-b56945d49a7a",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:06:21.232467+00:00",
+      "updated_at": "2026-10-10T07:06:21.232467+00:00"
+    },
+    "b51246ed-104c-483a-9b28-ed8bd20a4c42": {
+      "id": "b51246ed-104c-483a-9b28-ed8bd20a4c42",
+      "user_id": "test_user_bi_validation",
+      "content": "Taking a peaceful moment for myself today.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:12.417311+00:00",
+      "updated_at": "2026-10-10T07:17:12.417311+00:00"
+    }
+  },
+  "b64e9d01-f08a-4489-9b0f-00f1978aaddb": {
+    "aa106f62-6b94-4c4b-8495-c0f13eb1121e": {
+      "id": "aa106f62-6b94-4c4b-8495-c0f13eb1121e",
+      "user_id": "b64e9d01-f08a-4489-9b0f-00f1978aaddb",
+      "content": "Secret reflections of User Alpha",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T08:39:05.446425+00:00",
+      "updated_at": "2026-10-08T08:39:05.446425+00:00"
+    }
+  },
+  "513250a6-08bf-4a11-91d3-e8d5e4ce0484": {
+    "293a8c3f-f347-44a1-a307-721487525bb5": {
+      "id": "293a8c3f-f347-44a1-a307-721487525bb5",
+      "user_id": "513250a6-08bf-4a11-91d3-e8d5e4ce0484",
+      "content": "Secret reflections of User Alpha",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T08:40:51.037756+00:00",
+      "updated_at": "2026-10-08T08:40:51.037756+00:00"
+    }
+  },
+  "7ca1e624-3e91-4835-aa07-c2b97ef491ab": {
+    "ad9f9d58-2d53-4051-a66e-06f8dae56fe7": {
+      "id": "ad9f9d58-2d53-4051-a66e-06f8dae56fe7",
+      "user_id": "7ca1e624-3e91-4835-aa07-c2b97ef491ab",
+      "content": "Secret reflections of User Alpha",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T08:41:11.900806+00:00",
+      "updated_at": "2026-10-08T08:41:11.900806+00:00"
+    }
+  },
+  "55593d55-cbe0-4bb4-9368-d04d71357f6a": {
+    "ec5b31bd-3d60-4e5d-bc9c-a0d51ebdee54": {
+      "id": "ec5b31bd-3d60-4e5d-bc9c-a0d51ebdee54",
+      "user_id": "55593d55-cbe0-4bb4-9368-d04d71357f6a",
+      "content": "Confidential Alpha thoughts",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:27:59.798920+00:00",
+      "updated_at": "2026-10-08T10:27:59.798920+00:00"
+    }
+  },
+  "e3e5a0b2-db15-497e-8751-1649aa977c84": {
+    "47b13f47-5e2c-4ad4-bccf-7866acd85d79": {
+      "id": "47b13f47-5e2c-4ad4-bccf-7866acd85d79",
+      "user_id": "e3e5a0b2-db15-497e-8751-1649aa977c84",
+      "content": "Confidential Alpha thoughts",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:30:13.167834+00:00",
+      "updated_at": "2026-10-08T10:30:13.167834+00:00"
+    }
+  },
+  "0c488123-44aa-494f-9f8b-bd8e7522a8fc": {
+    "d135bcfa-274d-4e68-b12d-a0ffdf5091fe": {
+      "id": "d135bcfa-274d-4e68-b12d-a0ffdf5091fe",
+      "user_id": "0c488123-44aa-494f-9f8b-bd8e7522a8fc",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I'm here to support you in exploring your thoughts and feelings. What would you like to share from your journal?",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:43:49.169832+00:00",
+      "updated_at": "2026-10-08T10:43:49.169832+00:00"
+    }
+  },
+  "836ee375-39dc-4627-b7e9-baaea34cf4e7": {
+    "9e268d91-c80f-43a1-bf15-06481432279b": {
+      "id": "9e268d91-c80f-43a1-bf15-06481432279b",
+      "user_id": "836ee375-39dc-4627-b7e9-baaea34cf4e7",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I would love to reflect with you, but it seems I don't have access to your journal entry just yet. If you feel comfortable sharing any part of it, I’m here to listen and hold space for you.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:44:11.029194+00:00",
+      "updated_at": "2026-10-08T10:44:11.029194+00:00"
+    }
+  },
+  "03fc0375-bdbc-40b1-9862-d9761ee5c407": {
+    "ba70af40-9c95-485b-95d4-4bfef1c2f981": {
+      "id": "ba70af40-9c95-485b-95d4-4bfef1c2f981",
+      "user_id": "03fc0375-bdbc-40b1-9862-d9761ee5c407",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I would be glad to reflect with you. Please share your journal entry, and I’ll hold space for your thoughts and feelings.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:44:50.920573+00:00",
+      "updated_at": "2026-10-08T10:44:50.920573+00:00"
+    }
+  },
+  "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2": {
+    "d238ddc7-1051-466d-83aa-496b78ce7929": {
+      "id": "d238ddc7-1051-466d-83aa-496b78ce7929",
+      "user_id": "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I’d love to reflect with you on your thoughts. Please feel free to share your journal entry when you’re ready.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:46:19.498321+00:00",
+      "updated_at": "2026-10-08T10:46:19.498321+00:00"
+    },
+    "0ea830a0-574c-4484-8511-d12daa97dc26": {
+      "id": "0ea830a0-574c-4484-8511-d12daa97dc26",
+      "user_id": "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2",
+      "content": "Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:46:45.200974+00:00",
+      "updated_at": "2026-10-08T10:46:45.200974+00:00"
+    },
+    "949cf7b9-1f34-4bac-843c-e8a0d8bf45e0": {
+      "id": "949cf7b9-1f34-4bac-843c-e8a0d8bf45e0",
+      "user_id": "b10c32dc-cc06-4afc-bb97-13b4e4f0aab2",
+      "content": "<script>alert('XSS_ATTACK')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:46:45.355725+00:00",
+      "updated_at": "2026-10-08T10:46:45.355725+00:00"
+    }
+  },
+  "ef89e630-2949-4d29-a023-aa6c6a1d1981": {
+    "3a03a8e0-7a57-4eb7-b709-a7b91a30874c": {
+      "id": "3a03a8e0-7a57-4eb7-b709-a7b91a30874c",
+      "user_id": "ef89e630-2949-4d29-a023-aa6c6a1d1981",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I’d be honored to reflect on your journal entry with you. Please feel free to share what you wrote.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:47:11.460959+00:00",
+      "updated_at": "2026-10-08T10:47:11.460959+00:00"
+    },
+    "1a3b9c06-775a-47a3-a9b7-e9ba14b45719": {
+      "id": "1a3b9c06-775a-47a3-a9b7-e9ba14b45719",
+      "user_id": "ef89e630-2949-4d29-a023-aa6c6a1d1981",
+      "content": "Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:48:04.684729+00:00",
+      "updated_at": "2026-10-08T10:48:04.684729+00:00"
+    },
+    "91807103-8f29-464a-95b2-17e3032d157e": {
+      "id": "91807103-8f29-464a-95b2-17e3032d157e",
+      "user_id": "ef89e630-2949-4d29-a023-aa6c6a1d1981",
+      "content": "<script>alert('XSS_ATTACK')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:48:04.895402+00:00",
+      "updated_at": "2026-10-08T10:48:04.895402+00:00"
+    }
+  },
+  "c630c610-d328-4b0e-93f1-ecbd1a435453": {
+    "ea33c35c-d6b4-4b06-8d2f-af9e27eae986": {
+      "id": "ea33c35c-d6b4-4b06-8d2f-af9e27eae986",
+      "user_id": "c630c610-d328-4b0e-93f1-ecbd1a435453",
+      "content": "Secret journal content strictly intended for User A.",
+      "ai_reflection": "I’m here to hold space for you. If you’d like to share what’s on your mind, I’m ready to listen and reflect with you.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-08T10:48:53.446640+00:00",
+      "updated_at": "2026-10-08T10:48:53.446640+00:00"
+    },
+    "f2d9ae19-c34b-4fc9-8704-15a0f06fad96": {
+      "id": "f2d9ae19-c34b-4fc9-8704-15a0f06fad96",
+      "user_id": "c630c610-d328-4b0e-93f1-ecbd1a435453",
+      "content": "Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection. Athena mindfulness sanctuary reflection.",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:49:23.685040+00:00",
+      "updated_at": "2026-10-08T10:49:23.685040+00:00"
+    },
+    "577aadc0-1501-471c-9016-8d3a8bacc87f": {
+      "id": "577aadc0-1501-471c-9016-8d3a8bacc87f",
+      "user_id": "c630c610-d328-4b0e-93f1-ecbd1a435453",
+      "content": "<script>alert('XSS_ATTACK')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:49:23.846436+00:00",
+      "updated_at": "2026-10-08T10:49:23.846436+00:00"
+    }
+  },
+  "e440ec96-15ba-4538-9559-24aba93a3b68": {
+    "f18db9eb-6c50-417b-935f-6dde1f22bf5b": {
+      "id": "f18db9eb-6c50-417b-935f-6dde1f22bf5b",
+      "user_id": "e440ec96-15ba-4538-9559-24aba93a3b68",
+      "content": "Confidential Alpha thoughts",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T10:54:00.176894+00:00",
+      "updated_at": "2026-10-08T10:54:00.176894+00:00"
+    }
+  },
+  "1e8ed468-43e1-44e8-820d-aedd7751f9c0": {
+    "d0f0385e-a423-4c23-8000-704ff04c12b4": {
+      "id": "d0f0385e-a423-4c23-8000-704ff04c12b4",
+      "user_id": "1e8ed468-43e1-44e8-820d-aedd7751f9c0",
+      "content": "Secret note for User A only",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-08T11:21:35.442900+00:00",
+      "updated_at": "2026-10-08T11:21:35.442900+00:00"
+    }
+  },
+  "test_brand_new_user_588dcc3c": {
+    "1070fba7-648d-4f7b-b164-a2756a32a1bd": {
+      "id": "1070fba7-648d-4f7b-b164-a2756a32a1bd",
+      "user_id": "test_brand_new_user_588dcc3c",
+      "content": "Today I began a new rhythm of reflection. The air is still and gentle.",
+      "ai_reflection": "Thank you for pausing and giving your thoughts a safe place to rest on this page. Honoring your inner voice without needing perfect words is a powerful form of care. I'm right here beside you whenever you want to return to your thoughts.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-09T05:53:29.916494+00:00",
+      "updated_at": "2026-10-09T05:53:29.916494+00:00"
+    }
+  },
+  "test_exp_user_e7cc0b20": {
+    "dabd4457-95e7-4e94-88eb-1ef7724c6160": {
+      "id": "dabd4457-95e7-4e94-88eb-1ef7724c6160",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:35.131141+00:00",
+      "updated_at": "2026-10-09T05:53:35.131141+00:00"
+    },
+    "94e18d30-1b7e-4040-b3a9-1527d1a1c1e8": {
+      "id": "94e18d30-1b7e-4040-b3a9-1527d1a1c1e8",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:35.429413+00:00",
+      "updated_at": "2026-10-09T05:53:35.429413+00:00"
+    },
+    "e103476b-2d41-4283-a853-13ed22ea8412": {
+      "id": "e103476b-2d41-4283-a853-13ed22ea8412",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:35.891242+00:00",
+      "updated_at": "2026-10-09T05:53:35.891242+00:00"
+    },
+    "ddc22ace-221a-4c2b-906a-6491d9c7569f": {
+      "id": "ddc22ace-221a-4c2b-906a-6491d9c7569f",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:36.310846+00:00",
+      "updated_at": "2026-10-09T05:53:36.310846+00:00"
+    },
+    "67c0252b-7bbc-4b83-a85f-0eb14dae9d44": {
+      "id": "67c0252b-7bbc-4b83-a85f-0eb14dae9d44",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:36.573106+00:00",
+      "updated_at": "2026-10-09T05:53:36.573106+00:00"
+    },
+    "8c051daf-c559-46fc-9a55-ce1a0e745ebf": {
+      "id": "8c051daf-c559-46fc-9a55-ce1a0e745ebf",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:36.858039+00:00",
+      "updated_at": "2026-10-09T05:53:36.858039+00:00"
+    },
+    "3d5abd08-551e-4e80-a858-9c8097884ff1": {
+      "id": "3d5abd08-551e-4e80-a858-9c8097884ff1",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:37.130713+00:00",
+      "updated_at": "2026-10-09T05:53:37.130713+00:00"
+    },
+    "3830d317-844a-4442-adf4-0727eb030a94": {
+      "id": "3830d317-844a-4442-adf4-0727eb030a94",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:37.421037+00:00",
+      "updated_at": "2026-10-09T05:53:37.421037+00:00"
+    },
+    "6985ad7d-ea39-443d-8ebd-5ef2208024f9": {
+      "id": "6985ad7d-ea39-443d-8ebd-5ef2208024f9",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:37.685941+00:00",
+      "updated_at": "2026-10-09T05:53:37.685941+00:00"
+    },
+    "f175a585-178c-4959-8451-c3dbadeba075": {
+      "id": "f175a585-178c-4959-8451-c3dbadeba075",
+      "user_id": "test_exp_user_e7cc0b20",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:37.962896+00:00",
+      "updated_at": "2026-10-09T05:53:37.962896+00:00"
+    }
+  },
+  "victim_user_7a9a09e8": {
+    "ca605607-ffc6-4b39-b144-b9fc0ea68cae": {
+      "id": "ca605607-ffc6-4b39-b144-b9fc0ea68cae",
+      "user_id": "victim_user_7a9a09e8",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:53:39.348731+00:00",
+      "updated_at": "2026-10-09T05:53:39.348731+00:00"
+    }
+  },
+  "user_alpha_idor_test": {
+    "537103a7-6fa6-4b8f-93ca-41f7c65a4277": {
+      "id": "537103a7-6fa6-4b8f-93ca-41f7c65a4277",
+      "user_id": "user_alpha_idor_test",
+      "content": "Alpha's secret journal entry",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:54:49.406213+00:00",
+      "updated_at": "2026-10-09T05:54:49.406213+00:00"
+    },
+    "3c0c04ac-bf74-4645-b034-532da25b821f": {
+      "id": "3c0c04ac-bf74-4645-b034-532da25b821f",
+      "user_id": "user_alpha_idor_test",
+      "content": "Alpha's secret journal entry",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T07:03:59.605414+00:00",
+      "updated_at": "2026-10-09T07:03:59.605414+00:00"
+    },
+    "fd7cbd57-6f12-47fc-8bb8-e299571a176d": {
+      "id": "fd7cbd57-6f12-47fc-8bb8-e299571a176d",
+      "user_id": "user_alpha_idor_test",
+      "content": "Alpha's secret journal entry",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T07:04:24.506926+00:00",
+      "updated_at": "2026-10-09T07:04:24.506926+00:00"
+    },
+    "5c50cc51-4e4f-4220-93b3-40c13919ea67": {
+      "id": "5c50cc51-4e4f-4220-93b3-40c13919ea67",
+      "user_id": "user_alpha_idor_test",
+      "content": "Alpha's secret journal entry",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T07:21:27.236038+00:00",
+      "updated_at": "2026-10-09T07:21:27.236038+00:00"
+    }
+  },
+  "test_xss_user": {
+    "401073b0-4580-431b-b1e2-3801cb90faa2": {
+      "id": "401073b0-4580-431b-b1e2-3801cb90faa2",
+      "user_id": "test_xss_user",
+      "content": "<script>alert('xss_attack')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T05:54:56.725624+00:00",
+      "updated_at": "2026-10-09T05:54:56.725624+00:00"
+    },
+    "2f968270-d1c8-4f17-a278-039d2ab7ecc5": {
+      "id": "2f968270-d1c8-4f17-a278-039d2ab7ecc5",
+      "user_id": "test_xss_user",
+      "content": "<script>alert('xss_attack')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T07:04:31.815763+00:00",
+      "updated_at": "2026-10-09T07:04:31.815763+00:00"
+    },
+    "96509d15-a39c-4e96-8871-6b361e291ddd": {
+      "id": "96509d15-a39c-4e96-8871-6b361e291ddd",
+      "user_id": "test_xss_user",
+      "content": "<script>alert('xss_attack')</script><img src=x onerror=alert(1)>",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T07:21:31.394843+00:00",
+      "updated_at": "2026-10-09T07:21:31.394843+00:00"
+    }
+  },
+  "59327d2b-6e65-456e-ab5a-148602a4bd75": {
+    "4c9dcef1-4d75-4238-a119-92306af8b182": {
+      "id": "4c9dcef1-4d75-4238-a119-92306af8b182",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-10-16T20:00:00+00:00",
+      "updated_at": "2024-10-16T20:00:00+00:00"
+    },
+    "5c6cf895-a147-4dd2-b62f-128a4b789b96": {
+      "id": "5c6cf895-a147-4dd2-b62f-128a4b789b96",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was overwhelming today. Felt a lot of pressure around deadlines and had difficulty settling down this evening.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-10-18T20:00:00+00:00",
+      "updated_at": "2024-10-18T20:00:00+00:00"
+    },
+    "c180c4db-7ac7-49fb-9108-4f058c56b134": {
+      "id": "c180c4db-7ac7-49fb-9108-4f058c56b134",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-10-21T20:00:00+00:00",
+      "updated_at": "2024-10-21T20:00:00+00:00"
+    },
+    "09ec0262-fd0e-47bd-a8bb-62434ad7bd98": {
+      "id": "09ec0262-fd0e-47bd-a8bb-62434ad7bd98",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was overwhelming today. Felt a lot of pressure around deadlines and had difficulty settling down this evening.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-10-22T20:00:00+00:00",
+      "updated_at": "2024-10-22T20:00:00+00:00"
+    },
+    "d708d255-2d56-4f8c-ab7e-eb7bf2c29ae0": {
+      "id": "d708d255-2d56-4f8c-ab7e-eb7bf2c29ae0",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A bit calmer today. Took a slow walk after work.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-10-23T20:00:00+00:00",
+      "updated_at": "2024-10-23T20:00:00+00:00"
+    },
+    "7c1ca78d-b5f1-479f-be7e-325948c10456": {
+      "id": "7c1ca78d-b5f1-479f-be7e-325948c10456",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-02T20:00:00+00:00",
+      "updated_at": "2024-11-02T20:00:00+00:00"
+    },
+    "d0f1e2ef-4f9a-4780-8b22-a1ceffb2c980": {
+      "id": "d0f1e2ef-4f9a-4780-8b22-a1ceffb2c980",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-04T20:00:00+00:00",
+      "updated_at": "2024-11-04T20:00:00+00:00"
+    },
+    "cc82dfef-ef10-469f-9f42-fdb1f4a3a1f3": {
+      "id": "cc82dfef-ef10-469f-9f42-fdb1f4a3a1f3",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-05T20:00:00+00:00",
+      "updated_at": "2024-11-05T20:00:00+00:00"
+    },
+    "102e2ecb-94ad-4304-86b8-b2a672c8acb9": {
+      "id": "102e2ecb-94ad-4304-86b8-b2a672c8acb9",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-06T20:00:00+00:00",
+      "updated_at": "2024-11-06T20:00:00+00:00"
+    },
+    "80f09dff-208f-4bb0-b377-e5ec87963e1d": {
+      "id": "80f09dff-208f-4bb0-b377-e5ec87963e1d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Tried box breathing for 5 minutes during lunch break. It helped steady my heartbeat a bit.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-19T20:00:00+00:00",
+      "updated_at": "2024-11-19T20:00:00+00:00"
+    },
+    "13eba84d-5bf6-47ec-a7c7-8d8b290faa09": {
+      "id": "13eba84d-5bf6-47ec-a7c7-8d8b290faa09",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-27T20:00:00+00:00",
+      "updated_at": "2024-11-27T20:00:00+00:00"
+    },
+    "bfdff617-fbdd-4cf7-b634-405b81dc8494": {
+      "id": "bfdff617-fbdd-4cf7-b634-405b81dc8494",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-11-28T20:00:00+00:00",
+      "updated_at": "2024-11-28T20:00:00+00:00"
+    },
+    "1db18cae-30ed-4475-b0df-08581db0b99a": {
+      "id": "1db18cae-30ed-4475-b0df-08581db0b99a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Tried box breathing for 5 minutes during lunch break. It helped steady my heartbeat a bit.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-01T20:00:00+00:00",
+      "updated_at": "2024-12-01T20:00:00+00:00"
+    },
+    "84bea9e2-11a4-4c35-b6da-fa4f127412a8": {
+      "id": "84bea9e2-11a4-4c35-b6da-fa4f127412a8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-08T20:00:00+00:00",
+      "updated_at": "2024-12-08T20:00:00+00:00"
+    },
+    "463d7bf6-6c4f-4883-8237-625e33ef36a7": {
+      "id": "463d7bf6-6c4f-4883-8237-625e33ef36a7",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-12T20:00:00+00:00",
+      "updated_at": "2024-12-12T20:00:00+00:00"
+    },
+    "13b1dbc3-f63d-4203-8208-3d779a8fa8f1": {
+      "id": "13b1dbc3-f63d-4203-8208-3d779a8fa8f1",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A bit calmer today. Took a slow walk after work.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-14T20:00:00+00:00",
+      "updated_at": "2024-12-14T20:00:00+00:00"
+    },
+    "7d05eb64-119b-4880-93e0-b655afc256d8": {
+      "id": "7d05eb64-119b-4880-93e0-b655afc256d8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Tried box breathing for 5 minutes during lunch break. It helped steady my heartbeat a bit.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-28T20:00:00+00:00",
+      "updated_at": "2024-12-28T20:00:00+00:00"
+    },
+    "44a33697-46f3-4d20-a9c8-e91bf4edb57d": {
+      "id": "44a33697-46f3-4d20-a9c8-e91bf4edb57d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was overwhelming today. Felt a lot of pressure around deadlines and had difficulty settling down this evening.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2024-12-30T20:00:00+00:00",
+      "updated_at": "2024-12-30T20:00:00+00:00"
+    },
+    "3bd18456-4ace-4f08-8211-03eaf6b6cfcd": {
+      "id": "3bd18456-4ace-4f08-8211-03eaf6b6cfcd",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Tried box breathing for 5 minutes during lunch break. It helped steady my heartbeat a bit.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-01T20:00:00+00:00",
+      "updated_at": "2025-01-01T20:00:00+00:00"
+    },
+    "25812c65-f908-4761-afd7-6b87d6cf5a89": {
+      "id": "25812c65-f908-4761-afd7-6b87d6cf5a89",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-04T20:00:00+00:00",
+      "updated_at": "2025-01-04T20:00:00+00:00"
+    },
+    "622c915c-ab74-4076-b064-7b0a9fa563a6": {
+      "id": "622c915c-ab74-4076-b064-7b0a9fa563a6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A bit calmer today. Took a slow walk after work.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-11T20:00:00+00:00",
+      "updated_at": "2025-01-11T20:00:00+00:00"
+    },
+    "acd63411-db4c-498f-a35a-79a50e160353": {
+      "id": "acd63411-db4c-498f-a35a-79a50e160353",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was overwhelming today. Felt a lot of pressure around deadlines and had difficulty settling down this evening.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-16T20:00:00+00:00",
+      "updated_at": "2025-01-16T20:00:00+00:00"
+    },
+    "0c27eeb7-e309-48c4-a521-297871e8fb83": {
+      "id": "0c27eeb7-e309-48c4-a521-297871e8fb83",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was overwhelming today. Felt a lot of pressure around deadlines and had difficulty settling down this evening.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-21T20:00:00+00:00",
+      "updated_at": "2025-01-21T20:00:00+00:00"
+    },
+    "a9a6dbea-135f-4486-893a-8495796db7d9": {
+      "id": "a9a6dbea-135f-4486-893a-8495796db7d9",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Tried box breathing for 5 minutes during lunch break. It helped steady my heartbeat a bit.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-26T20:00:00+00:00",
+      "updated_at": "2025-01-26T20:00:00+00:00"
+    },
+    "72cd451c-c75c-4411-9422-f1b3f0f9b1b9": {
+      "id": "72cd451c-c75c-4411-9422-f1b3f0f9b1b9",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-01-30T20:00:00+00:00",
+      "updated_at": "2025-01-30T20:00:00+00:00"
+    },
+    "494eedc1-edf2-4aa3-bcfd-8e8d13dd6335": {
+      "id": "494eedc1-edf2-4aa3-bcfd-8e8d13dd6335",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Short quiet reflection. Feeling tired, need to sleep early tonight.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-01T20:00:00+00:00",
+      "updated_at": "2025-02-01T20:00:00+00:00"
+    },
+    "e4cb1e91-e7cf-4122-9980-26511bb8f779": {
+      "id": "e4cb1e91-e7cf-4122-9980-26511bb8f779",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A bit calmer today. Took a slow walk after work.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-05T20:00:00+00:00",
+      "updated_at": "2025-02-05T20:00:00+00:00"
+    },
+    "d3b475b3-79e3-4252-8826-a7f0d7ce1afb": {
+      "id": "d3b475b3-79e3-4252-8826-a7f0d7ce1afb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-07T20:00:00+00:00",
+      "updated_at": "2025-02-07T20:00:00+00:00"
+    },
+    "03ae37a3-fe67-4322-a520-7eeaafc85ed8": {
+      "id": "03ae37a3-fe67-4322-a520-7eeaafc85ed8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Struggling with overthinking tomorrow's meetings. Writing down my worries so they don't spin in my head.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-11T20:00:00+00:00",
+      "updated_at": "2025-02-11T20:00:00+00:00"
+    },
+    "90dc6a19-23ba-43cc-b3b8-49674dc62334": {
+      "id": "90dc6a19-23ba-43cc-b3b8-49674dc62334",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-13T20:00:00+00:00",
+      "updated_at": "2025-02-13T20:00:00+00:00"
+    },
+    "692111f4-35cd-4d6c-a5e8-1724313d2383": {
+      "id": "692111f4-35cd-4d6c-a5e8-1724313d2383",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-16T20:00:00+00:00",
+      "updated_at": "2025-02-16T20:00:00+00:00"
+    },
+    "33dbad9b-7600-4913-9988-55c8b10135ee": {
+      "id": "33dbad9b-7600-4913-9988-55c8b10135ee",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-25T20:00:00+00:00",
+      "updated_at": "2025-02-25T20:00:00+00:00"
+    },
+    "d42d5511-0ded-4dd6-8837-ddcc141c597b": {
+      "id": "d42d5511-0ded-4dd6-8837-ddcc141c597b",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-02-28T20:00:00+00:00",
+      "updated_at": "2025-02-28T20:00:00+00:00"
+    },
+    "8bb473d9-514e-40b7-bdb7-d76b6c2a5682": {
+      "id": "8bb473d9-514e-40b7-bdb7-d76b6c2a5682",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-01T20:00:00+00:00",
+      "updated_at": "2025-03-01T20:00:00+00:00"
+    },
+    "338e9a54-57fe-4064-a882-bac5c29d55fe": {
+      "id": "338e9a54-57fe-4064-a882-bac5c29d55fe",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-02T20:00:00+00:00",
+      "updated_at": "2025-03-02T20:00:00+00:00"
+    },
+    "1003e17e-2da7-4cab-b847-83b806b62cd8": {
+      "id": "1003e17e-2da7-4cab-b847-83b806b62cd8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-04T20:00:00+00:00",
+      "updated_at": "2025-03-04T20:00:00+00:00"
+    },
+    "4a9d8ab4-72b0-486e-8a0b-100291d1ad0c": {
+      "id": "4a9d8ab4-72b0-486e-8a0b-100291d1ad0c",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Spent 10 minutes practicing sensory grounding by the garden. Felt connected and present.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-11T20:00:00+00:00",
+      "updated_at": "2025-03-11T20:00:00+00:00"
+    },
+    "d1568238-c3de-4016-8e63-8747e896b98e": {
+      "id": "d1568238-c3de-4016-8e63-8747e896b98e",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-13T20:00:00+00:00",
+      "updated_at": "2025-03-13T20:00:00+00:00"
+    },
+    "848190fb-38dd-47c5-8839-878fc28029b2": {
+      "id": "848190fb-38dd-47c5-8839-878fc28029b2",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-18T20:00:00+00:00",
+      "updated_at": "2025-03-18T20:00:00+00:00"
+    },
+    "080418b0-6d7a-4e8d-8c21-92d9ed273c19": {
+      "id": "080418b0-6d7a-4e8d-8c21-92d9ed273c19",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-19T20:00:00+00:00",
+      "updated_at": "2025-03-19T20:00:00+00:00"
+    },
+    "b336a980-a6db-4640-80dd-2b0dc90392e5": {
+      "id": "b336a980-a6db-4640-80dd-2b0dc90392e5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-21T20:00:00+00:00",
+      "updated_at": "2025-03-21T20:00:00+00:00"
+    },
+    "84475133-df7c-4ec4-8173-ca5ee8dacab7": {
+      "id": "84475133-df7c-4ec4-8173-ca5ee8dacab7",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Spent 10 minutes practicing sensory grounding by the garden. Felt connected and present.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-22T20:00:00+00:00",
+      "updated_at": "2025-03-22T20:00:00+00:00"
+    },
+    "6f53b6ce-e24e-4309-be1c-49af208d8ea5": {
+      "id": "6f53b6ce-e24e-4309-be1c-49af208d8ea5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-23T20:00:00+00:00",
+      "updated_at": "2025-03-23T20:00:00+00:00"
+    },
+    "a3bb944d-e086-4a22-903b-1f6419f0f8d5": {
+      "id": "a3bb944d-e086-4a22-903b-1f6419f0f8d5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-25T20:00:00+00:00",
+      "updated_at": "2025-03-25T20:00:00+00:00"
+    },
+    "84895ffe-5e94-4d22-8b2b-260a00e34c3b": {
+      "id": "84895ffe-5e94-4d22-8b2b-260a00e34c3b",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-03-29T20:00:00+00:00",
+      "updated_at": "2025-03-29T20:00:00+00:00"
+    },
+    "044853e3-c68f-47e5-8c7d-996651209e7d": {
+      "id": "044853e3-c68f-47e5-8c7d-996651209e7d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Spent 10 minutes practicing sensory grounding by the garden. Felt connected and present.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-03T20:00:00+00:00",
+      "updated_at": "2025-04-03T20:00:00+00:00"
+    },
+    "876636a4-5499-429b-bbd3-9bde27b281b8": {
+      "id": "876636a4-5499-429b-bbd3-9bde27b281b8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-07T20:00:00+00:00",
+      "updated_at": "2025-04-07T20:00:00+00:00"
+    },
+    "b8c06d70-7473-4f9b-aa1e-a634dc5c9d93": {
+      "id": "b8c06d70-7473-4f9b-aa1e-a634dc5c9d93",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-17T20:00:00+00:00",
+      "updated_at": "2025-04-17T20:00:00+00:00"
+    },
+    "8144600c-6e0e-4cd2-8fa0-a1ac1bb6c97f": {
+      "id": "8144600c-6e0e-4cd2-8fa0-a1ac1bb6c97f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-18T20:00:00+00:00",
+      "updated_at": "2025-04-18T20:00:00+00:00"
+    },
+    "05c3d003-c6d4-4a66-a119-cd7352990088": {
+      "id": "05c3d003-c6d4-4a66-a119-cd7352990088",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-22T20:00:00+00:00",
+      "updated_at": "2025-04-22T20:00:00+00:00"
+    },
+    "fcfa3f31-8662-45f5-8e1c-225cf662d348": {
+      "id": "fcfa3f31-8662-45f5-8e1c-225cf662d348",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-26T20:00:00+00:00",
+      "updated_at": "2025-04-26T20:00:00+00:00"
+    },
+    "21e8f23b-0b97-4026-b04b-0217f0c39728": {
+      "id": "21e8f23b-0b97-4026-b04b-0217f0c39728",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-27T20:00:00+00:00",
+      "updated_at": "2025-04-27T20:00:00+00:00"
+    },
+    "edfe82ba-b70f-4b90-9bdf-fd4978bcaa98": {
+      "id": "edfe82ba-b70f-4b90-9bdf-fd4978bcaa98",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-28T20:00:00+00:00",
+      "updated_at": "2025-04-28T20:00:00+00:00"
+    },
+    "71008666-4aa5-4dec-90ae-c91607721a33": {
+      "id": "71008666-4aa5-4dec-90ae-c91607721a33",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-04-30T20:00:00+00:00",
+      "updated_at": "2025-04-30T20:00:00+00:00"
+    },
+    "7f92adc0-0e49-4018-a0d1-119f898930d3": {
+      "id": "7f92adc0-0e49-4018-a0d1-119f898930d3",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-04T20:00:00+00:00",
+      "updated_at": "2025-05-04T20:00:00+00:00"
+    },
+    "021641d8-db81-4359-9872-d659900e6a83": {
+      "id": "021641d8-db81-4359-9872-d659900e6a83",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-09T20:00:00+00:00",
+      "updated_at": "2025-05-09T20:00:00+00:00"
+    },
+    "0b06e963-c8ae-4b3c-a7cb-fb951d710f43": {
+      "id": "0b06e963-c8ae-4b3c-a7cb-fb951d710f43",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Spent 10 minutes practicing sensory grounding by the garden. Felt connected and present.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-10T20:00:00+00:00",
+      "updated_at": "2025-05-10T20:00:00+00:00"
+    },
+    "e983f22a-7952-4bd7-81b3-2bdefb801a8e": {
+      "id": "e983f22a-7952-4bd7-81b3-2bdefb801a8e",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-11T20:00:00+00:00",
+      "updated_at": "2025-05-11T20:00:00+00:00"
+    },
+    "ee254331-e1ac-446b-9184-529fee5fc9d3": {
+      "id": "ee254331-e1ac-446b-9184-529fee5fc9d3",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-15T20:00:00+00:00",
+      "updated_at": "2025-05-15T20:00:00+00:00"
+    },
+    "935bac79-7ae5-42cf-8b50-ce80c554dbf6": {
+      "id": "935bac79-7ae5-42cf-8b50-ce80c554dbf6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Good day at work. Handled a difficult discussion with a coworker without feeling defensive.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-18T20:00:00+00:00",
+      "updated_at": "2025-05-18T20:00:00+00:00"
+    },
+    "e5812314-a47a-41d2-a2ce-21eb0f857b26": {
+      "id": "e5812314-a47a-41d2-a2ce-21eb0f857b26",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-20T20:00:00+00:00",
+      "updated_at": "2025-05-20T20:00:00+00:00"
+    },
+    "71a98963-50da-4045-a142-c5328c192cb6": {
+      "id": "71a98963-50da-4045-a142-c5328c192cb6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-24T20:00:00+00:00",
+      "updated_at": "2025-05-24T20:00:00+00:00"
+    },
+    "26920a47-6536-4d2d-ab45-ea2823cc79b0": {
+      "id": "26920a47-6536-4d2d-ab45-ea2823cc79b0",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Quiet Sunday. Enjoying the calm morning light and a cup of warm tea.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-05-29T20:00:00+00:00",
+      "updated_at": "2025-05-29T20:00:00+00:00"
+    },
+    "a1a4e6e0-676b-41b3-888f-57495894f014": {
+      "id": "a1a4e6e0-676b-41b3-888f-57495894f014",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-02T20:00:00+00:00",
+      "updated_at": "2025-06-02T20:00:00+00:00"
+    },
+    "c8e65bd7-8f3f-451e-9bf1-0d3adaa09c14": {
+      "id": "c8e65bd7-8f3f-451e-9bf1-0d3adaa09c14",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-05T20:00:00+00:00",
+      "updated_at": "2025-06-05T20:00:00+00:00"
+    },
+    "99071376-5152-484f-812d-c65317b7edfe": {
+      "id": "99071376-5152-484f-812d-c65317b7edfe",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on balance. I am slowly learning to set boundaries instead of agreeing to every request.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-08T20:00:00+00:00",
+      "updated_at": "2025-06-08T20:00:00+00:00"
+    },
+    "675bd872-c489-4347-9e3f-05c1f1d10209": {
+      "id": "675bd872-c489-4347-9e3f-05c1f1d10209",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed that when I do breathing practice in the evening, I sleep significantly better without waking up in the middle of the night.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-10T20:00:00+00:00",
+      "updated_at": "2025-06-10T20:00:00+00:00"
+    },
+    "7e0b1b8c-e9f1-40d9-a0ef-e2d7012b84d0": {
+      "id": "7e0b1b8c-e9f1-40d9-a0ef-e2d7012b84d0",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Spent 10 minutes practicing sensory grounding by the garden. Felt connected and present.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-11T20:00:00+00:00",
+      "updated_at": "2025-06-11T20:00:00+00:00"
+    },
+    "ba8533a5-d26c-4a00-b653-525b49f0ca62": {
+      "id": "ba8533a5-d26c-4a00-b653-525b49f0ca62",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-13T20:00:00+00:00",
+      "updated_at": "2025-06-13T20:00:00+00:00"
+    },
+    "c7fea407-2f98-4825-aec9-3d77ec23c193": {
+      "id": "c7fea407-2f98-4825-aec9-3d77ec23c193",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Transitioning into a new project role this week. Feeling nervous but more equipped than I used to be.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-20T20:00:00+00:00",
+      "updated_at": "2025-06-20T20:00:00+00:00"
+    },
+    "4d55fcbc-5b3a-4556-b190-8aac77e0cd6e": {
+      "id": "4d55fcbc-5b3a-4556-b190-8aac77e0cd6e",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Transitioning into a new project role this week. Feeling nervous but more equipped than I used to be.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-23T20:00:00+00:00",
+      "updated_at": "2025-06-23T20:00:00+00:00"
+    },
+    "eca1dd35-c821-489c-80d8-c11bc795ae22": {
+      "id": "eca1dd35-c821-489c-80d8-c11bc795ae22",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Missed a few days of check-ins with travel and relocation, but glad to return to my sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-26T20:00:00+00:00",
+      "updated_at": "2025-06-26T20:00:00+00:00"
+    },
+    "c0f8f5ad-025f-4683-8306-79e59f472b4c": {
+      "id": "c0f8f5ad-025f-4683-8306-79e59f472b4c",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-06-27T20:00:00+00:00",
+      "updated_at": "2025-06-27T20:00:00+00:00"
+    },
+    "469914da-1af4-4c68-ad1a-a4c068095d8f": {
+      "id": "469914da-1af4-4c68-ad1a-a4c068095d8f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Grateful for patient friends and quiet evenings.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-04T20:00:00+00:00",
+      "updated_at": "2025-07-04T20:00:00+00:00"
+    },
+    "9158b5e0-4b2b-4ff7-b2d7-4d088d591f24": {
+      "id": "9158b5e0-4b2b-4ff7-b2d7-4d088d591f24",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Missed a few days of check-ins with travel and relocation, but glad to return to my sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-08T20:00:00+00:00",
+      "updated_at": "2025-07-08T20:00:00+00:00"
+    },
+    "56f3f151-617a-48e6-a3d5-0c098b3c1102": {
+      "id": "56f3f151-617a-48e6-a3d5-0c098b3c1102",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-13T20:00:00+00:00",
+      "updated_at": "2025-07-13T20:00:00+00:00"
+    },
+    "e3ba6a8b-5d60-4843-bf3e-bf1ce7a4c3ef": {
+      "id": "e3ba6a8b-5d60-4843-bf3e-bf1ce7a4c3ef",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Transitioning into a new project role this week. Feeling nervous but more equipped than I used to be.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-19T20:00:00+00:00",
+      "updated_at": "2025-07-19T20:00:00+00:00"
+    },
+    "f33ce3a3-9e42-4668-8ab5-6c0b4a21f7f5": {
+      "id": "f33ce3a3-9e42-4668-8ab5-6c0b4a21f7f5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced 4-7-8 breathing before a presentation. My voice stayed steady.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-21T20:00:00+00:00",
+      "updated_at": "2025-07-21T20:00:00+00:00"
+    },
+    "bedd0d91-d9ec-4ba7-8e44-bd46483dce04": {
+      "id": "bedd0d91-d9ec-4ba7-8e44-bd46483dce04",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Missed a few days of check-ins with travel and relocation, but glad to return to my sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-28T20:00:00+00:00",
+      "updated_at": "2025-07-28T20:00:00+00:00"
+    },
+    "0eac7abf-9c63-4b45-9f9c-101bb45a1e61": {
+      "id": "0eac7abf-9c63-4b45-9f9c-101bb45a1e61",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-07-31T20:00:00+00:00",
+      "updated_at": "2025-07-31T20:00:00+00:00"
+    },
+    "3f284962-77d9-4d85-bce9-94910ab553d5": {
+      "id": "3f284962-77d9-4d85-bce9-94910ab553d5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-08-06T20:00:00+00:00",
+      "updated_at": "2025-08-06T20:00:00+00:00"
+    },
+    "819ad0f5-c531-46e9-a81f-687fb4fa86a8": {
+      "id": "819ad0f5-c531-46e9-a81f-687fb4fa86a8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-08-07T20:00:00+00:00",
+      "updated_at": "2025-08-07T20:00:00+00:00"
+    },
+    "f92290b9-bc57-46d1-b0d1-cde5923fc44c": {
+      "id": "f92290b9-bc57-46d1-b0d1-cde5923fc44c",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Grateful for patient friends and quiet evenings.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-08-08T20:00:00+00:00",
+      "updated_at": "2025-08-08T20:00:00+00:00"
+    },
+    "55c33040-7ed3-48c6-b466-3d2fd6c1f316": {
+      "id": "55c33040-7ed3-48c6-b466-3d2fd6c1f316",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Grateful for patient friends and quiet evenings.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-08-18T20:00:00+00:00",
+      "updated_at": "2025-08-18T20:00:00+00:00"
+    },
+    "0e0a710a-3784-4775-81ec-359ae8a407ea": {
+      "id": "0e0a710a-3784-4775-81ec-359ae8a407ea",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-08-28T20:00:00+00:00",
+      "updated_at": "2025-08-28T20:00:00+00:00"
+    },
+    "840f3761-381e-47d8-ac8a-c3b82e88eff8": {
+      "id": "840f3761-381e-47d8-ac8a-c3b82e88eff8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Grateful for patient friends and quiet evenings.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-09-07T20:00:00+00:00",
+      "updated_at": "2025-09-07T20:00:00+00:00"
+    },
+    "f874985e-1380-4855-bb8a-ddb572e0dc3a": {
+      "id": "f874985e-1380-4855-bb8a-ddb572e0dc3a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Evening thoughts: Reminding myself that feeling uncertain is part of learning something new.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-09-10T20:00:00+00:00",
+      "updated_at": "2025-09-10T20:00:00+00:00"
+    },
+    "902b4c60-55f4-4c11-83d8-7f2fea0eb307": {
+      "id": "902b4c60-55f4-4c11-83d8-7f2fea0eb307",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Missed a few days of check-ins with travel and relocation, but glad to return to my sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-09-25T20:00:00+00:00",
+      "updated_at": "2025-09-25T20:00:00+00:00"
+    },
+    "e27a9a5a-8f56-406f-9359-c2269c01ae13": {
+      "id": "e27a9a5a-8f56-406f-9359-c2269c01ae13",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Missed a few days of check-ins with travel and relocation, but glad to return to my sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-09-29T20:00:00+00:00",
+      "updated_at": "2025-09-29T20:00:00+00:00"
+    },
+    "c97b60bb-a8ce-4863-8a97-d890198a4dd1": {
+      "id": "c97b60bb-a8ce-4863-8a97-d890198a4dd1",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Transitioning into a new project role this week. Feeling nervous but more equipped than I used to be.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-10-09T20:00:00+00:00",
+      "updated_at": "2025-10-09T20:00:00+00:00"
+    },
+    "a50e78b4-da3f-4bbf-8a2d-c0039a696fcb": {
+      "id": "a50e78b4-da3f-4bbf-8a2d-c0039a696fcb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-10-14T20:00:00+00:00",
+      "updated_at": "2025-10-14T20:00:00+00:00"
+    },
+    "34d739cb-107c-4d87-bc0c-f3fd6e3832b5": {
+      "id": "34d739cb-107c-4d87-bc0c-f3fd6e3832b5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed physical tension in my shoulders today and paused for 5 minutes to release it gently.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-10-18T20:00:00+00:00",
+      "updated_at": "2025-10-18T20:00:00+00:00"
+    },
+    "588d0af6-82f8-41cf-9373-a791ad4007aa": {
+      "id": "588d0af6-82f8-41cf-9373-a791ad4007aa",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed physical tension in my shoulders today and paused for 5 minutes to release it gently.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-02T20:00:00+00:00",
+      "updated_at": "2025-11-02T20:00:00+00:00"
+    },
+    "02d2bcff-6b66-4de9-a05d-b3fabd5cc944": {
+      "id": "02d2bcff-6b66-4de9-a05d-b3fabd5cc944",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-04T20:00:00+00:00",
+      "updated_at": "2025-11-04T20:00:00+00:00"
+    },
+    "58333bae-c065-4583-8473-d2ba0b5292c8": {
+      "id": "58333bae-c065-4583-8473-d2ba0b5292c8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-06T20:00:00+00:00",
+      "updated_at": "2025-11-06T20:00:00+00:00"
+    },
+    "61dda1cf-7257-4d49-b5cb-88df50c37168": {
+      "id": "61dda1cf-7257-4d49-b5cb-88df50c37168",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-07T20:00:00+00:00",
+      "updated_at": "2025-11-07T20:00:00+00:00"
+    },
+    "59595af4-e17b-46a1-9686-eea5b67c537a": {
+      "id": "59595af4-e17b-46a1-9686-eea5b67c537a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-08T20:00:00+00:00",
+      "updated_at": "2025-11-08T20:00:00+00:00"
+    },
+    "80013986-0f7d-442d-be3e-9f994ccb5da1": {
+      "id": "80013986-0f7d-442d-be3e-9f994ccb5da1",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed physical tension in my shoulders today and paused for 5 minutes to release it gently.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-11T20:00:00+00:00",
+      "updated_at": "2025-11-11T20:00:00+00:00"
+    },
+    "8d18d3ec-d78d-4082-862a-f80e153780b6": {
+      "id": "8d18d3ec-d78d-4082-862a-f80e153780b6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed physical tension in my shoulders today and paused for 5 minutes to release it gently.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-13T20:00:00+00:00",
+      "updated_at": "2025-11-13T20:00:00+00:00"
+    },
+    "4446347d-4d29-43a6-97cf-36e3a96c96f2": {
+      "id": "4446347d-4d29-43a6-97cf-36e3a96c96f2",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-14T20:00:00+00:00",
+      "updated_at": "2025-11-14T20:00:00+00:00"
+    },
+    "927a0460-1ac7-4dcd-a8c0-76d97fde9f11": {
+      "id": "927a0460-1ac7-4dcd-a8c0-76d97fde9f11",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-17T20:00:00+00:00",
+      "updated_at": "2025-11-17T20:00:00+00:00"
+    },
+    "d5f3f481-aa8a-4162-af69-e884677c536a": {
+      "id": "d5f3f481-aa8a-4162-af69-e884677c536a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-21T20:00:00+00:00",
+      "updated_at": "2025-11-21T20:00:00+00:00"
+    },
+    "10daa1df-3fd7-43c5-a231-f730de6b7035": {
+      "id": "10daa1df-3fd7-43c5-a231-f730de6b7035",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-23T20:00:00+00:00",
+      "updated_at": "2025-11-23T20:00:00+00:00"
+    },
+    "d21461bd-16e2-4ea2-b862-4e25152e1bec": {
+      "id": "d21461bd-16e2-4ea2-b862-4e25152e1bec",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-11-24T20:00:00+00:00",
+      "updated_at": "2025-11-24T20:00:00+00:00"
+    },
+    "f0bf412e-1c5a-4719-aebc-33d4c46e7d3c": {
+      "id": "f0bf412e-1c5a-4719-aebc-33d4c46e7d3c",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Noticed physical tension in my shoulders today and paused for 5 minutes to release it gently.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-01T20:00:00+00:00",
+      "updated_at": "2025-12-01T20:00:00+00:00"
+    },
+    "52a1d35a-a031-40f0-851c-48a51e1e75e8": {
+      "id": "52a1d35a-a031-40f0-851c-48a51e1e75e8",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-02T20:00:00+00:00",
+      "updated_at": "2025-12-02T20:00:00+00:00"
+    },
+    "ed135b6f-a38a-48ca-ba6c-b5212839ab66": {
+      "id": "ed135b6f-a38a-48ca-ba6c-b5212839ab66",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-03T20:00:00+00:00",
+      "updated_at": "2025-12-03T20:00:00+00:00"
+    },
+    "40657dae-1afb-49ed-be81-e5182fc38896": {
+      "id": "40657dae-1afb-49ed-be81-e5182fc38896",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-14T20:00:00+00:00",
+      "updated_at": "2025-12-14T20:00:00+00:00"
+    },
+    "e3b7e9df-318a-422a-9432-d64ab3c686df": {
+      "id": "e3b7e9df-318a-422a-9432-d64ab3c686df",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-15T20:00:00+00:00",
+      "updated_at": "2025-12-15T20:00:00+00:00"
+    },
+    "10ac22eb-b705-49c0-8f76-4a4925d124dd": {
+      "id": "10ac22eb-b705-49c0-8f76-4a4925d124dd",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-16T20:00:00+00:00",
+      "updated_at": "2025-12-16T20:00:00+00:00"
+    },
+    "2f6614a6-66f1-49f2-b4fe-d27b9943630e": {
+      "id": "2f6614a6-66f1-49f2-b4fe-d27b9943630e",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-18T20:00:00+00:00",
+      "updated_at": "2025-12-18T20:00:00+00:00"
+    },
+    "36004e55-086b-4c59-8c3c-297f4e08a3cf": {
+      "id": "36004e55-086b-4c59-8c3c-297f4e08a3cf",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-21T20:00:00+00:00",
+      "updated_at": "2025-12-21T20:00:00+00:00"
+    },
+    "4c44941f-6532-4349-815f-d67867e74cd9": {
+      "id": "4c44941f-6532-4349-815f-d67867e74cd9",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Writing has become a natural anchor for me. Looking back at where I was a year ago, my baseline anxiety is noticeably lower.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-22T20:00:00+00:00",
+      "updated_at": "2025-12-22T20:00:00+00:00"
+    },
+    "d41c0190-599e-486c-8b3e-f78568e8f924": {
+      "id": "d41c0190-599e-486c-8b3e-f78568e8f924",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-25T20:00:00+00:00",
+      "updated_at": "2025-12-25T20:00:00+00:00"
+    },
+    "ca4d6811-762f-4be8-b497-d02b57b2f9bd": {
+      "id": "ca4d6811-762f-4be8-b497-d02b57b2f9bd",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Writing has become a natural anchor for me. Looking back at where I was a year ago, my baseline anxiety is noticeably lower.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-26T20:00:00+00:00",
+      "updated_at": "2025-12-26T20:00:00+00:00"
+    },
+    "9072d46a-8b1d-492e-8fee-62dc5dc20ff1": {
+      "id": "9072d46a-8b1d-492e-8fee-62dc5dc20ff1",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Writing has become a natural anchor for me. Looking back at where I was a year ago, my baseline anxiety is noticeably lower.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2025-12-31T20:00:00+00:00",
+      "updated_at": "2025-12-31T20:00:00+00:00"
+    },
+    "dd927c0f-f245-4972-ad10-c88d2b89922f": {
+      "id": "dd927c0f-f245-4972-ad10-c88d2b89922f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Morning reflection: Choosing to approach today's challenges with curiosity rather than urgency.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-02T20:00:00+00:00",
+      "updated_at": "2026-01-02T20:00:00+00:00"
+    },
+    "9f19f5a7-7e99-4016-b23e-18bd2f64851e": {
+      "id": "9f19f5a7-7e99-4016-b23e-18bd2f64851e",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-05T20:00:00+00:00",
+      "updated_at": "2026-01-05T20:00:00+00:00"
+    },
+    "37fe2587-c343-4217-b259-279b7682cfdf": {
+      "id": "37fe2587-c343-4217-b259-279b7682cfdf",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-07T20:00:00+00:00",
+      "updated_at": "2026-01-07T20:00:00+00:00"
+    },
+    "b733fe09-863d-450f-8cf6-55b19b584358": {
+      "id": "b733fe09-863d-450f-8cf6-55b19b584358",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-11T20:00:00+00:00",
+      "updated_at": "2026-01-11T20:00:00+00:00"
+    },
+    "6b23ade5-3895-4fd3-8ff6-13d96789f8c2": {
+      "id": "6b23ade5-3895-4fd3-8ff6-13d96789f8c2",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Writing has become a natural anchor for me. Looking back at where I was a year ago, my baseline anxiety is noticeably lower.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-12T20:00:00+00:00",
+      "updated_at": "2026-01-12T20:00:00+00:00"
+    },
+    "dacad8c9-1144-4676-ae9a-f7c7933562c6": {
+      "id": "dacad8c9-1144-4676-ae9a-f7c7933562c6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-18T20:00:00+00:00",
+      "updated_at": "2026-01-18T20:00:00+00:00"
+    },
+    "eaf34244-bd38-4729-b6d6-5051ef338414": {
+      "id": "eaf34244-bd38-4729-b6d6-5051ef338414",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-21T20:00:00+00:00",
+      "updated_at": "2026-01-21T20:00:00+00:00"
+    },
+    "0c1d71c0-0e33-4b7f-83ad-2860c003b9eb": {
+      "id": "0c1d71c0-0e33-4b7f-83ad-2860c003b9eb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Practiced body scan before bed. Slept uninterrupted for 7.5 hours.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-01-24T20:00:00+00:00",
+      "updated_at": "2026-01-24T20:00:00+00:00"
+    },
+    "67e85a8c-0aeb-4100-9a81-bf82dcd24861": {
+      "id": "67e85a8c-0aeb-4100-9a81-bf82dcd24861",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A thoughtful conversation with family today. Felt grounded and able to listen without reacting.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-02-02T20:00:00+00:00",
+      "updated_at": "2026-02-02T20:00:00+00:00"
+    },
+    "6e272c2f-867b-4eb2-ba06-89a867db5fe0": {
+      "id": "6e272c2f-867b-4eb2-ba06-89a867db5fe0",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on patience with myself. Progress isn't linear, and that is okay.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-02-18T20:00:00+00:00",
+      "updated_at": "2026-02-18T20:00:00+00:00"
+    },
+    "c5ee8a96-41d6-4792-974a-f86d0810d49d": {
+      "id": "c5ee8a96-41d6-4792-974a-f86d0810d49d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Realized that my immediate reaction to stress is no longer panic, but taking three deep breaths.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-02-23T20:00:00+00:00",
+      "updated_at": "2026-02-23T20:00:00+00:00"
+    },
+    "dd5ae793-244a-40fd-b92f-e636ebff9024": {
+      "id": "dd5ae793-244a-40fd-b92f-e636ebff9024",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-02-24T20:00:00+00:00",
+      "updated_at": "2026-02-24T20:00:00+00:00"
+    },
+    "801a9a16-533a-4020-ba44-8a4e8d8318d4": {
+      "id": "801a9a16-533a-4020-ba44-8a4e8d8318d4",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-03-04T20:00:00+00:00",
+      "updated_at": "2026-03-04T20:00:00+00:00"
+    },
+    "eeca3df8-df82-4726-b2a3-c8bb42c13238": {
+      "id": "eeca3df8-df82-4726-b2a3-c8bb42c13238",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-03-12T20:00:00+00:00",
+      "updated_at": "2026-03-12T20:00:00+00:00"
+    },
+    "bf671e0d-6e92-410f-b883-edff57ea4664": {
+      "id": "bf671e0d-6e92-410f-b883-edff57ea4664",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on patience with myself. Progress isn't linear, and that is okay.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-03-30T20:00:00+00:00",
+      "updated_at": "2026-03-30T20:00:00+00:00"
+    },
+    "050593dd-7a6c-40f7-85d8-222198ae6898": {
+      "id": "050593dd-7a6c-40f7-85d8-222198ae6898",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A quieter month of practice with holiday visits, but the habits feel natural to return to.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-10T20:00:00+00:00",
+      "updated_at": "2026-04-10T20:00:00+00:00"
+    },
+    "66fda766-c828-445b-afbb-fbea8f111a05": {
+      "id": "66fda766-c828-445b-afbb-fbea8f111a05",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on patience with myself. Progress isn't linear, and that is okay.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-14T20:00:00+00:00",
+      "updated_at": "2026-04-14T20:00:00+00:00"
+    },
+    "f602451d-802c-41f8-a29f-378d80ad5b97": {
+      "id": "f602451d-802c-41f8-a29f-378d80ad5b97",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A quieter month of practice with holiday visits, but the habits feel natural to return to.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-15T20:00:00+00:00",
+      "updated_at": "2026-04-15T20:00:00+00:00"
+    },
+    "c6eb1f3c-2a54-4e7d-8276-148846af672f": {
+      "id": "c6eb1f3c-2a54-4e7d-8276-148846af672f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A quieter month of practice with holiday visits, but the habits feel natural to return to.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-19T20:00:00+00:00",
+      "updated_at": "2026-04-19T20:00:00+00:00"
+    },
+    "142dd60c-812f-4096-a546-031eafe1de3f": {
+      "id": "142dd60c-812f-4096-a546-031eafe1de3f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A quieter month of practice with holiday visits, but the habits feel natural to return to.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-22T20:00:00+00:00",
+      "updated_at": "2026-04-22T20:00:00+00:00"
+    },
+    "4e5f8288-8ee0-49d9-b4a4-93e741d1557b": {
+      "id": "4e5f8288-8ee0-49d9-b4a4-93e741d1557b",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "A quieter month of practice with holiday visits, but the habits feel natural to return to.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-24T20:00:00+00:00",
+      "updated_at": "2026-04-24T20:00:00+00:00"
+    },
+    "3a800be1-5926-4671-906a-49cacd4d6181": {
+      "id": "3a800be1-5926-4671-906a-49cacd4d6181",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Grateful for clear boundaries and peace of mind.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-25T20:00:00+00:00",
+      "updated_at": "2026-04-25T20:00:00+00:00"
+    },
+    "07c0b16f-7406-47c5-aa6a-5a955a0a8757": {
+      "id": "07c0b16f-7406-47c5-aa6a-5a955a0a8757",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-27T20:00:00+00:00",
+      "updated_at": "2026-04-27T20:00:00+00:00"
+    },
+    "1cf8d0a9-febc-42ac-ad5f-0e131f99a3c2": {
+      "id": "1cf8d0a9-febc-42ac-ad5f-0e131f99a3c2",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on patience with myself. Progress isn't linear, and that is okay.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-04-28T20:00:00+00:00",
+      "updated_at": "2026-04-28T20:00:00+00:00"
+    },
+    "cb4f3dae-ee53-45ba-a12a-17d1db305d4a": {
+      "id": "cb4f3dae-ee53-45ba-a12a-17d1db305d4a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-05-15T20:00:00+00:00",
+      "updated_at": "2026-05-15T20:00:00+00:00"
+    },
+    "5a330802-02f3-4f54-b8aa-3d1e4d946a19": {
+      "id": "5a330802-02f3-4f54-b8aa-3d1e4d946a19",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Reflecting on patience with myself. Progress isn't linear, and that is okay.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-05-17T20:00:00+00:00",
+      "updated_at": "2026-05-17T20:00:00+00:00"
+    },
+    "f3e0e565-cea9-441a-848c-c61d41eb73ad": {
+      "id": "f3e0e565-cea9-441a-848c-c61d41eb73ad",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Enjoyed an early morning walk in the cool air. The stillness was deeply restorative.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-05T20:00:00+00:00",
+      "updated_at": "2026-06-05T20:00:00+00:00"
+    },
+    "35646a51-8ed1-4f28-8537-db628aa91f2d": {
+      "id": "35646a51-8ed1-4f28-8537-db628aa91f2d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-12T20:00:00+00:00",
+      "updated_at": "2026-06-12T20:00:00+00:00"
+    },
+    "b44f683e-56c0-42c4-95b9-048c9da9d909": {
+      "id": "b44f683e-56c0-42c4-95b9-048c9da9d909",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-16T20:00:00+00:00",
+      "updated_at": "2026-06-16T20:00:00+00:00"
+    },
+    "3a4de196-316a-4834-ab42-6a7a07a0311d": {
+      "id": "3a4de196-316a-4834-ab42-6a7a07a0311d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Deeply peaceful evening. Completed 10 minutes of mindfulness and felt gratitude for how much resilience has grown.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-20T20:00:00+00:00",
+      "updated_at": "2026-06-20T20:00:00+00:00"
+    },
+    "1f70b463-9a49-4e68-a43f-a0fa4098194f": {
+      "id": "1f70b463-9a49-4e68-a43f-a0fa4098194f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-27T20:00:00+00:00",
+      "updated_at": "2026-06-27T20:00:00+00:00"
+    },
+    "6b7aedce-587a-4bcc-897b-18fbee9727fb": {
+      "id": "6b7aedce-587a-4bcc-897b-18fbee9727fb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-06-29T20:00:00+00:00",
+      "updated_at": "2026-06-29T20:00:00+00:00"
+    },
+    "f29e12d8-5aa4-494b-b444-fdac031e3fe3": {
+      "id": "f29e12d8-5aa4-494b-b444-fdac031e3fe3",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-02T20:00:00+00:00",
+      "updated_at": "2026-07-02T20:00:00+00:00"
+    },
+    "bdc63156-40bd-472c-9fd7-2f1c1d473a28": {
+      "id": "bdc63156-40bd-472c-9fd7-2f1c1d473a28",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Deeply peaceful evening. Completed 10 minutes of mindfulness and felt gratitude for how much resilience has grown.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-09T20:00:00+00:00",
+      "updated_at": "2026-07-09T20:00:00+00:00"
+    },
+    "9991379f-e4e3-4d74-b0a6-50c51f62a0e6": {
+      "id": "9991379f-e4e3-4d74-b0a6-50c51f62a0e6",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-12T20:00:00+00:00",
+      "updated_at": "2026-07-12T20:00:00+00:00"
+    },
+    "539a7185-2d76-4e32-9e89-822b098b0ae5": {
+      "id": "539a7185-2d76-4e32-9e89-822b098b0ae5",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was demanding today, but I held my calm center throughout. Proud of this steady presence.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-16T20:00:00+00:00",
+      "updated_at": "2026-07-16T20:00:00+00:00"
+    },
+    "f03592ad-a515-4d43-93c3-a141ff9c5151": {
+      "id": "f03592ad-a515-4d43-93c3-a141ff9c5151",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-17T20:00:00+00:00",
+      "updated_at": "2026-07-17T20:00:00+00:00"
+    },
+    "e5d2eb78-1b7b-4357-8f0b-849c8d331330": {
+      "id": "e5d2eb78-1b7b-4357-8f0b-849c8d331330",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-20T20:00:00+00:00",
+      "updated_at": "2026-07-20T20:00:00+00:00"
+    },
+    "0c9b7d71-8997-466a-9304-e38110603038": {
+      "id": "0c9b7d71-8997-466a-9304-e38110603038",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-22T20:00:00+00:00",
+      "updated_at": "2026-07-22T20:00:00+00:00"
+    },
+    "db665edc-efc4-4faa-97c7-4c50899b0901": {
+      "id": "db665edc-efc4-4faa-97c7-4c50899b0901",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-27T20:00:00+00:00",
+      "updated_at": "2026-07-27T20:00:00+00:00"
+    },
+    "b7bc1e2c-c6e2-4f72-9a71-f505a8c8decb": {
+      "id": "b7bc1e2c-c6e2-4f72-9a71-f505a8c8decb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was demanding today, but I held my calm center throughout. Proud of this steady presence.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-28T20:00:00+00:00",
+      "updated_at": "2026-07-28T20:00:00+00:00"
+    },
+    "90d647d7-e5ed-4099-b6b2-25a8178a9f68": {
+      "id": "90d647d7-e5ed-4099-b6b2-25a8178a9f68",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-07-31T20:00:00+00:00",
+      "updated_at": "2026-07-31T20:00:00+00:00"
+    },
+    "48f45091-3399-49be-bd97-054b30e26d9a": {
+      "id": "48f45091-3399-49be-bd97-054b30e26d9a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-03T20:00:00+00:00",
+      "updated_at": "2026-08-03T20:00:00+00:00"
+    },
+    "606fe9cd-b4e2-4013-8e8b-87c699005309": {
+      "id": "606fe9cd-b4e2-4013-8e8b-87c699005309",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-05T20:00:00+00:00",
+      "updated_at": "2026-08-05T20:00:00+00:00"
+    },
+    "e7383f01-f0d5-4589-87cd-4c3283ba0346": {
+      "id": "e7383f01-f0d5-4589-87cd-4c3283ba0346",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Deeply peaceful evening. Completed 10 minutes of mindfulness and felt gratitude for how much resilience has grown.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-07T20:00:00+00:00",
+      "updated_at": "2026-08-07T20:00:00+00:00"
+    },
+    "64357414-3f57-46c5-9e64-ba21984c552a": {
+      "id": "64357414-3f57-46c5-9e64-ba21984c552a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-11T20:00:00+00:00",
+      "updated_at": "2026-08-11T20:00:00+00:00"
+    },
+    "c8594540-c60a-4561-9591-4b458c941e12": {
+      "id": "c8594540-c60a-4561-9591-4b458c941e12",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-13T20:00:00+00:00",
+      "updated_at": "2026-08-13T20:00:00+00:00"
+    },
+    "b54f71dd-ca5a-4382-91d0-a52e5d63b39f": {
+      "id": "b54f71dd-ca5a-4382-91d0-a52e5d63b39f",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Deeply peaceful evening. Completed 10 minutes of mindfulness and felt gratitude for how much resilience has grown.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-14T20:00:00+00:00",
+      "updated_at": "2026-08-14T20:00:00+00:00"
+    },
+    "6ba4d5d7-f74c-4b69-abbe-7aea9c361dc2": {
+      "id": "6ba4d5d7-f74c-4b69-abbe-7aea9c361dc2",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-19T20:00:00+00:00",
+      "updated_at": "2026-08-19T20:00:00+00:00"
+    },
+    "49bf70dd-af76-4f41-b0cc-84340bd871f7": {
+      "id": "49bf70dd-af76-4f41-b0cc-84340bd871f7",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-22T20:00:00+00:00",
+      "updated_at": "2026-08-22T20:00:00+00:00"
+    },
+    "2475edd4-2c39-4279-a1a8-354cfac0a1bb": {
+      "id": "2475edd4-2c39-4279-a1a8-354cfac0a1bb",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was demanding today, but I held my calm center throughout. Proud of this steady presence.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-08-23T20:00:00+00:00",
+      "updated_at": "2026-08-23T20:00:00+00:00"
+    },
+    "ac56af1e-bd53-46f1-9ede-93ef104c3a72": {
+      "id": "ac56af1e-bd53-46f1-9ede-93ef104c3a72",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-05T20:00:00+00:00",
+      "updated_at": "2026-09-05T20:00:00+00:00"
+    },
+    "3ed98915-7af9-4f66-9c60-71c162865022": {
+      "id": "3ed98915-7af9-4f66-9c60-71c162865022",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-06T20:00:00+00:00",
+      "updated_at": "2026-09-06T20:00:00+00:00"
+    },
+    "b492eed6-4710-4a6f-a470-a6b4118aa7bc": {
+      "id": "b492eed6-4710-4a6f-a470-a6b4118aa7bc",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-07T20:00:00+00:00",
+      "updated_at": "2026-09-07T20:00:00+00:00"
+    },
+    "91320269-765e-421f-ade0-7a9904c0725c": {
+      "id": "91320269-765e-421f-ade0-7a9904c0725c",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-15T20:00:00+00:00",
+      "updated_at": "2026-09-15T20:00:00+00:00"
+    },
+    "e96737d3-4617-49d0-84b6-230f0bbe13e0": {
+      "id": "e96737d3-4617-49d0-84b6-230f0bbe13e0",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-18T20:00:00+00:00",
+      "updated_at": "2026-09-18T20:00:00+00:00"
+    },
+    "ae9d0956-d004-405c-90b0-4552270a94cc": {
+      "id": "ae9d0956-d004-405c-90b0-4552270a94cc",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-19T20:00:00+00:00",
+      "updated_at": "2026-09-19T20:00:00+00:00"
+    },
+    "7c321d44-2f06-4690-b302-baebd89b93ba": {
+      "id": "7c321d44-2f06-4690-b302-baebd89b93ba",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Deeply peaceful evening. Completed 10 minutes of mindfulness and felt gratitude for how much resilience has grown.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-20T20:00:00+00:00",
+      "updated_at": "2026-09-20T20:00:00+00:00"
+    },
+    "90e15b25-2728-4691-81eb-3d2cb58a5874": {
+      "id": "90e15b25-2728-4691-81eb-3d2cb58a5874",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-23T20:00:00+00:00",
+      "updated_at": "2026-09-23T20:00:00+00:00"
+    },
+    "fe9c8d3a-e59a-4cd2-a2eb-c733aa2ded2d": {
+      "id": "fe9c8d3a-e59a-4cd2-a2eb-c733aa2ded2d",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Looking forward with steady optimism and quiet self-trust.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-09-25T20:00:00+00:00",
+      "updated_at": "2026-09-25T20:00:00+00:00"
+    },
+    "cb760e78-36ff-4481-8bf1-09a5f666015a": {
+      "id": "cb760e78-36ff-4481-8bf1-09a5f666015a",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Sitting quietly with my journal. Grateful for this dedicated sanctuary space.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-10-02T20:00:00+00:00",
+      "updated_at": "2026-10-02T20:00:00+00:00"
+    },
+    "4ad40229-0d4a-4ed2-861a-df556762c399": {
+      "id": "4ad40229-0d4a-4ed2-861a-df556762c399",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Two years of gentle self-observation. Athena has helped me notice subtle bodily cues before stress escalates.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-10-04T20:00:00+00:00",
+      "updated_at": "2026-10-04T20:00:00+00:00"
+    },
+    "246a8b60-14ce-4647-9650-fdf594f4ba05": {
+      "id": "246a8b60-14ce-4647-9650-fdf594f4ba05",
+      "user_id": "59327d2b-6e65-456e-ab5a-148602a4bd75",
+      "content": "Work was demanding today, but I held my calm center throughout. Proud of this steady presence.",
+      "reflection_enabled": false,
+      "ai_reflection": null,
+      "created_at": "2026-10-05T20:00:00+00:00",
+      "updated_at": "2026-10-05T20:00:00+00:00"
+    }
+  },
+  "test_brand_new_user_09701a45": {
+    "27f132dd-3539-416e-8486-cc43281a5598": {
+      "id": "27f132dd-3539-416e-8486-cc43281a5598",
+      "user_id": "test_brand_new_user_09701a45",
+      "content": "Today I began a new rhythm of reflection. The air is still and gentle.",
+      "ai_reflection": "Thank you for pausing and giving your thoughts a safe place to rest on this page. Honoring your inner voice without needing perfect words is a powerful form of care. I'm right here beside you whenever you want to return to your thoughts.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-09T06:42:36.540402+00:00",
+      "updated_at": "2026-10-09T06:42:36.540402+00:00"
+    }
+  },
+  "test_exp_user_19f4491b": {
+    "65e6083c-0f72-40a8-b96d-09465451fb22": {
+      "id": "65e6083c-0f72-40a8-b96d-09465451fb22",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:39.726712+00:00",
+      "updated_at": "2026-10-09T06:42:39.726712+00:00"
+    },
+    "7c972193-8651-4209-874c-7cc454391592": {
+      "id": "7c972193-8651-4209-874c-7cc454391592",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:39.818731+00:00",
+      "updated_at": "2026-10-09T06:42:39.818731+00:00"
+    },
+    "c44a5ef5-9cee-44ff-8777-c97c4f6fc2c5": {
+      "id": "c44a5ef5-9cee-44ff-8777-c97c4f6fc2c5",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:39.890979+00:00",
+      "updated_at": "2026-10-09T06:42:39.890979+00:00"
+    },
+    "3111b41b-09dc-462f-858b-d0673d6ced70": {
+      "id": "3111b41b-09dc-462f-858b-d0673d6ced70",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:39.990639+00:00",
+      "updated_at": "2026-10-09T06:42:39.990639+00:00"
+    },
+    "63f5f03b-a733-4211-a3a1-2eaab530b2f8": {
+      "id": "63f5f03b-a733-4211-a3a1-2eaab530b2f8",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.058584+00:00",
+      "updated_at": "2026-10-09T06:42:40.058584+00:00"
+    },
+    "2ba2546f-34b4-4730-b644-60a0997f8199": {
+      "id": "2ba2546f-34b4-4730-b644-60a0997f8199",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.136587+00:00",
+      "updated_at": "2026-10-09T06:42:40.136587+00:00"
+    },
+    "331a6da7-5e02-44d4-8d9e-454eee8e3fe1": {
+      "id": "331a6da7-5e02-44d4-8d9e-454eee8e3fe1",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.223954+00:00",
+      "updated_at": "2026-10-09T06:42:40.223954+00:00"
+    },
+    "a80b0062-4ec6-41fe-a372-c27aaa77cbcc": {
+      "id": "a80b0062-4ec6-41fe-a372-c27aaa77cbcc",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.336852+00:00",
+      "updated_at": "2026-10-09T06:42:40.336852+00:00"
+    },
+    "24cb07b4-6190-4836-901c-addf7cf4d7bb": {
+      "id": "24cb07b4-6190-4836-901c-addf7cf4d7bb",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.435097+00:00",
+      "updated_at": "2026-10-09T06:42:40.435097+00:00"
+    },
+    "2456b3f9-e977-4ccb-9722-1c9bec83284f": {
+      "id": "2456b3f9-e977-4ccb-9722-1c9bec83284f",
+      "user_id": "test_exp_user_19f4491b",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:40.505543+00:00",
+      "updated_at": "2026-10-09T06:42:40.505543+00:00"
+    }
+  },
+  "victim_user_a8ec280d": {
+    "aea4714b-9836-4467-9ea8-a6094a1d4cdf": {
+      "id": "aea4714b-9836-4467-9ea8-a6094a1d4cdf",
+      "user_id": "victim_user_a8ec280d",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-09T06:42:41.805677+00:00",
+      "updated_at": "2026-10-09T06:42:41.805677+00:00"
+    }
+  },
+  "test_brand_new_user_a7958c5e": {
+    "6e4293c2-2a4b-4fe7-b3fa-e43f54b4bdc4": {
+      "id": "6e4293c2-2a4b-4fe7-b3fa-e43f54b4bdc4",
+      "user_id": "test_brand_new_user_a7958c5e",
+      "content": "Today I began a new rhythm of reflection. The air is still and gentle.",
+      "ai_reflection": "It sounds like you've found a beautiful moment of stillness to begin your new rhythm of reflection. Embracing the gentleness of the air around you may create a soothing backdrop for your thoughts and feelings, allowing you to connect more deeply with your inner self.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-10T07:05:51.631418+00:00",
+      "updated_at": "2026-10-10T07:05:51.631418+00:00"
+    }
+  },
+  "test_exp_user_bc4c0eb2": {
+    "fa2fbf51-70eb-4d9f-b68a-4960a091a384": {
+      "id": "fa2fbf51-70eb-4d9f-b68a-4960a091a384",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.454133+00:00",
+      "updated_at": "2026-10-10T07:05:59.454133+00:00"
+    },
+    "19bda8bc-3b95-48d1-bc2c-ff68f032fa49": {
+      "id": "19bda8bc-3b95-48d1-bc2c-ff68f032fa49",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.498640+00:00",
+      "updated_at": "2026-10-10T07:05:59.498640+00:00"
+    },
+    "4a4c7e27-16e8-487d-a34b-04c8bbbf8837": {
+      "id": "4a4c7e27-16e8-487d-a34b-04c8bbbf8837",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.585938+00:00",
+      "updated_at": "2026-10-10T07:05:59.585938+00:00"
+    },
+    "123f754d-f0d6-4815-92eb-eb84a25d953e": {
+      "id": "123f754d-f0d6-4815-92eb-eb84a25d953e",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.652271+00:00",
+      "updated_at": "2026-10-10T07:05:59.652271+00:00"
+    },
+    "c9ed7183-3909-4d90-a296-14f5277a0ab4": {
+      "id": "c9ed7183-3909-4d90-a296-14f5277a0ab4",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.726996+00:00",
+      "updated_at": "2026-10-10T07:05:59.726996+00:00"
+    },
+    "f9dc73bb-e12f-44d6-ba09-50b7a945e86b": {
+      "id": "f9dc73bb-e12f-44d6-ba09-50b7a945e86b",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.791440+00:00",
+      "updated_at": "2026-10-10T07:05:59.791440+00:00"
+    },
+    "604fb2fc-173e-48aa-8793-7335ac1abbd5": {
+      "id": "604fb2fc-173e-48aa-8793-7335ac1abbd5",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.871522+00:00",
+      "updated_at": "2026-10-10T07:05:59.871522+00:00"
+    },
+    "d9bba476-4c4a-4ead-a0aa-8cc8066981a5": {
+      "id": "d9bba476-4c4a-4ead-a0aa-8cc8066981a5",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:05:59.998540+00:00",
+      "updated_at": "2026-10-10T07:05:59.998540+00:00"
+    },
+    "3aef418c-3698-41d9-9638-e1bb27c6a31e": {
+      "id": "3aef418c-3698-41d9-9638-e1bb27c6a31e",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:06:00.075910+00:00",
+      "updated_at": "2026-10-10T07:06:00.075910+00:00"
+    },
+    "5c3bb6b3-7747-42a9-9169-d1b7a2dc2712": {
+      "id": "5c3bb6b3-7747-42a9-9169-d1b7a2dc2712",
+      "user_id": "test_exp_user_bc4c0eb2",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:06:00.144959+00:00",
+      "updated_at": "2026-10-10T07:06:00.144959+00:00"
+    }
+  },
+  "victim_user_585bd52e": {
+    "e9d13c07-78a0-49f2-aa96-fbe0963c83d9": {
+      "id": "e9d13c07-78a0-49f2-aa96-fbe0963c83d9",
+      "user_id": "victim_user_585bd52e",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:06:03.197632+00:00",
+      "updated_at": "2026-10-10T07:06:03.197632+00:00"
+    }
+  },
+  "test_exp_user_6cc442af": {
+    "86c107e3-093f-47a5-977d-bc8bd511e2cb": {
+      "id": "86c107e3-093f-47a5-977d-bc8bd511e2cb",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:45.862318+00:00",
+      "updated_at": "2026-10-10T07:16:45.862318+00:00"
+    },
+    "f94f6536-252b-480e-9a16-866f7df348b0": {
+      "id": "f94f6536-252b-480e-9a16-866f7df348b0",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:45.908943+00:00",
+      "updated_at": "2026-10-10T07:16:45.908943+00:00"
+    },
+    "182e6464-0c94-4e90-b833-d726a5a277e7": {
+      "id": "182e6464-0c94-4e90-b833-d726a5a277e7",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:45.984300+00:00",
+      "updated_at": "2026-10-10T07:16:45.984300+00:00"
+    },
+    "497acd43-5bbd-4ad6-9556-2cef4915780a": {
+      "id": "497acd43-5bbd-4ad6-9556-2cef4915780a",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.046057+00:00",
+      "updated_at": "2026-10-10T07:16:46.046057+00:00"
+    },
+    "5c7be577-f02e-4f6c-955a-f439cc0e5794": {
+      "id": "5c7be577-f02e-4f6c-955a-f439cc0e5794",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.111488+00:00",
+      "updated_at": "2026-10-10T07:16:46.111488+00:00"
+    },
+    "80baaeaa-0015-4c06-a1dd-afdbfd4eab5b": {
+      "id": "80baaeaa-0015-4c06-a1dd-afdbfd4eab5b",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.180321+00:00",
+      "updated_at": "2026-10-10T07:16:46.180321+00:00"
+    },
+    "e1972adf-3f86-45f0-8bd9-6d9b0d7f6213": {
+      "id": "e1972adf-3f86-45f0-8bd9-6d9b0d7f6213",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.256795+00:00",
+      "updated_at": "2026-10-10T07:16:46.256795+00:00"
+    },
+    "53cabc8e-8d89-494c-8862-db8cb5584bb7": {
+      "id": "53cabc8e-8d89-494c-8862-db8cb5584bb7",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.332056+00:00",
+      "updated_at": "2026-10-10T07:16:46.332056+00:00"
+    },
+    "e1b78e96-1e7c-4237-9222-65e3796d3f73": {
+      "id": "e1b78e96-1e7c-4237-9222-65e3796d3f73",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.445301+00:00",
+      "updated_at": "2026-10-10T07:16:46.445301+00:00"
+    },
+    "9cc6940a-d5d8-4119-87a6-dabd00934b37": {
+      "id": "9cc6940a-d5d8-4119-87a6-dabd00934b37",
+      "user_id": "test_exp_user_6cc442af",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:46.516369+00:00",
+      "updated_at": "2026-10-10T07:16:46.516369+00:00"
+    }
+  },
+  "victim_user_18dba7f0": {
+    "28b2a21a-954b-40b3-8249-28ffb168df03": {
+      "id": "28b2a21a-954b-40b3-8249-28ffb168df03",
+      "user_id": "victim_user_18dba7f0",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:16:49.290377+00:00",
+      "updated_at": "2026-10-10T07:16:49.290377+00:00"
+    }
+  },
+  "test_exp_user_74189726": {
+    "f75a3680-cb90-4e5e-b55d-bc186940d3ce": {
+      "id": "f75a3680-cb90-4e5e-b55d-bc186940d3ce",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:27.991256+00:00",
+      "updated_at": "2026-10-10T07:17:27.991256+00:00"
+    },
+    "61575a42-519e-40dd-a780-61f87b0c994f": {
+      "id": "61575a42-519e-40dd-a780-61f87b0c994f",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.059996+00:00",
+      "updated_at": "2026-10-10T07:17:28.059996+00:00"
+    },
+    "fa78cdd4-a70a-4cf0-ba78-4b0b9bfb0b3a": {
+      "id": "fa78cdd4-a70a-4cf0-ba78-4b0b9bfb0b3a",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.123620+00:00",
+      "updated_at": "2026-10-10T07:17:28.123620+00:00"
+    },
+    "a987310f-e866-4397-b071-000d65bd1700": {
+      "id": "a987310f-e866-4397-b071-000d65bd1700",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.232623+00:00",
+      "updated_at": "2026-10-10T07:17:28.232623+00:00"
+    },
+    "f426578b-4666-4825-8539-09a79932ac5d": {
+      "id": "f426578b-4666-4825-8539-09a79932ac5d",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.346682+00:00",
+      "updated_at": "2026-10-10T07:17:28.346682+00:00"
+    },
+    "1fc72983-bca8-494a-9e24-57de053243bd": {
+      "id": "1fc72983-bca8-494a-9e24-57de053243bd",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.455926+00:00",
+      "updated_at": "2026-10-10T07:17:28.455926+00:00"
+    },
+    "297989c3-96cf-4d45-9e18-5460e6c45ece": {
+      "id": "297989c3-96cf-4d45-9e18-5460e6c45ece",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.541355+00:00",
+      "updated_at": "2026-10-10T07:17:28.541355+00:00"
+    },
+    "8c262a8a-9497-4ba2-9268-0a692b340b2b": {
+      "id": "8c262a8a-9497-4ba2-9268-0a692b340b2b",
+      "user_id": "test_exp_user_74189726",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.633961+00:00",
+      "updated_at": "2026-10-10T07:17:28.633961+00:00"
+    },
+    "be46d232-a3be-43e4-8ddc-7773d90fb4ab": {
+      "id": "be46d232-a3be-43e4-8ddc-7773d90fb4ab",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.736512+00:00",
+      "updated_at": "2026-10-10T07:17:28.736512+00:00"
+    },
+    "ddaae7c2-bf3e-4d7b-b91f-c841efb7de78": {
+      "id": "ddaae7c2-bf3e-4d7b-b91f-c841efb7de78",
+      "user_id": "test_exp_user_74189726",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:28.845835+00:00",
+      "updated_at": "2026-10-10T07:17:28.845835+00:00"
+    }
+  },
+  "victim_user_e5d4c2af": {
+    "153a5cfa-0a2f-43a7-8c73-ac08fca7be47": {
+      "id": "153a5cfa-0a2f-43a7-8c73-ac08fca7be47",
+      "user_id": "victim_user_e5d4c2af",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:17:31.676521+00:00",
+      "updated_at": "2026-10-10T07:17:31.676521+00:00"
+    }
+  },
+  "test_brand_new_user_c898c2a5": {
+    "cb21619f-d591-4966-8307-2eb03e4b087e": {
+      "id": "cb21619f-d591-4966-8307-2eb03e4b087e",
+      "user_id": "test_brand_new_user_c898c2a5",
+      "content": "Today I began a new rhythm of reflection. The air is still and gentle.",
+      "ai_reflection": "It sounds like you've initiated a beautiful practice of self-reflection, and the stillness of the air seems to mirror that inner calm. Embracing this new rhythm can be a gentle way to nurture your wellbeing, inviting clarity and peace into your day.",
+      "reflection_enabled": true,
+      "created_at": "2026-10-10T07:18:16.227806+00:00",
+      "updated_at": "2026-10-10T07:18:16.227806+00:00"
+    }
+  },
+  "test_exp_user_ec965a1c": {
+    "b6184cc6-352d-4da3-b54f-83afd5498607": {
+      "id": "b6184cc6-352d-4da3-b54f-83afd5498607",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 00",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:24.581051+00:00",
+      "updated_at": "2026-10-10T07:18:24.581051+00:00"
+    },
+    "06ed2eda-59ed-45de-949a-19ee96c68f28": {
+      "id": "06ed2eda-59ed-45de-949a-19ee96c68f28",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 01",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:24.635360+00:00",
+      "updated_at": "2026-10-10T07:18:24.635360+00:00"
+    },
+    "e5801b84-a49c-4a8e-bb33-85d761d9184a": {
+      "id": "e5801b84-a49c-4a8e-bb33-85d761d9184a",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 02",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:24.700975+00:00",
+      "updated_at": "2026-10-10T07:18:24.700975+00:00"
+    },
+    "60c39939-40c6-4caf-b4ae-becc2e8ad75e": {
+      "id": "60c39939-40c6-4caf-b4ae-becc2e8ad75e",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 03",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:24.775854+00:00",
+      "updated_at": "2026-10-10T07:18:24.775854+00:00"
+    },
+    "826baa1c-c6e0-4328-b084-bf549dd9382a": {
+      "id": "826baa1c-c6e0-4328-b084-bf549dd9382a",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 04",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:24.897133+00:00",
+      "updated_at": "2026-10-10T07:18:24.897133+00:00"
+    },
+    "b92b051e-de8a-4ea0-90a0-efed1605de12": {
+      "id": "b92b051e-de8a-4ea0-90a0-efed1605de12",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 05",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:25.015172+00:00",
+      "updated_at": "2026-10-10T07:18:25.015172+00:00"
+    },
+    "60d1d09f-c264-4120-a172-38a0e821842a": {
+      "id": "60d1d09f-c264-4120-a172-38a0e821842a",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 06",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:25.099173+00:00",
+      "updated_at": "2026-10-10T07:18:25.099173+00:00"
+    },
+    "cd2bb113-9472-47f0-965e-640c950eedd2": {
+      "id": "cd2bb113-9472-47f0-965e-640c950eedd2",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Special meditation on serene autumn leaves",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:25.173934+00:00",
+      "updated_at": "2026-10-10T07:18:25.173934+00:00"
+    },
+    "c51c9723-013b-4f20-9386-a61563ee6518": {
+      "id": "c51c9723-013b-4f20-9386-a61563ee6518",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 08",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:25.240468+00:00",
+      "updated_at": "2026-10-10T07:18:25.240468+00:00"
+    },
+    "466becf6-ce6c-4762-8a72-c04b9ccb907a": {
+      "id": "466becf6-ce6c-4762-8a72-c04b9ccb907a",
+      "user_id": "test_exp_user_ec965a1c",
+      "content": "Routine daily reflection entry 09",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:25.312534+00:00",
+      "updated_at": "2026-10-10T07:18:25.312534+00:00"
+    }
+  },
+  "victim_user_c2271f94": {
+    "cbdf8831-a5e0-4692-a89e-5d3942cd5153": {
+      "id": "cbdf8831-a5e0-4692-a89e-5d3942cd5153",
+      "user_id": "victim_user_c2271f94",
+      "content": "Confidential medical diagnosis: Stage 1 depression",
+      "ai_reflection": null,
+      "reflection_enabled": false,
+      "created_at": "2026-10-10T07:18:28.497045+00:00",
+      "updated_at": "2026-10-10T07:18:28.497045+00:00"
+    }
+  }
+}
