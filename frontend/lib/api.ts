@@ -54,7 +54,10 @@ const RAW_API_URL = process.env.NEXT_PUBLIC_API_URL || "/api";
 
 const API_URL = RAW_API_URL.replace(/\/+$/, "");
 const DIRECT_BACKEND_URL = (
-  process.env.NEXT_PUBLIC_BACKEND_URL || ""
+  process.env.NEXT_PUBLIC_BACKEND_URL ||
+  (typeof window !== "undefined" && window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1"
+    ? "https://athena-ai-wellness.onrender.com"
+    : "")
 ).replace(/\/+$/, "");
 
 export async function getAuthHeaders(): Promise<Record<string, string>> {
