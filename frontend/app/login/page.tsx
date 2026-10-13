@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { isExplicitDemoUser, clearDemoSessionStorage } from "@/lib/auth";
 import LoginForm from "@/components/auth/LoginForm";
 
 export default function LoginPage() {
@@ -10,7 +11,16 @@ export default function LoginPage() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
-      if (data.user) router.replace("/");
+      if (data.user) {
+        if (!isExplicitDemoUser(data.user)) {
+          // Real authenticated member: redirect to dashboard
+          router.replace("/");
+        } else {
+          // Stale demo session marker: purge it so public login experience displays cleanly
+          clearDemoSessionStorage();
+          supabase.auth.signOut().catch(() => {});
+        }
+      }
     });
   }, [router]);
 

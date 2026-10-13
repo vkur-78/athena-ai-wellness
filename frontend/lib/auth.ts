@@ -30,20 +30,77 @@ export function isExplicitDemoUser(user?: AthenaUserCandidate | null): boolean {
 }
 
 /**
+ * Determine whether an explicit Demo session is currently active in THIS browser tab.
+ * Isolated to sessionStorage so new tabs, external links, and browser restarts NEVER auto-login.
+ */
+export function isDemoSessionActive(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return (
+      sessionStorage.getItem("athena_demo_mode") === "true" &&
+      Boolean(sessionStorage.getItem("athena_demo_token"))
+    );
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Persists an explicit demo session scoped strictly to sessionStorage (tab-isolated)
+ * with minimal fallback support for API client requests. Never writes to sb-*-auth-token.
+ */
+export function persistDemoSession(data: {
+  access_token: string;
+  session_id: string;
+  user_id?: string;
+  email?: string;
+}): void {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.setItem("athena_demo_mode", "true");
+    sessionStorage.setItem("athena_demo_token", data.access_token);
+    sessionStorage.setItem("athena_demo_session_id", data.session_id);
+    // Transient localStorage fallback for API client without polluting real auth token
+    localStorage.removeItem("athena_auth_token");
+    localStorage.setItem("athena_demo_token", data.access_token);
+    localStorage.setItem("athena_demo_session_id", data.session_id);
+  } catch (e) {
+    console.warn("Could not persist demo session:", e);
+  }
+}
+
+/**
  * Remove all transient demo session markers from browser storage.
  * Preserves anonymous device ID (athena_demo_device_id) for server-side demo quota enforcement.
  */
 export function clearDemoSessionStorage(): void {
   if (typeof window === "undefined") return;
   try {
-    localStorage.removeItem("athena_demo_mode");
-    localStorage.removeItem("athena_demo_token");
-    localStorage.removeItem("athena_demo_session_id");
     sessionStorage.removeItem("athena_demo_mode");
     sessionStorage.removeItem("athena_demo_token");
     sessionStorage.removeItem("athena_demo_session_id");
+    sessionStorage.removeItem("athena_demo_user");
+    localStorage.removeItem("athena_demo_mode");
+    localStorage.removeItem("athena_demo_token");
+    localStorage.removeItem("athena_demo_session_id");
     localStorage.removeItem("athena_website_lang");
     localStorage.removeItem("athena_language");
+
+    // Purge any leaked demo session from Supabase local storage key
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith("sb-") && key.endsWith("-auth-token")) {
+        try {
+          const raw = localStorage.getItem(key);
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            if (isExplicitDemoUser(parsed?.user)) {
+              localStorage.removeItem(key);
+            }
+          }
+        } catch {}
+      }
+    }
   } catch {}
   clearApiCache();
 }

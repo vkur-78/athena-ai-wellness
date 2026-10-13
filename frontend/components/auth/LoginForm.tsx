@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { fetchUserProfile, loginUserApi } from "@/lib/api";
-import { clearDemoSessionStorage, persistAthenaSession } from "@/lib/auth";
+import { clearDemoSessionStorage, persistAthenaSession, persistDemoSession } from "@/lib/auth";
 import Image from "next/image";
 import { Mail, Lock, Eye, EyeOff, ArrowRight, ShieldCheck, AlertCircle, Sparkles } from "lucide-react";
 
@@ -18,8 +18,15 @@ export default function LoginForm() {
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-  // Clear any residual demo state on login page mount
+  // Clear residual demo states on standard login mount, or handle explicit ?demo=true query
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("demo") === "true") {
+        loginAsDemoUser();
+        return;
+      }
+    }
     clearDemoSessionStorage();
   }, []);
 
@@ -105,31 +112,13 @@ export default function LoginForm() {
       const data = await res.json();
       if (data && data.access_token) {
         const refreshToken = data.refresh_token || data.access_token;
-        try {
-          const sessionObj = {
-            access_token: data.access_token,
-            refresh_token: refreshToken,
-            expires_at: Math.floor(Date.now() / 1000) + 86400,
-            expires_in: 86400,
-            token_type: "bearer",
-            user: {
-              id: data.user_id,
-              email: data.email || "aarav.sharma.demo@athena.sanctuary",
-              aud: "authenticated",
-              role: "authenticated",
-              created_at: "2024-10-15T00:00:00Z",
-              user_metadata: {
-                full_name: "Aarav Sharma",
-                is_demo: true,
-              },
-            },
-          };
-          localStorage.setItem("sb-yvmqdlqpfuirapznbmrj-auth-token", JSON.stringify(sessionObj));
-          localStorage.setItem("athena_demo_mode", "true");
-          localStorage.setItem("athena_demo_token", data.access_token);
-          localStorage.setItem("athena_auth_token", data.access_token);
-          localStorage.setItem("athena_demo_session_id", data.session_id);
-        } catch {}
+        // Tab-isolated demo session persistence
+        persistDemoSession({
+          access_token: data.access_token,
+          session_id: data.session_id,
+          user_id: data.user_id,
+          email: data.email || "aarav.sharma.demo@athena.sanctuary",
+        });
 
         try {
           await supabase.auth.setSession({

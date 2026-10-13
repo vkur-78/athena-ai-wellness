@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { isExplicitDemoUser, isDemoSessionActive, clearDemoSessionStorage } from "@/lib/auth";
 import {
   fetchUserProfile,
   fetchTodayCheckin,
@@ -85,14 +86,35 @@ export default function HomePage() {
         } = await supabase.auth.getSession();
 
         let currentSession: any = session;
+        const isSeededDemo = isExplicitDemoUser(currentSession?.user);
+
+        // DEMO SESSION ISOLATION GUARD:
+        // A demo session is ONLY valid on the root if explicitly active in THIS tab's sessionStorage (or explicitly launched via ?demo=true).
+        // Opening a fresh browser tab, clicking an external link (like GitHub Live), or revisiting / must NEVER auto-login to demo.
+        if (isSeededDemo) {
+          const isDemoActive = isDemoSessionActive();
+          if (!isDemoActive) {
+            clearDemoSessionStorage();
+            try {
+              await supabase.auth.signOut();
+            } catch {}
+            router.replace("/login");
+            return;
+          }
+        }
+
+        // REAL REGISTERED MEMBER FALLBACK:
         if (!currentSession?.user && typeof window !== "undefined") {
-          const athenaToken = localStorage.getItem("athena_auth_token") || localStorage.getItem("athena_demo_token");
+          const athenaToken = localStorage.getItem("athena_auth_token");
           if (athenaToken) {
             const projectRef = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/https:\/\/([a-z0-9_-]+)\.supabase\.co/i)?.[1] || "yvmqdlqpfuirapznbmrj";
             const rawStored = localStorage.getItem(`sb-${projectRef}-auth-token`) || localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
             if (rawStored) {
               try {
-                currentSession = JSON.parse(rawStored);
+                const parsed = JSON.parse(rawStored);
+                if (parsed?.user && !isExplicitDemoUser(parsed.user)) {
+                  currentSession = parsed;
+                }
               } catch {}
             }
           }

@@ -289,7 +289,8 @@ export function useChat() {
   const token =
     authSession?.access_token ||
     (typeof window !== "undefined"
-      ? localStorage.getItem("athena_demo_token") ||
+      ? sessionStorage.getItem("athena_demo_token") ||
+        localStorage.getItem("athena_demo_token") ||
         (() => {
           try {
             const raw = localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
@@ -323,10 +324,19 @@ export function useChat() {
       }
 
       // 2. Explicit Demo User: Subject to 3-prompt limit
-      const demoFlag = typeof window !== "undefined" && localStorage.getItem("athena_demo_mode") === "true";
+      const demoFlag =
+        typeof window !== "undefined" &&
+        (sessionStorage.getItem("athena_demo_mode") === "true" ||
+          localStorage.getItem("athena_demo_mode") === "true");
       if (isSeededDemo || (demoFlag && !session?.user)) {
         setIsDemo(true);
-        const demoToken = session?.access_token || (typeof window !== "undefined" ? localStorage.getItem("athena_demo_token") || "" : "");
+        const demoToken =
+          session?.access_token ||
+          (typeof window !== "undefined"
+            ? sessionStorage.getItem("athena_demo_token") ||
+              localStorage.getItem("athena_demo_token") ||
+              ""
+            : "");
         fetchDemoStatus(demoToken).then((status) => {
           setDemoPromptsUsed(status.prompts_used);
           if (status.prompts_used >= 3 || status.remaining_prompts <= 0 || status.status === "exhausted") {

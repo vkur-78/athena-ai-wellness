@@ -1,8 +1,27 @@
 "use client";
 
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { supabase } from "@/lib/supabase";
+import { isExplicitDemoUser, clearDemoSessionStorage } from "@/lib/auth";
 import SignupForm from "@/components/auth/SignupForm";
 
 export default function RegisterPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user) {
+        if (!isExplicitDemoUser(data.user)) {
+          router.replace("/");
+        } else {
+          clearDemoSessionStorage();
+          supabase.auth.signOut().catch(() => {});
+        }
+      }
+    });
+  }, [router]);
+
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-[var(--background)] text-[var(--foreground)] p-4 transition-colors duration-200">
       <div className="sanctuary-aurora-bg pointer-events-none" aria-hidden="true" />

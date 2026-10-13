@@ -88,13 +88,13 @@ export function EntitlementProvider({ children }: { children: React.ReactNode })
           return;
         }
 
-        // 2. EXPLICIT DEMO USER: Either explicit Aarav session or unauthenticated visitor with explicit demo flag
-        const demoFlag = typeof window !== "undefined" && localStorage.getItem("athena_demo_mode") === "true";
-        if (isSeededDemo || (demoFlag && !session?.user)) {
+        // 2. EXPLICIT DEMO USER: Valid only if explicitly active in this tab's sessionStorage
+        const demoActive =
+          typeof window !== "undefined" &&
+          sessionStorage.getItem("athena_demo_mode") === "true" &&
+          Boolean(sessionStorage.getItem("athena_demo_token"));
+        if ((isSeededDemo || !session?.user) && demoActive) {
           setIsDemoMode(true);
-          try {
-            localStorage.setItem("athena_demo_mode", "true");
-          } catch {}
           return;
         }
 

@@ -3,7 +3,12 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
-import { clearAllSanctuarySessions } from "@/lib/auth";
+import {
+  clearAllSanctuarySessions,
+  clearDemoSessionStorage,
+  isExplicitDemoUser,
+  isDemoSessionActive,
+} from "@/lib/auth";
 import { fetchUserProfile, fetchCheckinHistory } from "@/lib/api";
 import { calculateActualStreak } from "@/lib/dashboardMetrics";
 import { voiceSessionManager } from "@/lib/voiceSessionManager";
@@ -49,6 +54,15 @@ export default function ProfilePage() {
       try {
         const { data: { session } } = await supabase.auth.getSession();
         if (!session?.user) {
+          router.replace("/login");
+          return;
+        }
+
+        if (isExplicitDemoUser(session.user) && !isDemoSessionActive()) {
+          clearDemoSessionStorage();
+          try {
+            await supabase.auth.signOut();
+          } catch {}
           router.replace("/login");
           return;
         }

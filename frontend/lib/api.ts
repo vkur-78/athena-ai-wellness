@@ -88,9 +88,13 @@ export async function getAuthHeaders(): Promise<Record<string, string>> {
       return headers;
     }
     if (typeof window !== "undefined") {
-      const isDemoMode = localStorage.getItem("athena_demo_mode") === "true";
+      const isDemoMode =
+        sessionStorage.getItem("athena_demo_mode") === "true" ||
+        localStorage.getItem("athena_demo_mode") === "true";
       if (isDemoMode) {
-        const demoToken = localStorage.getItem("athena_demo_token");
+        const demoToken =
+          sessionStorage.getItem("athena_demo_token") ||
+          localStorage.getItem("athena_demo_token");
         if (demoToken) {
           headers["Authorization"] = `Bearer ${demoToken}`;
           return headers;
