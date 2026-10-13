@@ -4,7 +4,7 @@ import pytest
 from playwright.sync_api import sync_playwright
 
 CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-BASE_URL = os.getenv("TEST_BASE_URL", "http://localhost:3000")
+BASE_URL = os.getenv("TEST_BASE_URL", "https://athena-ai-wellness.vercel.app")
 
 def test_fresh_public_root_does_not_auto_login_to_demo():
     """Verify that clicking the Live link (visiting root /) in a clean browser session displays the public login experience and NEVER auto-logs into demo."""
