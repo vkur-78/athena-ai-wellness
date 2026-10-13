@@ -53,6 +53,9 @@ import { getCached, setCached, clearApiCache } from "./apiCache";
 const RAW_API_URL = process.env.NEXT_PUBLIC_API_URL || "/api";
 
 const API_URL = RAW_API_URL.replace(/\/+$/, "");
+const DIRECT_BACKEND_URL = (
+  process.env.NEXT_PUBLIC_BACKEND_URL || ""
+).replace(/\/+$/, "");
 
 export async function getAuthHeaders(): Promise<Record<string, string>> {
   const headers: Record<string, string> = {};
@@ -719,11 +722,31 @@ export async function patchUserProfile(profileData: any, token?: string) {
 
 export async function registerUserApi(email: string, password: string) {
   const payload = { email: email.trim().toLowerCase(), password: password.trim() };
-  const res = await fetch(`${API_URL}/auth/register`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
+  let res: Response;
+  try {
+    res = await fetch(`${API_URL}/auth/register`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok && res.status >= 500) {
+      throw new Error(`Edge proxy returned ${res.status}`);
+    }
+  } catch (primaryErr) {
+    if (DIRECT_BACKEND_URL) {
+      try {
+        res = await fetch(`${DIRECT_BACKEND_URL}/api/auth/register`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+      } catch {
+        throw primaryErr;
+      }
+    } else {
+      throw primaryErr;
+    }
+  }
 
   if (!res.ok) {
     if (res.status === 404 && API_URL.endsWith("/api")) {
@@ -754,11 +777,31 @@ export async function registerUserApi(email: string, password: string) {
 
 export async function loginUserApi(email: string, password: string) {
   const payload = { email: email.trim().toLowerCase(), password: password.trim() };
-  const res = await fetch(`${API_URL}/auth/login`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
+  let res: Response;
+  try {
+    res = await fetch(`${API_URL}/auth/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok && res.status >= 500) {
+      throw new Error(`Edge proxy returned ${res.status}`);
+    }
+  } catch (primaryErr) {
+    if (DIRECT_BACKEND_URL) {
+      try {
+        res = await fetch(`${DIRECT_BACKEND_URL}/api/auth/login`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+      } catch {
+        throw primaryErr;
+      }
+    } else {
+      throw primaryErr;
+    }
+  }
 
   if (!res.ok) {
     if (res.status === 404 && API_URL.endsWith("/api")) {

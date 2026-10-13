@@ -86,7 +86,7 @@ export default function HomePage() {
 
         let currentSession: any = session;
         if (!currentSession?.user && typeof window !== "undefined") {
-          const athenaToken = localStorage.getItem("athena_auth_token");
+          const athenaToken = localStorage.getItem("athena_auth_token") || localStorage.getItem("athena_demo_token");
           if (athenaToken) {
             const projectRef = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/https:\/\/([a-z0-9_-]+)\.supabase\.co/i)?.[1] || "yvmqdlqpfuirapznbmrj";
             const rawStored = localStorage.getItem(`sb-${projectRef}-auth-token`) || localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");

@@ -342,7 +342,14 @@ export function useChat() {
     };
 
     supabase.auth.getSession().then(({ data: { session } }) => {
-      handleAuthResolution(session);
+      let resolved = session;
+      if (!resolved?.user && typeof window !== "undefined") {
+        try {
+          const raw = localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
+          if (raw) resolved = JSON.parse(raw);
+        } catch {}
+      }
+      handleAuthResolution(resolved);
     });
 
     const {

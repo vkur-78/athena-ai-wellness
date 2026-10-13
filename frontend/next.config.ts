@@ -3,17 +3,24 @@ import type { NextConfig } from "next";
 const backendUrl = (
   process.env.BACKEND_URL ||
   process.env.NEXT_PUBLIC_BACKEND_URL ||
-  "https://click-tracking-vendors-victory.trycloudflare.com"
+  (process.env.NODE_ENV === "production" ? "" : "http://127.0.0.1:8001")
 ).replace(/\/+$/, "");
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: [
-    "*.trycloudflare.com",
     "localhost:3000",
     "127.0.0.1:3000",
   ],
   devIndicators: false,
   async rewrites() {
+    if (!backendUrl) {
+      if (process.env.NODE_ENV === "production") {
+        console.warn(
+          "[Athena Production Warning] BACKEND_URL is not configured. /api proxy rewrites are disabled."
+        );
+      }
+      return [];
+    }
     return [
       {
         source: "/api/:path*",
@@ -24,3 +31,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+

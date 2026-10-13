@@ -27,11 +27,36 @@ jobs:
           pip install -r backend/requirements.txt
           pip install pytest httpx
 
+      - name: Verify Rejection of Temporary Quick Tunnels
+        run: |
+          python -c "
+          from pathlib import Path
+          monitored_files = [
+              'frontend/next.config.ts',
+              'frontend/lib/api.ts',
+              'frontend/components/auth/LoginForm.tsx',
+              'backend/main.py'
+          ]
+          for f in monitored_files:
+              p = Path(f)
+              if p.exists():
+                  content = p.read_text(encoding='utf-8')
+                  if 'trycloudflare.com' in content or 'trycloudflare' in content:
+                      raise SystemExit(f'CRITICAL: Forbidden trycloudflare reference found in {f}')
+          print('✓ All production sources verified clean of temporary tunnel dependencies.')
+          "
+
       - name: Run Backend Contracts & Regression Suite
         run: |
           cd backend
           pytest tests/test_production_core_contracts.py -v
           pytest tests/test_17_bugs_regression.py -v
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://mock-athena.supabase.co' }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY || 'athena-mock-service-key-ci' }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET || 'athena-ci-jwt-secret' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || 'mock-openai-api-key-for-ci' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || 'mock-gemini-api-key-for-ci' }}
 
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
@@ -52,3 +77,4 @@ jobs:
         env:
           NEXT_PUBLIC_API_URL: /api
           BACKEND_URL: http://127.0.0.1:8001
+

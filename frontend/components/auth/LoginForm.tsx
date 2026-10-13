@@ -42,11 +42,35 @@ export default function LoginForm() {
         headers["X-Demo-Device-Id"] = deviceId;
       }
 
-      const res = await fetch(`${apiUrl.replace(/\/+$/, "")}/auth/demo-session`, {
-        method: "POST",
-        headers,
-        body: JSON.stringify({ device_id: deviceId }),
-      });
+      const directBackendUrl = (
+        process.env.NEXT_PUBLIC_BACKEND_URL || ""
+      ).replace(/\/+$/, "");
+
+      let res: Response;
+      try {
+        res = await fetch(`${apiUrl.replace(/\/+$/, "")}/auth/demo-session`, {
+          method: "POST",
+          headers,
+          body: JSON.stringify({ device_id: deviceId }),
+        });
+        if (!res.ok && res.status >= 500) {
+          throw new Error(`Edge proxy returned ${res.status}`);
+        }
+      } catch (primaryErr) {
+        if (directBackendUrl) {
+          try {
+            res = await fetch(`${directBackendUrl}/api/auth/demo-session`, {
+              method: "POST",
+              headers,
+              body: JSON.stringify({ device_id: deviceId }),
+            });
+          } catch {
+            throw primaryErr;
+          }
+        } else {
+          throw primaryErr;
+        }
+      }
 
       if (!res.ok) {
         let detail = "";
@@ -86,6 +110,7 @@ export default function LoginForm() {
           localStorage.setItem("sb-yvmqdlqpfuirapznbmrj-auth-token", JSON.stringify(sessionObj));
           localStorage.setItem("athena_demo_mode", "true");
           localStorage.setItem("athena_demo_token", data.access_token);
+          localStorage.setItem("athena_auth_token", data.access_token);
           localStorage.setItem("athena_demo_session_id", data.session_id);
         } catch {}
 

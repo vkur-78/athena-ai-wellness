@@ -27,8 +27,6 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "https://athena-ai-wellness.vercel.app",
     "https://athena-wellness.vercel.app",
-    "https://yang-international-joined-movement.trycloudflare.com",
-    "https://balance-bean-newcastle-paid.trycloudflare.com",
 ]
 
 app.add_middleware(
