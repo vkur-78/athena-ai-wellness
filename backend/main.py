@@ -32,7 +32,7 @@ ALLOWED_ORIGINS = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    allow_origin_regex=r"^https://([a-zA-Z0-9_-]+\.)?vercel\.app$",
+    allow_origin_regex=r"^https://([a-zA-Z0-9_-]+\.)?(vercel\.app|onrender\.com)$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -119,5 +119,14 @@ def system_time_endpoint():
         "timezone": "Asia/Kolkata",
         "date_offset_days": offset.days,
     }
+
+
+if __name__ == "__main__":
+    import uvicorn
+    import os
+
+    port = int(os.getenv("PORT", "8001"))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
+
 
 
