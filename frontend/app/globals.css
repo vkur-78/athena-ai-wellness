@@ -822,11 +822,14 @@ html.light .sanctuary-aurora-bg.care-room,
   background: #3f414d;
 }
 
-textarea {
+textarea,
+.no-scrollbar {
   scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-textarea::-webkit-scrollbar {
+textarea::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 

@@ -288,7 +288,7 @@ export default function InsightsPage() {
     <div className={`relative min-h-screen w-full flex flex-col bg-sanctuary-bg text-sanctuary-text`}>
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
-      <main data-tour="insights-overview" className="relative z-10 flex-1 w-full max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-6 space-y-6 animate-athena-fade">
+      <main data-tour="insights-overview" className="relative z-10 flex-1 w-full max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 pb-32 sm:pb-12 space-y-6 animate-athena-fade">
         {/* Workspace Top Header & Time Filter Bar */}
         <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-sanctuary-border/40 pb-4">
           <div>

@@ -105,7 +105,7 @@ export default function ChatPage() {
 
   return (
     <main
-      className={`flex flex-col h-screen w-full overflow-hidden select-none transition-colors duration-300 ${
+      className={`flex flex-col h-[100dvh] min-h-[100dvh] w-full overflow-hidden select-none transition-colors duration-300 ${
         isLight
           ? "bg-[#F8F7F4] text-[#18181B]"
           : "bg-[#060814] text-[#F8F7FF] sanctuary-aurora-bg conversation-room"

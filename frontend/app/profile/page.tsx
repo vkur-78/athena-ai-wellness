@@ -21,6 +21,8 @@ import {
   Bell,
   Check,
   Globe,
+  AlertCircle,
+  Loader2,
 } from "lucide-react";
 import { useTheme } from "@/context/ThemeContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -82,10 +84,32 @@ export default function ProfilePage() {
     };
   }, [router]);
 
+  const [showLogoutModal, setShowLogoutModal] = useState<boolean>(false);
+  const [logoutLoading, setLogoutLoading] = useState<boolean>(false);
+  const [logoutError, setLogoutError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && showLogoutModal && !logoutLoading) {
+        setShowLogoutModal(false);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [showLogoutModal, logoutLoading]);
+
   const handleLogout = async () => {
-    voiceSessionManager.stopAll();
-    await clearAllSanctuarySessions();
-    router.replace("/login");
+    try {
+      setLogoutLoading(true);
+      setLogoutError(null);
+      voiceSessionManager.stopAll();
+      await clearAllSanctuarySessions();
+      router.replace("/login");
+    } catch (err: any) {
+      console.error("Profile logout error:", err);
+      setLogoutError(err?.message || "Could not sign out. Please try again.");
+      setLogoutLoading(false);
+    }
   };
 
   const handleSaveReminder = () => {
@@ -122,7 +146,7 @@ export default function ProfilePage() {
 
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
-      <div data-tour="profile-privacy" className="relative z-10 flex-1 w-full max-w-2xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-6 animate-in fade-in duration-300">
+      <div data-tour="profile-privacy" className="relative z-10 flex-1 w-full max-w-2xl mx-auto px-4 sm:px-6 pt-4 sm:pt-8 pb-32 sm:pb-16 space-y-6 animate-in fade-in duration-300">
         {/* Header */}
         <div className="text-center space-y-2 pt-2">
           <h1
@@ -169,10 +193,10 @@ export default function ProfilePage() {
               : "sanctuary-glass border-[#7C5CFF]/20 shadow-[0_4px_24px_rgba(0,0,0,0.35)]"
           }`}
         >
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-center gap-4 min-w-0">
               <div
-                className={`h-12 w-12 rounded-[18px] flex items-center justify-center font-semibold text-lg border ${
+                className={`h-12 w-12 rounded-[18px] flex items-center justify-center font-semibold text-lg border shrink-0 ${
                   isLight
                     ? "bg-[#6E4FE6]/10 border-[#6E4FE6]/25 text-[#6E4FE6]"
                     : "bg-[#7C5CFF] border-[#7C5CFF]/50 text-white shadow-[0_0_14px_rgba(124,92,255,0.4)]"
@@ -180,30 +204,48 @@ export default function ProfilePage() {
               >
                 {displayName[0].toUpperCase()}
               </div>
-              <div>
+              <div className="min-w-0">
                 <h2
-                  className={`text-lg font-semibold tracking-tight ${
+                  className={`text-lg font-semibold tracking-tight truncate ${
                     isLight ? "text-[#1C1917]" : "text-[#F8F7FF]"
                   }`}
                 >
                   {displayName}
                 </h2>
-                <p className={`text-xs ${isLight ? "text-[#78716C]" : "text-[#B8BDD6]/70"}`}>
+                <p className={`text-xs truncate ${isLight ? "text-[#78716C]" : "text-[#B8BDD6]/70"}`}>
                   {user.email}
                 </p>
               </div>
             </div>
 
-            {/* Streak Badge */}
-            <div
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs ${
-                isLight
-                  ? "bg-amber-50 border-amber-200 text-amber-800"
-                  : "bg-amber-500/10 border-amber-500/30 text-amber-300 shadow-[0_0_10px_rgba(245,158,11,0.15)]"
-              }`}
-            >
-              <Flame size={13} className="text-amber-500 fill-amber-500" />
-              <span>{streakDays} {t("profile_days_presence", "days of presence")}</span>
+            {/* Streak Badge & Quick Logout */}
+            <div className="flex items-center gap-2 self-start sm:self-auto shrink-0 flex-wrap">
+              <div
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs ${
+                  isLight
+                    ? "bg-amber-50 border-amber-200 text-amber-800"
+                    : "bg-amber-500/10 border-amber-500/30 text-amber-300 shadow-[0_0_10px_rgba(245,158,11,0.15)]"
+                }`}
+              >
+                <Flame size={13} className="text-amber-500 fill-amber-500" />
+                <span>{streakDays} {t("profile_days_presence", "days of presence")}</span>
+              </div>
+
+              <button
+                id="profile-header-logout-btn"
+                type="button"
+                onClick={() => setShowLogoutModal(true)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium transition-all duration-150 active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 ${
+                  isLight
+                    ? "border-stone-200 bg-stone-100/90 text-stone-600 hover:text-rose-600 hover:bg-rose-50 hover:border-rose-200"
+                    : "border-[#7C5CFF]/20 bg-[#0B1228]/80 text-[#B8BDD6] hover:text-rose-400 hover:border-rose-500/30 hover:bg-rose-500/10"
+                }`}
+                title={t("profile_sign_out", "Rest and sign out")}
+                aria-label={t("profile_sign_out", "Rest and sign out")}
+              >
+                <LogOut size={13} />
+                <span>{t("profile_sign_out_short", "Sign Out")}</span>
+              </button>
             </div>
           </div>
 
@@ -486,22 +528,148 @@ export default function ProfilePage() {
           </p>
         </section>
 
-        {/* Rest & Sign Out */}
-        <div className="pt-2 flex justify-center">
-          <button
-            type="button"
-            onClick={handleLogout}
-            className={`flex items-center gap-2 px-6 py-2.5 rounded-2xl border text-xs font-medium transition-all duration-200 active:scale-95 cursor-pointer ${
-              isLight
-                ? "border-stone-300 bg-stone-100 text-stone-700 hover:bg-stone-200"
-                : "border-[#7C5CFF]/20 bg-[#0B1228]/80 text-[#B8BDD6] hover:text-rose-400 hover:border-rose-500/30 hover:bg-rose-500/10"
-            }`}
-          >
-            <LogOut size={14} />
-            <span>{t("profile_sign_out", "Rest and sign out")}</span>
-          </button>
-        </div>
+        {/* 5. Session and Security Management Card */}
+        <section
+          aria-label="Session and Sign Out"
+          className={`rounded-[26px] border p-6 sm:p-7 space-y-4 transition-all duration-200 ${
+            isLight
+              ? "bg-white border-[rgba(124,92,255,0.11)] shadow-[0_4px_24px_-2px_rgba(28,25,23,0.05)]"
+              : "sanctuary-glass border-[#7C5CFF]/20 shadow-[0_4px_24px_rgba(0,0,0,0.35)]"
+          }`}
+        >
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 className={`text-sm font-semibold tracking-tight ${isLight ? "text-[#1C1917]" : "text-[#F8F7FF]"}`}>
+                {t("profile_session_title", "Sanctuary Session & Security")}
+              </h3>
+              <p className={`text-xs mt-0.5 ${isLight ? "text-[#78716C]" : "text-[#B8BDD6]/70"}`}>
+                {isDemoMode
+                  ? "Exploring under temporary guest demo credentials. All session data is isolated."
+                  : "Signed in securely. Your private reflections and memories are encrypted and intact."}
+              </p>
+            </div>
+
+            <button
+              id="profile-bottom-logout-btn"
+              type="button"
+              onClick={() => setShowLogoutModal(true)}
+              className={`flex items-center justify-center gap-2 px-5 py-2.5 rounded-2xl border text-xs font-semibold transition-all duration-200 active:scale-95 cursor-pointer shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 ${
+                isLight
+                  ? "border-rose-200 bg-rose-50 text-rose-700 hover:bg-rose-100 hover:border-rose-300"
+                  : "border-rose-500/30 bg-rose-500/10 text-rose-300 hover:text-white hover:bg-rose-500/20"
+              }`}
+            >
+              <LogOut size={14} />
+              <span>{t("profile_sign_out", "Rest and sign out")}</span>
+            </button>
+          </div>
+        </section>
       </div>
+
+      {/* Accessible Logout Confirmation Dialog */}
+      {showLogoutModal && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="logout-dialog-title"
+          aria-describedby="logout-dialog-desc"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-md animate-in fade-in duration-200"
+          onClick={() => {
+            if (!logoutLoading) setShowLogoutModal(false);
+          }}
+        >
+          <div
+            className={`w-full max-w-md rounded-[28px] border p-6 sm:p-7 space-y-5 shadow-2xl transition-all duration-200 animate-in zoom-in-95 ${
+              isLight
+                ? "bg-[#FFFFFF] border-[rgba(124,92,255,0.15)] text-[#1C1917] shadow-xl"
+                : "bg-[#0E1326] border-[#7C5CFF]/30 text-[#F8F7FF] shadow-[0_16px_48px_rgba(0,0,0,0.8)]"
+            }`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center gap-3">
+              <div
+                className={`p-3 rounded-2xl border ${
+                  isLight
+                    ? "bg-rose-50 border-rose-200 text-rose-600"
+                    : "bg-rose-500/15 border-rose-500/30 text-rose-300"
+                }`}
+              >
+                <LogOut size={20} />
+              </div>
+              <div>
+                <h3
+                  id="logout-dialog-title"
+                  className="text-base sm:text-lg font-semibold tracking-tight font-serif"
+                >
+                  {isDemoMode
+                    ? t("profile_logout_confirm_demo_title", "Conclude Demo Session?")
+                    : t("profile_logout_confirm_title", "Rest and sign out?")}
+                </h3>
+                <p
+                  id="logout-dialog-desc"
+                  className={`text-xs sm:text-sm mt-0.5 ${
+                    isLight ? "text-[#524E5E]" : "text-[#B8BDD6]"
+                  }`}
+                >
+                  {isDemoMode
+                    ? "Conclude your temporary demo exploration. Your device quota remains securely tracked on the server."
+                    : "Are you sure you want to end your current sanctuary session? Your reflections, conversations, and gentle progress will remain safely preserved."}
+                </p>
+              </div>
+            </div>
+
+            {logoutError && (
+              <div
+                role="alert"
+                className="p-3 rounded-xl border border-rose-500/40 bg-rose-500/10 text-xs text-rose-300 flex items-center gap-2"
+              >
+                <AlertCircle size={14} className="shrink-0 text-rose-400" />
+                <span>{logoutError}</span>
+              </div>
+            )}
+
+            <div className="flex items-center justify-end gap-3 pt-2">
+              <button
+                type="button"
+                autoFocus
+                disabled={logoutLoading}
+                onClick={() => setShowLogoutModal(false)}
+                className={`px-4 py-2.5 rounded-2xl text-xs font-semibold border transition-all duration-150 active:scale-95 cursor-pointer disabled:opacity-50 ${
+                  isLight
+                    ? "border-stone-200 bg-stone-100 text-stone-700 hover:bg-stone-200"
+                    : "border-white/10 bg-white/5 text-[#B8BDD6] hover:bg-white/10 hover:text-white"
+                }`}
+              >
+                {t("common_cancel", "Stay in Sanctuary")}
+              </button>
+
+              <button
+                id="confirm-logout-button"
+                type="button"
+                disabled={logoutLoading}
+                onClick={handleLogout}
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-2xl text-xs font-semibold shadow-md transition-all duration-150 active:scale-95 cursor-pointer disabled:opacity-50 ${
+                  isLight
+                    ? "bg-rose-600 hover:bg-rose-700 text-white shadow-rose-600/20"
+                    : "bg-rose-600 hover:bg-rose-500 text-white shadow-[0_0_16px_rgba(225,29,72,0.4)]"
+                }`}
+              >
+                {logoutLoading ? (
+                  <>
+                    <Loader2 size={13} className="animate-spin" />
+                    <span>Signing out...</span>
+                  </>
+                ) : (
+                  <>
+                    <LogOut size={13} />
+                    <span>{t("profile_sign_out_action", "Confirm Sign Out")}</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

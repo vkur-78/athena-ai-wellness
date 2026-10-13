@@ -502,7 +502,7 @@ function WeeklyReplayContent() {
       <div className="sanctuary-aurora-bg pointer-events-none" aria-hidden="true" />
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
-      <main data-tour="weekly-replay" className="relative z-10 flex-1 w-full max-w-[1080px] mx-auto px-4 sm:px-6 lg:px-8 pt-5 sm:pt-6 pb-20 space-y-6 sm:space-y-8 animate-athena-fade">
+      <main data-tour="weekly-replay" className="relative z-10 flex-1 w-full max-w-[1080px] mx-auto px-4 sm:px-6 lg:px-8 pt-5 sm:pt-6 pb-32 sm:pb-20 space-y-6 sm:space-y-8 animate-athena-fade">
         {/* TOP CONTROLS & TIMELINE NAVIGATION */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-3.5 sm:p-4 rounded-2xl border border-[var(--sanctuary-border)] bg-[var(--sanctuary-surface)] shadow-xs">
           {/* Week Selector Bar */}

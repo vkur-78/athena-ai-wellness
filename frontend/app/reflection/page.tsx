@@ -133,7 +133,7 @@ export default function ReflectionHubPage() {
     >
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
-      <div className="flex-1 w-full max-w-3xl mx-auto px-4 py-8 sm:py-14">
+      <div className="flex-1 w-full max-w-3xl mx-auto px-4 pt-4 sm:pt-8 pb-32 sm:pb-14">
         {/* Top Header & Navigation */}
         <div className="flex items-center justify-between pb-8">
           <Link

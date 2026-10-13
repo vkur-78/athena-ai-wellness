@@ -273,7 +273,7 @@ export default function SpacePage() {
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
       {/* Main Space Container */}
-      <div data-tour="journal-area" className="relative z-10 flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <div data-tour="journal-area" className="relative z-10 flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-8 pb-32 sm:pb-16">
         {/* VIEW 1: Editor View */}
         {viewMode === "editor" && (
           <JournalEditor

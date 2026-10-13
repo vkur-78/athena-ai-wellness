@@ -16,7 +16,7 @@ import {
   Sparkles,
   HelpCircle,
 } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import CrisisModal from "@/components/common/CrisisModal";
 import { useTheme } from "@/context/ThemeContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -40,10 +40,22 @@ export default function SanctuaryNav({
   const { openInvitation } = useTour();
   const [showCrisisModal, setShowCrisisModal] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const activeNavRef = useRef<HTMLAnchorElement | null>(null);
+  const navContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (activeNavRef.current && navContainerRef.current) {
+      activeNavRef.current.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest",
+      });
+    }
+  }, [pathname]);
 
   const activeToggle = onToggleTheme || globalToggleTheme;
 
@@ -223,10 +235,12 @@ export default function SanctuaryNav({
       {/* 2. MOBILE BOTTOM TRANSLUCENT SANCTUARY DOCK */}
       <nav
         aria-label="Sanctuary Mobile Bottom Navigation"
-        className="md:hidden fixed bottom-0 left-0 right-0 z-40 px-3 pb-3 pt-1 pointer-events-none"
+        className="md:hidden fixed bottom-0 left-0 right-0 z-40 px-2 sm:px-3 pt-1 pointer-events-none"
+        style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom, 0.75rem))" }}
       >
         <div
-          className={`pointer-events-auto mx-auto max-w-md flex items-center justify-around rounded-[24px] border backdrop-blur-2xl transition-all duration-[250ms] p-1.5 ${
+          ref={navContainerRef}
+          className={`pointer-events-auto mx-auto max-w-lg w-full flex items-center overflow-x-auto no-scrollbar scroll-smooth gap-1 sm:justify-around rounded-[24px] border backdrop-blur-2xl transition-all duration-[250ms] p-1.5 ${
             isLight
               ? "bg-[#FFFFFF]/95 border-[rgba(124,92,255,0.15)] shadow-[0_8px_28px_-4px_rgba(28,25,23,0.10)] text-[#1C1917]"
               : "bg-[#151A2E]/92 border-[#2E2157]/60 shadow-[0_8px_32px_rgba(15,18,32,0.9)] text-[#F1EEF8]"
@@ -243,8 +257,9 @@ export default function SanctuaryNav({
               <Link
                 key={item.href}
                 href={item.href}
+                ref={isActive ? activeNavRef : undefined}
                 aria-current={isActive ? "page" : undefined}
-                className={`flex-1 flex flex-col items-center justify-center py-2 px-1 min-h-[48px] rounded-[20px] transition-all duration-[200ms] active:scale-95 ${
+                className={`shrink-0 sm:flex-1 flex flex-col items-center justify-center py-1.5 px-2 min-w-[56px] min-h-[48px] rounded-[18px] transition-all duration-[200ms] active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7C5CFF]/50 ${
                   isActive
                     ? isLight
                       ? "bg-[#6E4FE6]/12 text-[#5D3FD3] font-semibold border border-[#6E4FE6]/25 shadow-xs"
@@ -274,7 +289,7 @@ export default function SanctuaryNav({
                     />
                   )}
                 </div>
-                <span className="text-[10px] sm:text-[11px] tracking-tight mt-1 font-sans text-center truncate max-w-[56px] sm:max-w-none leading-normal">
+                <span className="text-[10px] sm:text-[11px] tracking-tight mt-1 font-sans text-center whitespace-nowrap leading-tight">
                   {item.label}
                 </span>
               </Link>

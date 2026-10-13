@@ -222,7 +222,7 @@ export default function StudioPage() {
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
       {/* 2. Main Studio Library Content */}
-      <main data-tour="studio-area" className="relative z-10 max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-12 sm:space-y-14 animate-athena-fade">
+      <main data-tour="studio-area" className="relative z-10 max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 pb-32 sm:pb-16 space-y-12 sm:space-y-14 animate-athena-fade">
         {/* Header with Dev Voice QA Lab Button */}
         <header className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
           <div className="space-y-2">
@@ -323,7 +323,7 @@ export default function StudioPage() {
                 <a
                   key={cat.key}
                   href={`#cat-${cat.key}`}
-                  className="group relative p-5 rounded-[24px] border border-[var(--border)] bg-[var(--surface-elevated)] hover:border-[var(--accent)] transition-all duration-300 text-left flex flex-col justify-between overflow-hidden cursor-pointer hover:-translate-y-1 shadow-md hover:shadow-[0_12px_28px_rgba(124,92,255,0.15)]"
+                  className="group relative p-3.5 sm:p-5 rounded-[24px] border border-[var(--border)] bg-[var(--surface-elevated)] hover:border-[var(--accent)] transition-all duration-300 text-left flex flex-col justify-between overflow-hidden cursor-pointer hover:-translate-y-1 shadow-md hover:shadow-[0_12px_28px_rgba(124,92,255,0.15)]"
                 >
                   {/* Atmospheric Glow on Hover */}
                   <div

@@ -408,7 +408,7 @@ export default function ChatInput({
 
   return (
     <footer
-      className={`px-4 pt-2 pb-4 sm:px-6 transition-colors duration-250 ${
+      className={`px-3 sm:px-6 pt-2 pb-[calc(5rem+env(safe-area-inset-bottom))] md:pb-4 transition-colors duration-250 ${
         isLight
           ? "bg-gradient-to-t from-[#F8F7F4]/95 via-[#F8F7F4]/70 to-transparent backdrop-blur-md"
           : "bg-gradient-to-t from-[#060814]/95 via-[#060814]/70 to-transparent backdrop-blur-md"

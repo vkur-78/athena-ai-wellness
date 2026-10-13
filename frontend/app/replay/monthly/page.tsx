@@ -425,7 +425,7 @@ function MonthlyReplayContent() {
       <div className="sanctuary-aurora-bg pointer-events-none" aria-hidden="true" />
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
-      <main data-tour="monthly-replay" className="relative z-10 flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8">
+      <main data-tour="monthly-replay" className="relative z-10 flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 pb-32 sm:pb-12 space-y-8">
         {/* Navigation Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-3 border-b border-sanctuary-border/30 pb-3.5">
           <div className="flex items-center gap-3">

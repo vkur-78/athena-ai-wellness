@@ -331,7 +331,7 @@ export default function OnboardingPage() {
     return (
       <main className="relative min-h-screen flex items-center justify-center bg-[var(--background)] p-4 text-[var(--foreground)]">
         <div className="sanctuary-aurora-bg pointer-events-none" aria-hidden="true" />
-        <div className="relative z-10 w-full max-w-lg rounded-[28px] border border-[var(--border)] bg-[var(--surface-elevated)] backdrop-blur-2xl p-8 sm:p-10 text-center space-y-6 shadow-2xl pointer-events-auto animate-in fade-in duration-300">
+        <div className="relative z-10 w-full max-w-lg rounded-[28px] border border-[var(--border)] bg-[var(--surface-elevated)] backdrop-blur-2xl p-6 sm:p-10 text-center space-y-6 shadow-2xl pointer-events-auto animate-in fade-in duration-300">
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-[24px] bg-[var(--accent-soft)] border border-[var(--border-strong)] text-[var(--accent)] shadow-xs">
             <CheckCircle2 size={30} className="text-[var(--accent)]" />
           </div>
@@ -795,7 +795,7 @@ export default function OnboardingPage() {
       </div>
 
       {/* Docked Navigation Action Strip: Always visible and easily usable across all viewports */}
-      <div className="fixed bottom-0 left-0 right-0 z-20 bg-[var(--background)]/95 backdrop-blur-xl pt-3 pb-4 sm:pb-6 border-t border-[var(--border)] px-4">
+      <div className="fixed bottom-0 left-0 right-0 z-20 bg-[var(--background)]/95 backdrop-blur-xl pt-3 pb-[max(1rem,env(safe-area-inset-bottom))] sm:pb-6 border-t border-[var(--border)] px-4">
         <div className="w-full max-w-xl mx-auto space-y-2.5">
           <button
             id="onboarding-continue-button"

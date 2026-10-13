@@ -77,7 +77,7 @@ export default function CarePage() {
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
       {/* Main Care Center Sanctuary */}
-      <div data-tour="care-support" className="relative z-10 flex-1 w-full max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 animate-in fade-in duration-300">
+      <div data-tour="care-support" className="relative z-10 flex-1 w-full max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-8 pb-32 sm:pb-16 space-y-12 animate-in fade-in duration-300">
         {/* Header Reassurance Banner */}
         <section className="text-center space-y-4 max-w-2xl mx-auto pt-2">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-rose-500/30 bg-rose-500/10 text-rose-600 dark:text-rose-300 text-xs font-medium shadow-[0_0_16px_rgba(244,63,94,0.18)]">

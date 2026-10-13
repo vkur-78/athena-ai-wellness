@@ -394,7 +394,7 @@ export default function HomePage() {
       <SanctuaryNav theme={theme} onToggleTheme={toggleTheme} />
 
       {/* 2. Main Analytics Command Center */}
-      <main className="relative z-10 flex-1 max-w-[1240px] w-full mx-auto px-4 sm:px-6 pt-5 sm:pt-6 pb-16 space-y-5 sm:space-y-6">
+      <main className="relative z-10 flex-1 max-w-[1240px] w-full mx-auto px-4 sm:px-6 pt-5 sm:pt-6 pb-32 sm:pb-16 space-y-5 sm:space-y-6">
         {/* Top Area: Greeting + Contextual Subtitle + Time Range Control */}
         <header data-tour="home-overview" className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b pb-4 border-inherit">
           <div className="space-y-1">
