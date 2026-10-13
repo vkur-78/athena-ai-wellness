@@ -42,10 +42,12 @@ export default function LoginForm() {
         headers["X-Demo-Device-Id"] = deviceId;
       }
 
-      let directBackendUrl = "";
+      let directBackendUrl = "https://athena-ai-wellness.onrender.com";
       if (typeof window !== "undefined") {
         const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-        directBackendUrl = isLocal ? "http://127.0.0.1:8001" : "https://athena-ai-wellness.onrender.com";
+        if (isLocal) {
+          directBackendUrl = "http://127.0.0.1:8001";
+        }
       }
       if (process.env.NEXT_PUBLIC_BACKEND_URL) {
         const custom = process.env.NEXT_PUBLIC_BACKEND_URL.trim().replace(/\/+$/, "");

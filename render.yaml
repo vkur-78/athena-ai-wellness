@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: athena-backend
+    name: athena-ai-wellness
     env: python
     rootDir: backend
     buildCommand: pip install -r requirements.txt
