@@ -221,4 +221,25 @@ class TestProductionCoreContracts:
         assert len(assistant_msgs) >= 1
         assert any("grounding" in m.get("content", "").lower() for m in user_msgs)
 
+    def test_13_demo_session_endpoint_contract_and_render_health(self):
+        """Phase 6: Verify demo session endpoint contract and live Render health."""
+        # 1. Local test client contract
+        local_res = client.post("/api/auth/demo-session", json={"device_id": "test_contract_dev"})
+        assert local_res.status_code == 200
+        data = local_res.json()
+        assert data.get("is_demo") is True
+        assert data.get("prompt_limit") == 3
+        assert "access_token" in data
+        assert len(data["access_token"]) > 20
+
+        # 2. Live Render backend contract check
+        import requests
+        try:
+            render_res = requests.get("https://athena-ai-wellness.onrender.com/api/health", timeout=15)
+            assert render_res.status_code == 200
+            assert render_res.json().get("status") == "healthy"
+        except requests.exceptions.RequestException as e:
+            pytest.skip(f"Live Render service network unreachable from test runner: {e}")
+
+
 

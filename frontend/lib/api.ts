@@ -51,13 +51,24 @@ import { supabase } from "./supabase";
 import { getCached, setCached, clearApiCache } from "./apiCache";
 
 const RAW_API_URL = process.env.NEXT_PUBLIC_API_URL || "/api";
-
 const API_URL = RAW_API_URL.replace(/\/+$/, "");
+
+export function getDirectBackendUrl(): string {
+  if (process.env.NEXT_PUBLIC_BACKEND_URL) {
+    const custom = process.env.NEXT_PUBLIC_BACKEND_URL.trim().replace(/\/+$/, "");
+    if (custom.startsWith("https://athena-ai-wellness.onrender.com") || custom.startsWith("http://127.0.0.1") || custom.startsWith("http://localhost")) {
+      return custom;
+    }
+  }
+  if (typeof window !== "undefined") {
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    return isLocal ? "http://127.0.0.1:8001" : "https://athena-ai-wellness.onrender.com";
+  }
+  return process.env.NODE_ENV === "production" ? "https://athena-ai-wellness.onrender.com" : "http://127.0.0.1:8001";
+}
+
 const DIRECT_BACKEND_URL = (
-  process.env.NEXT_PUBLIC_BACKEND_URL ||
-  (typeof window !== "undefined" && window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1"
-    ? "https://athena-ai-wellness.onrender.com"
-    : "")
+  process.env.NEXT_PUBLIC_BACKEND_URL || "https://athena-ai-wellness.onrender.com"
 ).replace(/\/+$/, "");
 
 export async function getAuthHeaders(): Promise<Record<string, string>> {
@@ -146,6 +157,27 @@ export async function sendMessage(
     });
 
     if (!response.ok) {
+      if (response.status >= 500) {
+        const directUrl = getDirectBackendUrl();
+        if (directUrl) {
+          try {
+            const directRes = await fetch(`${directUrl}/api/chat`, {
+              method: "POST",
+              headers,
+              body: JSON.stringify({
+                session_id: sessionId,
+                message,
+                user_id: userId,
+                internal_context: internalContext,
+                conversation_language: conversationLang,
+              }),
+            });
+            if (directRes.ok) {
+              return await directRes.json();
+            }
+          } catch {}
+        }
+      }
       // Fallback check if mounted without prefix
       if (response.status === 404 && API_URL.endsWith("/api")) {
         const fallbackUrl = API_URL.replace(/\/api$/, "");
@@ -218,6 +250,29 @@ export async function sendMessageStream(
       }),
       signal: callbacks?.signal,
     });
+
+    if (!response.ok && response.status >= 500) {
+      const directUrl = getDirectBackendUrl();
+      if (directUrl) {
+        try {
+          const directStreamRes = await fetch(`${directUrl}/api/chat/stream`, {
+            method: "POST",
+            headers,
+            body: JSON.stringify({
+              session_id: sessionId,
+              message,
+              user_id: userId,
+              internal_context: internalContext,
+              conversation_language: conversationLang,
+            }),
+            signal: callbacks?.signal,
+          });
+          if (directStreamRes.ok) {
+            response = directStreamRes;
+          }
+        } catch {}
+      }
+    }
 
     if (!response.ok && response.status === 404 && API_URL.endsWith("/api")) {
       const fallbackUrl = API_URL.replace(/\/api$/, "");
@@ -736,9 +791,10 @@ export async function registerUserApi(email: string, password: string) {
       throw new Error(`Edge proxy returned ${res.status}`);
     }
   } catch (primaryErr) {
-    if (DIRECT_BACKEND_URL) {
+    const directUrl = getDirectBackendUrl();
+    if (directUrl) {
       try {
-        res = await fetch(`${DIRECT_BACKEND_URL}/api/auth/register`, {
+        res = await fetch(`${directUrl}/api/auth/register`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
@@ -791,9 +847,10 @@ export async function loginUserApi(email: string, password: string) {
       throw new Error(`Edge proxy returned ${res.status}`);
     }
   } catch (primaryErr) {
-    if (DIRECT_BACKEND_URL) {
+    const directUrl = getDirectBackendUrl();
+    if (directUrl) {
       try {
-        res = await fetch(`${DIRECT_BACKEND_URL}/api/auth/login`, {
+        res = await fetch(`${directUrl}/api/auth/login`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),

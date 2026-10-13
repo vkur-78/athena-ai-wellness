@@ -42,14 +42,20 @@ export default function LoginForm() {
         headers["X-Demo-Device-Id"] = deviceId;
       }
 
-      const directBackendUrl = (
-        process.env.NEXT_PUBLIC_BACKEND_URL ||
-        (typeof window !== "undefined" && window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1"
-          ? "https://athena-ai-wellness.onrender.com"
-          : "")
-      ).replace(/\/+$/, "");
+      let directBackendUrl = "";
+      if (typeof window !== "undefined") {
+        const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+        directBackendUrl = isLocal ? "http://127.0.0.1:8001" : "https://athena-ai-wellness.onrender.com";
+      }
+      if (process.env.NEXT_PUBLIC_BACKEND_URL) {
+        const custom = process.env.NEXT_PUBLIC_BACKEND_URL.trim().replace(/\/+$/, "");
+        if (custom.startsWith("https://athena-ai-wellness.onrender.com") || custom.startsWith("http://127.0.0.1") || custom.startsWith("http://localhost")) {
+          directBackendUrl = custom;
+        }
+      }
 
-      let res: Response;
+      let res: Response | null = null;
+      let primaryErr: any = null;
       try {
         res = await fetch(`${apiUrl.replace(/\/+$/, "")}/auth/demo-session`, {
           method: "POST",
@@ -57,22 +63,28 @@ export default function LoginForm() {
           body: JSON.stringify({ device_id: deviceId }),
         });
         if (!res.ok && res.status >= 500) {
-          throw new Error(`Edge proxy returned ${res.status}`);
+          primaryErr = new Error(`Edge proxy returned ${res.status}`);
+          res = null;
         }
-      } catch (primaryErr) {
-        if (directBackendUrl) {
-          try {
-            res = await fetch(`${directBackendUrl}/api/auth/demo-session`, {
-              method: "POST",
-              headers,
-              body: JSON.stringify({ device_id: deviceId }),
-            });
-          } catch {
-            throw primaryErr;
-          }
-        } else {
-          throw primaryErr;
+      } catch (err: any) {
+        primaryErr = err;
+        res = null;
+      }
+
+      if (!res && directBackendUrl) {
+        try {
+          res = await fetch(`${directBackendUrl}/api/auth/demo-session`, {
+            method: "POST",
+            headers,
+            body: JSON.stringify({ device_id: deviceId }),
+          });
+        } catch (fallbackErr) {
+          throw primaryErr || fallbackErr;
         }
+      }
+
+      if (!res) {
+        throw primaryErr || new Error("Could not connect to authentication service.");
       }
 
       if (!res.ok) {

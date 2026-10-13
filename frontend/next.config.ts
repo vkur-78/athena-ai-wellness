@@ -1,10 +1,18 @@
 import type { NextConfig } from "next";
 
-const backendUrl = (
-  process.env.BACKEND_URL ||
-  process.env.NEXT_PUBLIC_BACKEND_URL ||
-  (process.env.NODE_ENV === "production" ? "https://athena-ai-wellness.onrender.com" : "http://127.0.0.1:8001")
-).replace(/\/+$/, "");
+let rawBackend = (process.env.BACKEND_URL || process.env.NEXT_PUBLIC_BACKEND_URL || "").trim();
+
+// Sanitize against dead or unverified hosts
+if (
+  !rawBackend ||
+  (!rawBackend.startsWith("https://athena-ai-wellness.onrender.com") && process.env.NODE_ENV === "production")
+) {
+  rawBackend = process.env.NODE_ENV === "production"
+    ? "https://athena-ai-wellness.onrender.com"
+    : "http://127.0.0.1:8001";
+}
+
+const backendUrl = rawBackend.replace(/\/+$/, "");
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: [
