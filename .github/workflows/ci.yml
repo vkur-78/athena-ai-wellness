@@ -77,4 +77,7 @@ jobs:
         env:
           NEXT_PUBLIC_API_URL: /api
           BACKEND_URL: http://127.0.0.1:8001
+          NEXT_PUBLIC_SUPABASE_URL: https://mock-athena.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: mock-anon-key-ci
+
 
