@@ -10,16 +10,18 @@ if env_path.exists():
 else:
     load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "") or "mock-openai-key-ci"
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "") or "mock-gemini-key-ci"
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 GEMINI_BASE_URL = os.getenv("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
 
-SUPABASE_URL = os.getenv("SUPABASE_URL", "")
-SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "")
+raw_supabase_url = os.getenv("SUPABASE_URL", "")
+SUPABASE_URL = raw_supabase_url if raw_supabase_url.startswith("http") else "https://mock-athena.supabase.co"
+SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "") or "athena-mock-service-key-2026"
 SUPABASE_JWKS_URL = os.getenv("SUPABASE_JWKS_URL", "")
 JWT_SECRET = os.getenv("JWT_SECRET") or os.getenv("SUPABASE_SERVICE_KEY") or "athena-sanctuary-production-secret-jwt-key-2026"
+
 
 
