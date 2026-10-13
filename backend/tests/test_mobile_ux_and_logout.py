@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 import os
 
 CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-BASE_URL = os.getenv("TEST_BASE_URL", "http://localhost:3000")
+BASE_URL = os.getenv("TEST_BASE_URL", "https://athena-ai-wellness.vercel.app")
 
 def test_mobile_responsive_viewports_and_no_overflow():
     """Verify pages render cleanly without horizontal overflow across 320, 360, 375, 390, 430, and desktop widths."""
