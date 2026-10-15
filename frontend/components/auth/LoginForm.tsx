@@ -17,6 +17,21 @@ export default function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [wakingUp, setWakingUp] = useState(false);
+
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    if (loading) {
+      timer = setTimeout(() => {
+        setWakingUp(true);
+      }, 3000);
+    } else {
+      setWakingUp(false);
+    }
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [loading]);
 
   // Clear residual demo states on standard login mount, or handle explicit ?demo=true query
   useEffect(() => {
@@ -441,6 +456,15 @@ export default function LoginForm() {
               {loading ? "Signing in..." : "Sign In to Your Sanctuary"}
               {!loading && <ArrowRight size={16} />}
             </button>
+
+            {wakingUp && (
+              <p
+                id="login-waking-up-notice"
+                className="text-center text-xs text-[var(--text-secondary)] animate-in fade-in duration-200"
+              >
+                Athena is waking up. This may take around a minute. Thanks for your patience.
+              </p>
+            )}
           </form>
 
           {/* Demo Journey Entry for Portfolio, HR, and Evaluators */}
