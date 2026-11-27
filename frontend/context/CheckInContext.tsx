@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from "react";
 import { CheckinResponse } from "@/types/checkin";
 import { fetchTodayCheckin, submitDailyCheckin } from "@/lib/api";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 
 export interface TodayCheckInData {
   completed: boolean;
@@ -176,7 +176,7 @@ export function CheckInProvider({ children }: { children: React.ReactNode }) {
   // 2. Fetch from backend to ensure cross-device consistency
   const refreshCheckInStatus = useCallback(async () => {
     try {
-      const { data: { session } } = await supabase.auth.getSession();
+      const session = await resolveSanctuarySession();
       if (!session) {
         setIsLoading(false);
         return;
@@ -278,7 +278,7 @@ export function CheckInProvider({ children }: { children: React.ReactNode }) {
 
       // Fire async backend synchronization
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         const serverRes = await submitDailyCheckin(
           {
             date: todayStr,

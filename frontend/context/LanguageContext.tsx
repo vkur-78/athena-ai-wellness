@@ -16,7 +16,12 @@ import {
   LanguageOption,
 } from "@/lib/translations";
 import { supabase } from "@/lib/supabase";
-import { DEMO_USER_ID, isExplicitDemoUser } from "@/lib/auth";
+import {
+  DEMO_USER_ID,
+  isDemoSessionActive,
+  isExplicitDemoUser,
+  resolveSanctuarySession,
+} from "@/lib/auth";
 import { fetchUserProfile, patchUserProfile } from "@/lib/api";
 
 interface LanguageContextType {
@@ -134,14 +139,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     async function initAuthAndLanguage() {
       try {
-        const {
-          data: { session },
-        } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
 
         if (!mounted) return;
 
         const isDemo =
-          localStorage.getItem("athena_demo_mode") === "true" ||
+          isDemoSessionActive() ||
           session?.user?.id === DEMO_USER_ID ||
           isExplicitDemoUser(session?.user);
 
@@ -162,15 +165,22 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange(async (event, newSession) => {
+    } = supabase.auth.onAuthStateChange(async (_event, newSession) => {
+      if (!mounted) return;
+
+      const resolved =
+        newSession?.user && (!isExplicitDemoUser(newSession.user) || isDemoSessionActive())
+          ? newSession
+          : await resolveSanctuarySession();
+
       if (!mounted) return;
 
       const isDemo =
-        localStorage.getItem("athena_demo_mode") === "true" ||
-        newSession?.user?.id === DEMO_USER_ID ||
-        isExplicitDemoUser(newSession?.user);
+        isDemoSessionActive() ||
+        resolved?.user?.id === DEMO_USER_ID ||
+        isExplicitDemoUser(resolved?.user);
 
-      const uid = isDemo ? DEMO_USER_ID : newSession?.user?.id || null;
+      const uid = isDemo ? DEMO_USER_ID : resolved?.user?.id || null;
 
       // When switching accounts or logging out, discard previous in-memory state
       if (uid !== activeUserIdRef.current || isDemo !== isDemoRef.current) {
@@ -179,7 +189,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         activeUserIdRef.current = uid;
         isDemoRef.current = isDemo;
 
-        await resolveUserLanguage(uid, isDemo, newSession?.access_token);
+        await resolveUserLanguage(uid, isDemo, resolved?.access_token);
       }
     });
 
@@ -198,7 +208,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       applyDomLanguage(lang);
 
       try {
-        const isDemo = isDemoRef.current || localStorage.getItem("athena_demo_mode") === "true";
+        const isDemo = isDemoRef.current || isDemoSessionActive();
         const uid = activeUserIdRef.current;
 
         if (isDemo) {

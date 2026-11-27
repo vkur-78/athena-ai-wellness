@@ -1,5 +1,5 @@
 import { WorldState, WorldEnvironment, WorldMemory, AmbiencePreferences } from '@/types/world';
-import { supabase } from '@/lib/supabase';
+import { getAuthHeaders as getBaseAuthHeaders } from '@/lib/api';
 
 export function getApiBaseUrl(): string {
   const raw = process.env.NEXT_PUBLIC_API_URL || '/api';
@@ -10,19 +10,14 @@ export function getApiBaseUrl(): string {
   return `${clean}/api`;
 }
 
-async function getAuthHeaders(): Promise<Record<string, string>> {
-  try {
-    const { data: { session } } = await supabase.auth.getSession();
-    if (session?.access_token) {
-      return {
-        Authorization: `Bearer ${session.access_token}`,
-        'Content-Type': 'application/json',
-      };
-    }
-  } catch (e) {
-    // Guest or unauthenticated session
-  }
-  return { 'Content-Type': 'application/json' };
+/**
+ * Returns JSON Content-Type paired with Sanctuary Authorization and demo device headers.
+ */
+export async function getJsonAuthHeaders(): Promise<Record<string, string>> {
+  return {
+    ...(await getBaseAuthHeaders()),
+    'Content-Type': 'application/json',
+  };
 }
 
 export const DEFAULT_AMBIENCE_PREFS: AmbiencePreferences = {
@@ -54,7 +49,7 @@ export async function fetchWorldState(userId?: string, localHour?: number): Prom
     : `?hour=${hour}`;
 
   try {
-    const headers = await getAuthHeaders();
+    const headers = await getJsonAuthHeaders();
     const res = await fetch(`${base}/world/state${query}`, { headers });
     if (!res.ok) {
       console.warn(`[worldApi] /world/state status ${res.status}, using safe fallback.`);
@@ -80,7 +75,7 @@ export async function acknowledgeUnlocks(userId?: string, unlockIds: string[] = 
   const base = getApiBaseUrl();
   const query = userId ? `?user_id=${encodeURIComponent(userId)}` : '';
   try {
-    const headers = await getAuthHeaders();
+    const headers = await getJsonAuthHeaders();
     const res = await fetch(`${base}/world/acknowledge${query}`, {
       method: 'POST',
       headers,
@@ -97,7 +92,7 @@ export async function fetchWorldMemories(userId?: string): Promise<WorldMemory[]
   const base = getApiBaseUrl();
   const query = userId ? `?user_id=${encodeURIComponent(userId)}` : '';
   try {
-    const headers = await getAuthHeaders();
+    const headers = await getJsonAuthHeaders();
     const res = await fetch(`${base}/world/memories${query}`, { headers });
     if (!res.ok) {
       return [];
@@ -113,7 +108,7 @@ export async function fetchWorldEnvironment(localHour?: number): Promise<WorldEn
   const hour = localHour ?? new Date().getHours();
   const base = getApiBaseUrl();
   try {
-    const headers = await getAuthHeaders();
+    const headers = await getJsonAuthHeaders();
     const res = await fetch(`${base}/world/environment?hour=${hour}`, { headers });
     if (!res.ok) {
       return {
@@ -143,7 +138,7 @@ export async function saveAmbiencePreferences(
   const base = getApiBaseUrl();
   const query = userId ? `?user_id=${encodeURIComponent(userId)}` : '';
   try {
-    const headers = await getAuthHeaders();
+    const headers = await getJsonAuthHeaders();
     const res = await fetch(`${base}/world/ambience${query}`, {
       method: 'POST',
       headers,

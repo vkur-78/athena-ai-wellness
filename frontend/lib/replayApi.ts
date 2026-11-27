@@ -3,25 +3,7 @@ import {
   LivingReplayData,
   ReplayArchiveItem,
 } from '@/types/replay';
-import { supabase } from '@/lib/supabase';
-import { getApiBaseUrl } from '@/lib/worldApi';
-
-async function getAuthHeaders(): Promise<Record<string, string>> {
-  try {
-    const {
-      data: { session },
-    } = await supabase.auth.getSession();
-    if (session?.access_token) {
-      return {
-        Authorization: `Bearer ${session.access_token}`,
-        'Content-Type': 'application/json',
-      };
-    }
-  } catch (e) {
-    // Guest or offline
-  }
-  return { 'Content-Type': 'application/json' };
-}
+import { getApiBaseUrl, getJsonAuthHeaders as getAuthHeaders } from '@/lib/worldApi';
 
 // ----------------------------------------------------------------------------
 // LIVING REPLAY FALLBACKS (Zero hallucination, grounded, evidence-first)

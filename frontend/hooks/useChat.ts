@@ -294,12 +294,20 @@ export function useChat() {
   const token =
     authSession?.access_token ||
     (typeof window !== "undefined"
-      ? sessionStorage.getItem("athena_demo_token") ||
-        localStorage.getItem("athena_demo_token") ||
+      ? (isDemoSessionActive()
+          ? sessionStorage.getItem("athena_demo_token") ||
+            localStorage.getItem("athena_demo_token")
+          : undefined) ||
+        localStorage.getItem("athena_auth_token") ||
         (() => {
           try {
             const raw = localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
-            return raw ? JSON.parse(raw).access_token : undefined;
+            if (!raw) return undefined;
+            const parsed = JSON.parse(raw);
+            if (parsed?.user && isExplicitDemoUser(parsed.user) && !isDemoSessionActive()) {
+              return undefined;
+            }
+            return parsed?.access_token;
           } catch {
             return undefined;
           }
@@ -329,10 +337,7 @@ export function useChat() {
       }
 
       // 2. Explicit Demo User: Subject to 3-prompt limit
-      const demoFlag =
-        typeof window !== "undefined" &&
-        (sessionStorage.getItem("athena_demo_mode") === "true" ||
-          localStorage.getItem("athena_demo_mode") === "true");
+      const demoFlag = isDemoSessionActive();
       if (isSeededDemo || (demoFlag && !session?.user)) {
         setIsDemo(true);
         const demoToken =
@@ -823,7 +828,13 @@ export function useChat() {
               })
             // Refresh demo status after prompt completes
             if (isDemo) {
-              const demoToken = tokenRef.current || (typeof window !== "undefined" ? localStorage.getItem("athena_demo_token") || "" : "");
+              const demoToken =
+                tokenRef.current ||
+                (typeof window !== "undefined"
+                  ? sessionStorage.getItem("athena_demo_token") ||
+                    localStorage.getItem("athena_demo_token") ||
+                    ""
+                  : "");
               fetchDemoStatus(demoToken).then((status) => {
                 setDemoPromptsUsed(status.prompts_used);
                 if (status.prompts_used >= 3 || status.remaining_prompts <= 0 || status.status === "exhausted") {

@@ -178,7 +178,7 @@ export function EntitlementProvider({ children }: { children: React.ReactNode })
 
   const activateDemoMode = useCallback(() => {
     try {
-      localStorage.setItem("athena_demo_mode", "true");
+      sessionStorage.setItem("athena_demo_mode", "true");
     } catch {}
     setIsDemoMode(true);
   }, []);

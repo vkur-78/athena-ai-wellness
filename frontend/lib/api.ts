@@ -518,15 +518,11 @@ export async function fetchUserConversations(token?: string, includeSample: bool
 
 export async function fetchSampleConversations(token?: string) {
   try {
-    let authToken = token;
-    if (!authToken) {
-      const { data: { session } } = await supabase.auth.getSession();
-      authToken = session?.access_token;
-    }
-    if (!authToken) return [];
-    const headers: Record<string, string> = { Authorization: `Bearer ${authToken}` };
-    const res = await fetch(`${API_URL}/conversations/sample`, {
-      headers,
+    const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
+    if (!authHeaders.Authorization) return [];
+    const res = await fetchWithBackendFallback("/conversations/sample", {
+      method: "GET",
+      headers: { ...authHeaders },
     });
     if (!res.ok) return [];
     return await res.json();
