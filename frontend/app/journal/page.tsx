@@ -11,7 +11,7 @@ import {
   requestJournalReflection,
   fetchUserProfile,
 } from "@/lib/api";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 import SanctuaryNav from "@/components/common/SanctuaryNav";
 import JournalCard from "@/components/journal/JournalCard";
 import JournalEditor from "@/components/journal/JournalEditor";
@@ -66,7 +66,7 @@ export default function SpacePage() {
     let active = true;
     async function checkAuth() {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         if (!session?.user) {
           router.replace("/login");
           return;

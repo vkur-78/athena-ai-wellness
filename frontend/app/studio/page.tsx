@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 import Loading from "@/components/common/Loading";
 import SanctuaryNav from "@/components/common/SanctuaryNav";
 import { useTheme } from "@/context/ThemeContext";
@@ -84,7 +84,7 @@ export default function StudioPage() {
     let active = true;
     async function checkAuth() {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         if (!session?.user) {
           router.replace("/login");
           return;

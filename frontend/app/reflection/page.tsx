@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 import {
   fetchCurrentWeeklyReflection,
   generateWeeklyReflection,
@@ -54,7 +54,7 @@ export default function ReflectionHubPage() {
 
     async function loadData() {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         const token = session?.access_token;
         if (active && token) {
           setAuthToken(token);

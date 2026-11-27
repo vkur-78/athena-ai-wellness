@@ -276,7 +276,6 @@ async def create_demo_session_endpoint(request: Request):
     with a server-side 3-prompt limit and session boundary.
     Enforces a strict 3-message limit per device across browser refresh and multiple demo sessions.
     """
-    from services.db import supabase
     from services.demo_session_service import create_demo_session, DEMO_USER_ID
 
     device_id = request.headers.get("x-device-id") or request.headers.get("x-demo-device-id")
@@ -292,17 +291,28 @@ async def create_demo_session_endpoint(request: Request):
     refresh_token = None
     user_id = DEMO_USER_ID
 
-    try:
-        login_res = supabase.auth.sign_in_with_password({
-            "email": "aarav.sharma.demo@athena.sanctuary",
-            "password": "Athena#Sanctuary2026!Demo"
-        })
-        if login_res and login_res.session:
-            access_token = login_res.session.access_token
-            refresh_token = login_res.session.refresh_token
-            user_id = login_res.user.id
-    except Exception as e:
-        print(f"[Demo Session Backend Sign-in Fallback]: {e}")
+    has_real_supabase = (
+        isinstance(SUPABASE_URL, str)
+        and SUPABASE_URL.startswith("https://")
+        and not SUPABASE_URL.startswith("https://mock-")
+        and isinstance(SUPABASE_SERVICE_KEY, str)
+        and bool(SUPABASE_SERVICE_KEY)
+        and not SUPABASE_SERVICE_KEY.startswith("athena-mock-")
+    )
+
+    if has_real_supabase:
+        try:
+            auth_client = get_auth_client()
+            login_res = auth_client.auth.sign_in_with_password({
+                "email": "aarav.sharma.demo@athena.sanctuary",
+                "password": "Athena#Sanctuary2026!Demo"
+            })
+            if login_res and login_res.session:
+                access_token = login_res.session.access_token
+                refresh_token = login_res.session.refresh_token
+                user_id = login_res.user.id
+        except Exception as e:
+            print(f"[Demo Session Backend Sign-in Fallback]: {e}")
 
     session = create_demo_session(access_token=access_token, device_id=device_id)
     final_token = access_token or session["token"]

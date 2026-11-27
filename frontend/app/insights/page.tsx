@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 import SanctuaryNav from "@/components/common/SanctuaryNav";
 import { useTheme } from "@/context/ThemeContext";
 import { useTodayCheckIn } from "@/context/CheckInContext";
@@ -68,9 +68,7 @@ export default function InsightsPage() {
 
     async function loadInsightsData() {
       try {
-        const {
-          data: { session },
-        } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
 
         if (!session?.user) {
           router.replace("/login");

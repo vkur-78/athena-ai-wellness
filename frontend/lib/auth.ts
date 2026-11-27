@@ -12,7 +12,35 @@ export interface AthenaUserCandidate {
   id?: string;
   email?: string;
   created_at?: string;
-  user_metadata?: Record<string, any>;
+  aud?: string;
+  role?: string;
+  user_metadata?: Record<string, unknown>;
+}
+
+export interface SanctuaryResolvedSession {
+  access_token: string;
+  refresh_token?: string;
+  user: AthenaUserCandidate;
+}
+
+/**
+ * Safely returns or generates a persistent device ID for demo quota enforcement.
+ */
+export function getOrCreateDemoDeviceId(): string {
+  if (typeof window === "undefined") return "";
+  try {
+    let deviceId = localStorage.getItem("athena_demo_device_id") || "";
+    if (!deviceId) {
+      deviceId =
+        typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+          ? crypto.randomUUID()
+          : "dev_" + Math.random().toString(36).slice(2) + Date.now();
+      localStorage.setItem("athena_demo_device_id", deviceId);
+    }
+    return deviceId;
+  } catch {
+    return "";
+  }
 }
 
 /**
@@ -45,28 +73,158 @@ export function isDemoSessionActive(): boolean {
   }
 }
 
+function buildDefaultDemoUser(userId?: string, email?: string): AthenaUserCandidate {
+  return {
+    id: userId || DEMO_USER_ID,
+    email: email || "aarav.sharma.demo@athena.sanctuary",
+    aud: "authenticated",
+    role: "authenticated",
+    created_at: "2024-10-15T00:00:00Z",
+    user_metadata: {
+      full_name: "Aarav Sharma",
+      is_demo: true,
+    },
+  };
+}
+
 /**
  * Persists an explicit demo session scoped strictly to sessionStorage (tab-isolated)
  * with minimal fallback support for API client requests. Never writes to sb-*-auth-token.
  */
 export function persistDemoSession(data: {
   access_token: string;
-  session_id: string;
+  session_id?: string;
   user_id?: string;
   email?: string;
 }): void {
   if (typeof window === "undefined") return;
   try {
+    const demoUser = buildDefaultDemoUser(data.user_id, data.email);
     sessionStorage.setItem("athena_demo_mode", "true");
     sessionStorage.setItem("athena_demo_token", data.access_token);
-    sessionStorage.setItem("athena_demo_session_id", data.session_id);
+    sessionStorage.setItem("athena_demo_user", JSON.stringify(demoUser));
+    if (data.session_id) {
+      sessionStorage.setItem("athena_demo_session_id", data.session_id);
+      localStorage.setItem("athena_demo_session_id", data.session_id);
+    }
     // Transient localStorage fallback for API client without polluting real auth token
     localStorage.removeItem("athena_auth_token");
     localStorage.setItem("athena_demo_token", data.access_token);
-    localStorage.setItem("athena_demo_session_id", data.session_id);
   } catch (e) {
     console.warn("Could not persist demo session:", e);
   }
+}
+
+/**
+ * Synchronizes a demo session response with Supabase when a real Supabase JWT/refresh pair
+ * was issued, and persists the tab-isolated demo markers for both JWT and fallback tokens.
+ */
+export async function syncAndPersistDemoSession(data: {
+  access_token: string;
+  refresh_token?: string;
+  session_id?: string;
+  user_id?: string;
+  email?: string;
+}): Promise<string> {
+  let finalAccessToken = data.access_token;
+  let finalRefreshToken = data.refresh_token || data.access_token;
+  const isJwt = finalAccessToken.split(".").length === 3;
+  const hasSupabaseRefreshToken =
+    isJwt && Boolean(data.refresh_token) && data.refresh_token !== data.access_token;
+
+  if (hasSupabaseRefreshToken) {
+    try {
+      const { data: setSessionData } = await supabase.auth.setSession({
+        access_token: finalAccessToken,
+        refresh_token: finalRefreshToken,
+      });
+      if (setSessionData?.session?.access_token) {
+        finalAccessToken = setSessionData.session.access_token;
+        finalRefreshToken = setSessionData.session.refresh_token || finalRefreshToken;
+      }
+    } catch (setErr) {
+      console.warn("[Demo Supabase Session Set Warning]:", setErr);
+    }
+  }
+
+  persistDemoSession({
+    access_token: finalAccessToken,
+    session_id: data.session_id,
+    user_id: data.user_id,
+    email: data.email || "aarav.sharma.demo@athena.sanctuary",
+  });
+
+  return finalAccessToken;
+}
+
+/**
+ * Resolves the active session for protected sanctuary pages:
+ * 1. Real Supabase authenticated session
+ * 2. Tab-isolated Demo session (only when explicitly activated in this tab's sessionStorage)
+ * 3. Real registered member local fallback (athena_auth_token + non-demo sb-*-auth-token)
+ */
+export async function resolveSanctuarySession(): Promise<SanctuaryResolvedSession | null> {
+  const {
+    data: { session },
+  } = await supabase.auth.getSession();
+
+  if (session?.user) {
+    if (isExplicitDemoUser(session.user)) {
+      if (isDemoSessionActive()) {
+        return session as unknown as SanctuaryResolvedSession;
+      }
+      clearDemoSessionStorage();
+      try {
+        await supabase.auth.signOut();
+      } catch {}
+      return null;
+    }
+    return session as unknown as SanctuaryResolvedSession;
+  }
+
+  if (typeof window === "undefined") return null;
+
+  if (isDemoSessionActive()) {
+    try {
+      const demoToken = sessionStorage.getItem("athena_demo_token");
+      if (demoToken) {
+        let demoUser = buildDefaultDemoUser();
+        const rawDemoUser = sessionStorage.getItem("athena_demo_user");
+        if (rawDemoUser) {
+          try {
+            const parsedUser = JSON.parse(rawDemoUser) as AthenaUserCandidate;
+            if (parsedUser?.id) {
+              demoUser = parsedUser;
+            }
+          } catch {}
+        }
+        return {
+          access_token: demoToken,
+          user: demoUser,
+        };
+      }
+    } catch {}
+  }
+
+  try {
+    const athenaToken = localStorage.getItem("athena_auth_token");
+    if (athenaToken) {
+      const projectRef =
+        process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/https:\/\/([a-z0-9_-]+)\.supabase\.co/i)?.[1] ||
+        "yvmqdlqpfuirapznbmrj";
+      const rawStored =
+        localStorage.getItem(`sb-${projectRef}-auth-token`) ||
+        localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
+      if (rawStored) {
+        const parsed = JSON.parse(rawStored) as SanctuaryResolvedSession;
+        if (parsed?.user && !isExplicitDemoUser(parsed.user)) {
+          return parsed;
+        }
+      }
+    }
+  } catch {}
+
+  return null;
 }
 
 /**
@@ -114,7 +272,7 @@ export function persistAthenaSession(data: {
   refresh_token?: string;
   user_id?: string;
   email?: string;
-  user_metadata?: Record<string, any>;
+  user_metadata?: Record<string, unknown>;
 }): void {
   if (typeof window === "undefined") return;
   try {

@@ -10,7 +10,7 @@ if backend_dir not in sys.path:
 
 from fastapi.testclient import TestClient
 from main import app
-from auth.verify import verify_user
+from auth.verify import verify_user, require_active_entitlement
 from ai.safety import (
     classify_self_harm_intent,
     check_prompt_extraction,
@@ -75,6 +75,7 @@ class Test17BugsRegression(unittest.TestCase):
         global current_mock_user
         current_mock_user = MockTestUserA()
         app.dependency_overrides[verify_user] = mock_verify_user_dependency
+        app.dependency_overrides[require_active_entitlement] = mock_verify_user_dependency
         self.user_a_id = MockTestUserA.id
         self.user_b_id = MockTestUserB.id
 

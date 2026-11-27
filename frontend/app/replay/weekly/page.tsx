@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useMemo, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { resolveSanctuarySession } from "@/lib/auth";
 import SanctuaryNav from "@/components/common/SanctuaryNav";
 import { useTheme } from "@/context/ThemeContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -105,14 +105,15 @@ function WeeklyReplayContent() {
       setDownloadingPdf(true);
       setPdfError(null);
       setPdfSuccess(false);
-      const {
-        data: { session },
-      } = await supabase.auth.getSession();
+      const session = await resolveSanctuarySession();
       const token =
         session?.access_token ||
-        (typeof window !== "undefined" && localStorage.getItem("athena_demo_mode") === "true"
-          ? localStorage.getItem("athena_demo_token") || ""
-          : (typeof window !== "undefined" ? localStorage.getItem("athena_auth_token") || "" : ""));
+        (typeof window !== "undefined"
+          ? sessionStorage.getItem("athena_demo_token") ||
+            localStorage.getItem("athena_demo_token") ||
+            localStorage.getItem("athena_auth_token") ||
+            ""
+          : "");
 
       const res = await fetch(
         `/api/replay/pdf?type=weekly&lang=${language}&period=${encodeURIComponent(weekBounds.mondayStr)}`,
@@ -158,9 +159,7 @@ function WeeklyReplayContent() {
 
     async function loadData() {
       try {
-        const {
-          data: { session },
-        } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
 
         if (!session?.user) {
           router.replace("/login");

@@ -10,11 +10,17 @@ export default function LoginPage() {
   const router = useRouter();
 
   useEffect(() => {
+    const isExplicitDemo =
+      typeof window !== "undefined" &&
+      new URLSearchParams(window.location.search).get("demo") === "true";
+
     supabase.auth.getUser().then(({ data }) => {
       if (data.user) {
         if (!isExplicitDemoUser(data.user)) {
-          // Real authenticated member: redirect to dashboard
-          router.replace("/");
+          if (!isExplicitDemo) {
+            // Real authenticated member: redirect to dashboard
+            router.replace("/");
+          }
         } else {
           // Stale demo session marker: purge it so public login experience displays cleanly
           clearDemoSessionStorage();

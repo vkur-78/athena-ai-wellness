@@ -2,12 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
 import {
   clearAllSanctuarySessions,
-  clearDemoSessionStorage,
-  isExplicitDemoUser,
-  isDemoSessionActive,
+  resolveSanctuarySession,
 } from "@/lib/auth";
 import { fetchUserProfile, fetchCheckinHistory } from "@/lib/api";
 import { calculateActualStreak } from "@/lib/dashboardMetrics";
@@ -52,17 +49,8 @@ export default function ProfilePage() {
     let active = true;
     async function verifyAuth() {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         if (!session?.user) {
-          router.replace("/login");
-          return;
-        }
-
-        if (isExplicitDemoUser(session.user) && !isDemoSessionActive()) {
-          clearDemoSessionStorage();
-          try {
-            await supabase.auth.signOut();
-          } catch {}
           router.replace("/login");
           return;
         }

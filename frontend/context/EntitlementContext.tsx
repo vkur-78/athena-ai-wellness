@@ -22,7 +22,14 @@ export interface EntitlementContextType {
 
 const EntitlementContext = createContext<EntitlementContextType | undefined>(undefined);
 
-import { isExplicitDemoUser, clearDemoSessionStorage, clearAllSanctuarySessions } from "@/lib/auth";
+import {
+  isExplicitDemoUser,
+  isDemoSessionActive,
+  clearDemoSessionStorage,
+  clearAllSanctuarySessions,
+  resolveSanctuarySession,
+} from "@/lib/auth";
+import { fetchUserProfile } from "@/lib/api";
 
 export function EntitlementProvider({ children }: { children: React.ReactNode }) {
   const [isDemoMode, setIsDemoMode] = useState<boolean>(false);
@@ -42,7 +49,7 @@ export function EntitlementProvider({ children }: { children: React.ReactNode })
 
     async function evaluateEntitlement() {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const session = await resolveSanctuarySession();
         if (!active) return;
 
         const isSeededDemo = isExplicitDemoUser(session?.user);
@@ -59,28 +66,22 @@ export function EntitlementProvider({ children }: { children: React.ReactNode })
           // Fetch authoritative profile trial if token exists
           if (session.access_token) {
             try {
-              const apiUrl = process.env.NEXT_PUBLIC_API_URL || "/api";
-              const res = await fetch(`${apiUrl.replace(/\/+$/, "")}/profile`, {
-                headers: { Authorization: `Bearer ${session.access_token}` },
-              });
-              if (res.ok) {
-                const prof = await res.json();
-                if (active && prof) {
-                  if (typeof prof.trial_days_remaining === "number") {
-                    setBackendDaysRemaining(prof.trial_days_remaining);
-                  }
-                  if (typeof prof.trial_active === "boolean") {
-                    setBackendTrialActive(prof.trial_active);
-                  }
-                  if (prof.is_paid === true || prof.entitlement_mode === "ATHENA_PLUS") {
-                    setBackendIsPaid(true);
-                  }
-                  if (prof.entitlement_mode) {
-                    setBackendEntitlementMode(prof.entitlement_mode);
-                  }
-                  if (prof.created_at) {
-                    setCreatedAt(prof.created_at);
-                  }
+              const prof = await fetchUserProfile(session.access_token);
+              if (active && prof) {
+                if (typeof prof.trial_days_remaining === "number") {
+                  setBackendDaysRemaining(prof.trial_days_remaining);
+                }
+                if (typeof prof.trial_active === "boolean") {
+                  setBackendTrialActive(prof.trial_active);
+                }
+                if (prof.is_paid === true || prof.entitlement_mode === "ATHENA_PLUS") {
+                  setBackendIsPaid(true);
+                }
+                if (prof.entitlement_mode) {
+                  setBackendEntitlementMode(prof.entitlement_mode);
+                }
+                if (prof.created_at) {
+                  setCreatedAt(prof.created_at);
                 }
               }
             } catch {}
@@ -89,11 +90,7 @@ export function EntitlementProvider({ children }: { children: React.ReactNode })
         }
 
         // 2. EXPLICIT DEMO USER: Valid only if explicitly active in this tab's sessionStorage
-        const demoActive =
-          typeof window !== "undefined" &&
-          sessionStorage.getItem("athena_demo_mode") === "true" &&
-          Boolean(sessionStorage.getItem("athena_demo_token"));
-        if ((isSeededDemo || !session?.user) && demoActive) {
+        if (isDemoSessionActive()) {
           setIsDemoMode(true);
           return;
         }

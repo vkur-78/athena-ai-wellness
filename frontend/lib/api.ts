@@ -47,11 +47,59 @@ import {
 } from "@/types/behavior";
 import { VoiceScriptRequest, VoiceScriptResponse, VoicePersona } from "@/types/voice_studio";
 import { supabase } from "./supabase";
+import { getOrCreateDemoDeviceId, isDemoSessionActive, isExplicitDemoUser } from "./auth";
 
 import { getCached, setCached, clearApiCache } from "./apiCache";
 
 const RAW_API_URL = process.env.NEXT_PUBLIC_API_URL || "/api";
 const API_URL = RAW_API_URL.replace(/\/+$/, "");
+
+export function getErrorMessage(err: unknown, fallback: string): string {
+  if (err instanceof Error && err.message) {
+    return err.message;
+  }
+  return fallback;
+}
+
+export async function parseApiErrorResponse(res: Response, fallback: string): Promise<string> {
+  const rawText = await res.text().catch(() => "");
+  if (rawText) {
+    try {
+      const parsed = JSON.parse(rawText) as {
+        detail?: string | Array<{ msg?: string; message?: string }> | { message?: string };
+        message?: string;
+      };
+      if (typeof parsed.detail === "string" && parsed.detail.trim()) {
+        return parsed.detail;
+      }
+      if (Array.isArray(parsed.detail) && parsed.detail.length > 0) {
+        return parsed.detail
+          .map((d) => d.msg || d.message || JSON.stringify(d))
+          .join(", ");
+      }
+      if (
+        parsed.detail &&
+        typeof parsed.detail === "object" &&
+        !Array.isArray(parsed.detail) &&
+        typeof parsed.detail.message === "string" &&
+        parsed.detail.message.trim()
+      ) {
+        return parsed.detail.message;
+      }
+      if (typeof parsed.message === "string" && parsed.message.trim()) {
+        return parsed.message;
+      }
+    } catch {
+      if (res.status < 500 && !rawText.trim().startsWith("<")) {
+        return rawText.trim();
+      }
+    }
+  }
+  if (res.status >= 500) {
+    return "Sanctuary services are temporarily unavailable. Please try again in a moment.";
+  }
+  return fallback;
+}
 
 export function getDirectBackendUrl(): string {
   if (process.env.NEXT_PUBLIC_BACKEND_URL) {
@@ -67,31 +115,102 @@ export function getDirectBackendUrl(): string {
   return process.env.NODE_ENV === "production" ? "https://athena-ai-wellness.onrender.com" : "http://127.0.0.1:8001";
 }
 
-const DIRECT_BACKEND_URL = (
-  process.env.NEXT_PUBLIC_BACKEND_URL || "https://athena-ai-wellness.onrender.com"
-).replace(/\/+$/, "");
+function fetchWithTimeout(url: string, init: RequestInit, timeoutMs: number): Promise<Response> {
+  if (typeof AbortController === "undefined" || init.signal) {
+    return fetch(url, init);
+  }
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  return fetch(url, { ...init, signal: controller.signal }).finally(() => clearTimeout(timer));
+}
+
+function delayMs(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * Sends an API request via the frontend edge proxy (`/api/*`) and transparently falls back
+ * to the direct backend host with cold-start retries if the proxy returns 5xx/404 or times out.
+ */
+async function fetchWithBackendFallback(
+  path: string,
+  init: RequestInit,
+  options?: {
+    proxyTimeoutMs?: number;
+    directTimeoutMs?: number;
+    directRetries?: number;
+  }
+): Promise<Response> {
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  const proxyTimeoutMs = options?.proxyTimeoutMs ?? 12000;
+  const directTimeoutMs = options?.directTimeoutMs ?? 30000;
+  const directRetries = options?.directRetries ?? 1;
+
+  let primaryRes: Response | null = null;
+  let primaryErr: unknown = null;
+
+  try {
+    primaryRes = await fetchWithTimeout(`${API_URL}${normalizedPath}`, init, proxyTimeoutMs);
+    if (primaryRes.ok || (primaryRes.status < 500 && primaryRes.status !== 404)) {
+      return primaryRes;
+    }
+    if (primaryRes.status === 404 && API_URL.endsWith("/api")) {
+      const strippedUrl = API_URL.replace(/\/api$/, "");
+      const strippedRes = await fetchWithTimeout(`${strippedUrl}${normalizedPath}`, init, proxyTimeoutMs).catch(() => null);
+      if (strippedRes && strippedRes.ok) {
+        return strippedRes;
+      }
+    }
+  } catch (err) {
+    primaryErr = err;
+  }
+
+  const directUrl = getDirectBackendUrl();
+  if (!directUrl) {
+    if (primaryRes) return primaryRes;
+    throw primaryErr instanceof Error ? primaryErr : new Error("Network request failed.");
+  }
+
+  const directTarget = `${directUrl}/api${normalizedPath}`;
+  let lastDirectRes: Response | null = null;
+  let lastDirectErr: unknown = null;
+
+  for (let attempt = 0; attempt < directRetries; attempt++) {
+    try {
+      const res = await fetchWithTimeout(directTarget, init, directTimeoutMs);
+      if (res.ok || res.status < 500) {
+        return res;
+      }
+      lastDirectRes = res;
+    } catch (err) {
+      lastDirectErr = err;
+    }
+    if (attempt < directRetries - 1) {
+      await delayMs(2000 * (attempt + 1));
+    }
+  }
+
+  if (lastDirectRes) return lastDirectRes;
+  if (primaryRes) return primaryRes;
+  throw (lastDirectErr || primaryErr || new Error("Could not reach Athena backend service."));
+}
 
 export async function getAuthHeaders(): Promise<Record<string, string>> {
   const headers: Record<string, string> = {};
-  if (typeof window !== "undefined") {
-    let devId = localStorage.getItem("athena_demo_device_id");
-    if (!devId) {
-      devId = typeof crypto !== "undefined" && crypto.randomUUID ? crypto.randomUUID() : "dev_" + Math.random().toString(36).slice(2) + Date.now();
-      localStorage.setItem("athena_demo_device_id", devId);
-    }
+  const devId = getOrCreateDemoDeviceId();
+  if (devId) {
     headers["X-Demo-Device-Id"] = devId;
   }
   try {
     const { data: { session } } = await supabase.auth.getSession();
     if (session?.access_token) {
-      headers["Authorization"] = `Bearer ${session.access_token}`;
-      return headers;
+      if (!isExplicitDemoUser(session.user) || isDemoSessionActive()) {
+        headers["Authorization"] = `Bearer ${session.access_token}`;
+        return headers;
+      }
     }
     if (typeof window !== "undefined") {
-      const isDemoMode =
-        sessionStorage.getItem("athena_demo_mode") === "true" ||
-        localStorage.getItem("athena_demo_mode") === "true";
-      if (isDemoMode) {
+      if (isDemoSessionActive()) {
         const demoToken =
           sessionStorage.getItem("athena_demo_token") ||
           localStorage.getItem("athena_demo_token");
@@ -377,21 +496,16 @@ export async function clearSessionApi(sessionId: string): Promise<boolean> {
 
 export async function fetchUserConversations(token?: string, includeSample: boolean = false) {
   try {
-    let authToken = token;
-    if (!authToken) {
-      const { data: { session } } = await supabase.auth.getSession();
-      authToken = session?.access_token;
-    }
-    if (!authToken) return [];
-    const headers: Record<string, string> = { Authorization: `Bearer ${authToken}` };
-    if (typeof window !== "undefined") {
-      const devId = localStorage.getItem("athena_demo_device_id");
-      if (devId) headers["X-Demo-Device-Id"] = devId;
-    }
+    const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
+    if (!authHeaders.Authorization) return [];
+    const devId = getOrCreateDemoDeviceId();
+    const headers: Record<string, string> = { ...authHeaders };
+    if (devId) headers["X-Demo-Device-Id"] = devId;
     if (includeSample) {
       headers["X-Include-Sample"] = "true";
     }
-    const res = await fetch(`${API_URL}/conversations?include_sample=${includeSample}`, {
+    const res = await fetchWithBackendFallback(`/conversations?include_sample=${includeSample}`, {
+      method: "GET",
       headers,
     });
     if (!res.ok) return [];
@@ -689,24 +803,12 @@ export async function fetchUserProfile(token?: string) {
     const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
     if (!authHeaders.Authorization) return null;
 
-    const res = await fetch(`${API_URL}/profile`, {
+    const res = await fetchWithBackendFallback("/profile", {
       method: "GET",
       headers: { ...authHeaders },
     });
 
     if (!res.ok) {
-      if (res.status === 404 && API_URL.endsWith("/api")) {
-        const fallbackUrl = API_URL.replace(/\/api$/, "");
-        const fallbackRes = await fetch(`${fallbackUrl}/profile`, {
-          method: "GET",
-          headers: { ...authHeaders },
-        });
-        if (fallbackRes.ok) {
-          const data = await fallbackRes.json();
-          setCached(cacheKey, data);
-          return data;
-        }
-      }
       return null;
     }
 
@@ -907,24 +1009,12 @@ export async function fetchTodayCheckin(
     if (!authHeaders.Authorization) return { has_checkin: false, checkin: null };
 
     const dateParam = clientDate ? `?client_date=${encodeURIComponent(clientDate)}` : "";
-    let res = await fetch(`${API_URL}/checkins/today${dateParam}`, {
+    const res = await fetchWithBackendFallback(`/checkins/today${dateParam}`, {
       method: "GET",
       headers: { ...authHeaders },
     });
 
     if (!res.ok) {
-      if (res.status === 404 && API_URL.endsWith("/api")) {
-        const fallbackUrl = API_URL.replace(/\/api$/, "");
-        const fallbackRes = await fetch(`${fallbackUrl}/checkins/today${dateParam}`, {
-          method: "GET",
-          headers: { ...authHeaders },
-        });
-        if (fallbackRes.ok) {
-          const data = await fallbackRes.json();
-          setCached(cacheKey, data);
-          return data;
-        }
-      }
       return { has_checkin: false, checkin: null };
     }
 
@@ -984,24 +1074,12 @@ export async function fetchCheckinHistory(
     const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
     if (!authHeaders.Authorization) return [];
 
-    let res = await fetch(`${API_URL}/checkins/history?limit=${limit}`, {
+    const res = await fetchWithBackendFallback(`/checkins/history?limit=${limit}`, {
       method: "GET",
       headers: { ...authHeaders },
     });
 
     if (!res.ok) {
-      if (res.status === 404 && API_URL.endsWith("/api")) {
-        const fallbackUrl = API_URL.replace(/\/api$/, "");
-        const fallbackRes = await fetch(`${fallbackUrl}/checkins/history?limit=${limit}`, {
-          method: "GET",
-          headers: { ...authHeaders },
-        });
-        if (fallbackRes.ok) {
-          const data = await fallbackRes.json();
-          setCached(cacheKey, data);
-          return data;
-        }
-      }
       return [];
     }
 
@@ -1031,24 +1109,12 @@ export async function fetchJournalEntries(
     if (query) params.append("q", query);
     if (limit) params.append("limit", String(limit));
     const qStr = params.toString() ? `?${params.toString()}` : "";
-    let res = await fetch(`${API_URL}/journal${qStr}`, {
+    const res = await fetchWithBackendFallback(`/journal${qStr}`, {
       method: "GET",
       headers: { ...authHeaders },
     });
 
     if (!res.ok) {
-      if (res.status === 404 && API_URL.endsWith("/api")) {
-        const fallbackUrl = API_URL.replace(/\/api$/, "");
-        const fallbackRes = await fetch(`${fallbackUrl}/journal${qStr}`, {
-          method: "GET",
-          headers: { ...authHeaders },
-        });
-        if (fallbackRes.ok) {
-          const data = await fallbackRes.json();
-          setCached(cacheKey, data);
-          return data;
-        }
-      }
       return [];
     }
 
@@ -1309,22 +1375,10 @@ export async function fetchRecentMoments(
 ): Promise<RecentMoment[]> {
   try {
     const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
-    let res = await fetch(`${API_URL}/studio/recent?limit=${limit}`, {
+    const res = await fetchWithBackendFallback(`/studio/recent?limit=${limit}`, {
       method: "GET",
       headers: { ...authHeaders },
     });
-
-    if (!res.ok && res.status === 404 && API_URL.endsWith("/api")) {
-      const fallbackUrl = API_URL.replace(/\/api$/, "");
-      const fallbackRes = await fetch(`${fallbackUrl}/studio/recent?limit=${limit}`, {
-        method: "GET",
-        headers: { ...authHeaders },
-      });
-      if (fallbackRes.ok) {
-        const data = await fallbackRes.json();
-        return data.moments || [];
-      }
-    }
 
     if (!res.ok) {
       return [];
@@ -1575,23 +1629,10 @@ export async function fetchStudioHistory(limit: number = 50): Promise<StudioHist
 
   try {
     const authHeaders = await getAuthHeaders();
-    let res = await fetch(`${API_URL}/studio/history?limit=${limit}`, {
+    const res = await fetchWithBackendFallback(`/studio/history?limit=${limit}`, {
       method: "GET",
       headers: { ...authHeaders },
     });
-
-    if (!res.ok && res.status === 404 && API_URL.endsWith("/api")) {
-      const fallbackUrl = API_URL.replace(/\/api$/, "");
-      const fallbackRes = await fetch(`${fallbackUrl}/studio/history?limit=${limit}`, {
-        method: "GET",
-        headers: { ...authHeaders },
-      });
-      if (fallbackRes.ok) {
-        const data = await fallbackRes.json();
-        setCached(cacheKey, data);
-        return data;
-      }
-    }
 
     if (res.ok) {
       const data = await res.json();
@@ -2538,6 +2579,53 @@ export async function syncOfflineEvents(
   }
 }
 
+export interface DemoSessionInitResponse {
+  success?: boolean;
+  user_id?: string;
+  email?: string;
+  access_token: string;
+  refresh_token?: string;
+  session_id?: string;
+  prompts_used?: number;
+  prompt_limit?: number;
+  remaining?: number;
+  remaining_prompts?: number;
+  is_demo?: boolean;
+}
+
+export async function initDemoSessionApi(deviceId?: string): Promise<DemoSessionInitResponse> {
+  const resolvedDeviceId = deviceId || getOrCreateDemoDeviceId();
+  const headers: Record<string, string> = { "Content-Type": "application/json" };
+  if (resolvedDeviceId) {
+    headers["X-Demo-Device-Id"] = resolvedDeviceId;
+  }
+
+  const res = await fetchWithBackendFallback(
+    "/auth/demo-session",
+    {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ device_id: resolvedDeviceId }),
+    },
+    {
+      proxyTimeoutMs: 12000,
+      directTimeoutMs: 35000,
+      directRetries: 3,
+    }
+  );
+
+  if (!res.ok) {
+    const detail = await parseApiErrorResponse(res, "Could not initialize demo session.");
+    throw new Error(detail);
+  }
+
+  const data = (await res.json()) as DemoSessionInitResponse;
+  if (!data?.access_token) {
+    throw new Error("Failed to initialize demo session.");
+  }
+  return data;
+}
+
 export interface DemoStatusResponse {
   exists: boolean;
   status: string;
@@ -2553,13 +2641,13 @@ export async function fetchDemoStatus(token?: string): Promise<DemoStatusRespons
   try {
     const authHeaders = token ? { Authorization: `Bearer ${token}` } : await getAuthHeaders();
     const tokenVal = token || (authHeaders.Authorization ? authHeaders.Authorization.replace("Bearer ", "") : "");
-    const devId = typeof window !== "undefined" ? localStorage.getItem("athena_demo_device_id") || "" : "";
+    const devId = getOrCreateDemoDeviceId();
     const headers: Record<string, string> = { ...authHeaders };
     if (devId) headers["X-Demo-Device-Id"] = devId;
 
-    const res = await fetch(
-      `${API_URL}/auth/demo-status?token=${encodeURIComponent(tokenVal)}&device_id=${encodeURIComponent(devId)}`,
-      { headers }
+    const res = await fetchWithBackendFallback(
+      `/auth/demo-status?token=${encodeURIComponent(tokenVal)}&device_id=${encodeURIComponent(devId)}`,
+      { method: "GET", headers }
     );
     if (res.ok) {
       const data = await res.json();

@@ -18,7 +18,12 @@ import {
 } from "@/lib/api";
 import { supabase } from "@/lib/supabase";
 import { User, Session } from "@supabase/supabase-js";
-import { isExplicitDemoUser, clearDemoSessionStorage } from "@/lib/auth";
+import {
+  isExplicitDemoUser,
+  isDemoSessionActive,
+  clearDemoSessionStorage,
+  resolveSanctuarySession,
+} from "@/lib/auth";
 
 export function generateConversationTitle(messageText: string): string {
   if (!messageText || !messageText.trim()) return "New Conversation";
@@ -351,21 +356,24 @@ export function useChat() {
       setDemoLimitReached(false);
     };
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      let resolved = session;
-      if (!resolved?.user && typeof window !== "undefined") {
-        try {
-          const raw = localStorage.getItem("sb-yvmqdlqpfuirapznbmrj-auth-token");
-          if (raw) resolved = JSON.parse(raw);
-        } catch {}
-      }
-      handleAuthResolution(resolved);
+    resolveSanctuarySession().then((resolved) => {
+      handleAuthResolution(resolved as unknown as Session | null);
     });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
-      handleAuthResolution(session);
+      if (session?.user) {
+        if (isExplicitDemoUser(session.user) && !isDemoSessionActive()) {
+          handleAuthResolution(null);
+          return;
+        }
+        handleAuthResolution(session);
+        return;
+      }
+      resolveSanctuarySession().then((resolved) => {
+        handleAuthResolution(resolved as unknown as Session | null);
+      });
     });
 
     return () => {
